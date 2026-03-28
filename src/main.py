@@ -36,20 +36,53 @@ def _mostrar_erro_para_utilizador(error):
 
 def montar_dataframes_transformados():
     """Executa Extract e Transform retornando dataframes prontos para carga/exportação."""
+    logging.info("\n" + "="*60)
+    logging.info("INICIANDO TRANSFORM (Limpeza e Modelagem de Dados)")
+    logging.info("="*60)
+
     dados = extract_all()
 
+    logging.info("\nDimensões (Tabelas de Referência):")
+    logging.info("-" * 40)
+
     paciente = transform_paciente(dados.get("paciente"))
+    logging.info(f"  ✓ dim_paciente: {len(paciente)} registros")
+
     medico = transform_medico(dados.get("medico"))
+    logging.info(f"  ✓ dim_medico: {len(medico)} registros")
+
     especialidade = transform_especialidade(dados.get("especialidade"))
+    logging.info(f"  ✓ dim_especialidade: {len(especialidade)} registros")
 
     dim_leito = criar_dim_leito(dados.get("internamento"))
+    leito_count = 0 if dim_leito is None else len(dim_leito)
+    logging.info(f"  ✓ dim_leito: {leito_count} registros")
+
     dim_tipo_cirurgia = criar_dim_tipo_cirurgia(dados.get("cirurgia"))
+    cirurgia_count = 0 if dim_tipo_cirurgia is None else len(dim_tipo_cirurgia)
+    logging.info(f"  ✓ dim_tipo_cirurgia: {cirurgia_count} registros")
+
     dim_motivo_internamento = criar_dim_motivo_internamento(dados.get("internamento"))
+    motivo_count = 0 if dim_motivo_internamento is None else len(dim_motivo_internamento)
+    logging.info(f"  ✓ dim_motivo_internamento: {motivo_count} registros")
+
+    logging.info("\nTabelas de Fatos (Eventos/Transações):")
+    logging.info("-" * 40)
 
     fato_consulta = transformar_fato_consulta(dados.get("consulta"))
+    logging.info(f"  ✓ fato_consulta: {len(fato_consulta)} registros")
+
     fato_cirurgia = transformar_fato_cirurgia(dados.get("cirurgia"), dim_tipo_cirurgia)
+    logging.info(f"  ✓ fato_cirurgia: {len(fato_cirurgia)} registros")
+
     fato_internamento = transformar_fato_internamento(dados.get("internamento"), dim_motivo_internamento)
+    logging.info(f"  ✓ fato_internamento: {len(fato_internamento)} registros")
+
+    logging.info("\nTabelas Dimensionais Derivadas:")
+    logging.info("-" * 40)
+
     dim_tempo = criar_dim_tempo(fato_consulta, fato_cirurgia, fato_internamento)
+    logging.info(f"  ✓ dim_tempo: {len(dim_tempo)} registros")
 
     total_transformado = sum(
         len(df)
@@ -67,7 +100,10 @@ def montar_dataframes_transformados():
         ]
         if df is not None
     )
+
+    logging.info("\n" + "="*60)
     logging.info(f"✅ Transform concluído — {total_transformado} registros limpos")
+    logging.info("="*60 + "\n")
 
     return {
         "dim_paciente": paciente,
