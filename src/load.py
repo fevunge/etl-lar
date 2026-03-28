@@ -1,6 +1,8 @@
-import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
+from sqlalchemy.exc import OperationalError
+from logs import logging
+from config import DB_CONFIG
 
 # ==========================================================
 # CONFIGURAÇÃO DA CONEXÃO
@@ -8,17 +10,17 @@ from sqlalchemy.engine import URL
 
 
 def get_engine():
-
+    """Cria e retorna engine SQLAlchemy para conexão com MySQL."""
     url = URL.create(
         drivername="mysql+pymysql",
-        username="root",
-        password="Regi@8991_21",
-        host="127.0.0.1",
-        port=3307,
-        database="hospital_dw"
+        username=DB_CONFIG["user"],
+        password=DB_CONFIG["password"],
+        host=DB_CONFIG["host"],
+        port=DB_CONFIG["port"],
+        database=DB_CONFIG["database"]
     )
 
-    engine = create_engine(url)
+    engine = create_engine(url, pool_pre_ping=True)
 
     return engine
 
@@ -28,9 +30,10 @@ def get_engine():
 # ==========================================================
 
 def load_table(df, nome_tabela, engine):
+    """Carrega um dataframe para uma tabela MySQL com logs e tratamento de erros."""
     if df is None or df.empty:
-        print(f"Tabela {nome_tabela} vazia. Não carregada.")
-        return
+        logging.warning(f"Tabela {nome_tabela} vazia. Não carregada.")
+        return 0
 
     try:
         df.to_sql(
@@ -39,9 +42,29 @@ def load_table(df, nome_tabela, engine):
             if_exists="append",
             index=False
         )
-        print(f"Tabela {nome_tabela} carregada com sucesso.")
+        logging.info(f"✅ Load concluído — {nome_tabela}: {len(df)} registros no MySQL")
+        return len(df)
     except Exception as e:
-        print(f"Erro ao carregar {nome_tabela}: {e}")
+        logging.error(f"Erro ao carregar {nome_tabela}: {e}")
+
+        mensagem_original = str(e)
+        erro_conexao_mysql = (
+            isinstance(e, OperationalError)
+            or "Can't connect to MySQL server" in mensagem_original
+            or "Connection refused" in mensagem_original
+            or "(2003" in mensagem_original
+        )
+
+        if erro_conexao_mysql:
+            raise RuntimeError(
+                f"Erro ao carregar {nome_tabela}: {mensagem_original}\n"
+                "MySQL indisponível. Disponibilize o serviço do banco MySQL "
+                "(host/porta/credenciais) e tente novamente."
+            ) from e
+
+        raise RuntimeError(
+            f"Erro ao carregar {nome_tabela}: {mensagem_original}"
+        ) from e
 
 
 # ==========================================================
@@ -60,24 +83,26 @@ def load_all(
     cirurgia,
     internamento
 ):
+    """Executa carga de todas as dimensões e fatos para o Data Warehouse."""
     engine = get_engine()
+    total = 0
 
     # ==========================
     # CARGA DAS DIMENSÕES
     # ==========================
-    load_table(paciente, "dim_paciente", engine)
-    load_table(medico, "dim_medico", engine)
-    load_table(especialidade, "dim_especialidade", engine)
-    load_table(leito, "dim_leito", engine)
-    load_table(tipo_cirurgia, "dim_tipo_cirurgia", engine)
-    load_table(motivo_internamento, "dim_motivo_internamento", engine)
-    load_table(dim_tempo, "dim_tempo", engine)
+    total += load_table(paciente, "dim_paciente", engine)
+    total += load_table(medico, "dim_medico", engine)
+    total += load_table(especialidade, "dim_especialidade", engine)
+    total += load_table(leito, "dim_leito", engine)
+    total += load_table(tipo_cirurgia, "dim_tipo_cirurgia", engine)
+    total += load_table(motivo_internamento, "dim_motivo_internamento", engine)
+    total += load_table(dim_tempo, "dim_tempo", engine)
 
     # ==========================
     # CARGA DAS TABELAS FATO
     # ==========================
-    load_table(consulta, "fato_consulta", engine)
-    load_table(cirurgia, "fato_cirurgia", engine)
-    load_table(internamento, "fato_internamento", engine)
+    total += load_table(consulta, "fato_consulta", engine)
+    total += load_table(cirurgia, "fato_cirurgia", engine)
+    total += load_table(internamento, "fato_internamento", engine)
 
-    print("Carga completa finalizada.")
+    return total
