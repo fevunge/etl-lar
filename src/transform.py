@@ -1,431 +1,257 @@
 import pandas as pd
 import numpy as np
 
-# ==========================================================
-# FUNÇÕES AUXILIARES
-# ==========================================================
-
 
 def standardize_columns(df):
-    if df is None:
-        return None
-    df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
+    """Padroniza nomes de colunas para minúsculas e sem espaços extras."""
+    df.columns = [column.strip().lower() for column in df.columns]
     return df
 
 
 def clean_dataframe(df):
+    """Realiza limpeza básica removendo duplicatas e padronizando texto."""
     if df is None:
-        return None
-    df = standardize_columns(df)
-    df = df.drop_duplicates()
-    df = df.dropna(how="all")
-    return df
+        return pd.DataFrame()
+
+    data = df.copy()
+    data = standardize_columns(data)
+    data = data.drop_duplicates()
+
+    for column in data.select_dtypes(include="object").columns:
+        data[column] = (
+            data[column]
+            .astype(str)
+            .str.strip()
+            .replace({"nan": np.nan, "None": np.nan})
+        )
+
+    return data
 
 
 def safe_convert_id(df, column_name):
+    """Converte uma coluna de ID para numérico sem quebrar o pipeline."""
     if column_name in df.columns:
-        df[column_name] = pd.to_numeric(
-            df[column_name], errors="coerce"
-        )
-        df = df.dropna(subset=[column_name])
-        df[column_name] = df[column_name].astype("Int64")
+        df[column_name] = pd.to_numeric(df[column_name], errors="coerce")
     return df
 
-# ==========================================================
-# TRANSFORMAÇÃO PACIENTE
-# ==========================================================
+
+def parse_mixed_date(series):
+    """Converte datas com formatos mistos (day-first e month-first)."""
+    normalized = series.astype(str).str.strip()
+
+    formatos = [
+        "%d/%m/%Y",
+        "%m/%d/%Y",
+        "%Y-%m-%d",
+        "%d/%m/%Y %H:%M:%S",
+        "%m/%d/%Y %H:%M:%S",
+        "%Y-%m-%d %H:%M:%S",
+    ]
+
+    resultado = pd.Series(pd.NaT, index=normalized.index, dtype="datetime64[ns]")
+
+    for formato in formatos:
+        parsed = pd.to_datetime(normalized, format=formato, errors="coerce")
+        resultado = resultado.fillna(parsed)
+
+    return resultado
 
 
 def transform_paciente(df):
-    df = clean_dataframe(df)
-    df = safe_convert_id(df, "id_paciente")
+    """Limpa e transforma a dimensão paciente."""
+    data = clean_dataframe(df)
+    data = safe_convert_id(data, "id_paciente")
 
-    if "data_nascimento" in df.columns:
-        df["data_nascimento"] = pd.to_datetime(
-            df["data_nascimento"], errors="coerce", dayfirst=True
-        )
-        hoje = pd.Timestamp.today()
-        df["idade"] = (hoje - df["data_nascimento"]).dt.days // 365
-        df["idade"] = df["idade"].fillna(0)
+    if "data_nascimento" in data.columns:
+        data["data_nascimento"] = parse_mixed_date(data["data_nascimento"])
+        current_date = pd.Timestamp.today().normalize()
+        data["idade"] = ((current_date - data["data_nascimento"]).dt.days // 365)
+        data["idade"] = data["idade"].fillna(0).astype(int)
 
-    # preencher texto
-    for col in df.select_dtypes(include="object").columns:
-        df[col] = df[col].fillna("Não informado")
+    for column in data.select_dtypes(include="object").columns:
+        data[column] = data[column].fillna("Não informado")
 
-    return df
-
-# ==========================================================
-# TRANSFORMAÇÃO MÉDICO
-# ==========================================================
+    return data
 
 
 def transform_medico(df):
-    df = clean_dataframe(df)
-    df = safe_convert_id(df, "id_medico")
+    """Limpa e transforma a dimensão médico."""
+    data = clean_dataframe(df)
+    data = safe_convert_id(data, "id_medico")
 
-    for col in df.select_dtypes(include="object").columns:
-        df[col] = df[col].fillna("Não informado")
+    for column in data.select_dtypes(include="object").columns:
+        data[column] = data[column].fillna("Não informado")
 
-    return df
-
-# ==========================================================
-# TRANSFORMAÇÃO ESPECIALIDADE
-# ==========================================================
+    return data
 
 
 def transform_especialidade(df):
-    df = df.copy()
+    """Limpa e transforma a dimensão especialidade."""
+    data = clean_dataframe(df)
+    data = safe_convert_id(data, "id_especialidade")
 
-    df["id_especialidade"] = pd.to_numeric(
-        df["id_especialidade"], errors="coerce"
-    )
+    for column in data.select_dtypes(include="object").columns:
+        data[column] = data[column].fillna("Não informado")
 
-    df = df.dropna(subset=["id_especialidade"])
-
-    df["id_especialidade"] = df["id_especialidade"].astype(int)
-
-    df = df.drop_duplicates(subset=["id_especialidade"])
-
-    return df
-
-# ==========================================================
-# TRANSFORMAÇÃO LEITO
-# ==========================================================
-
-
-def transform_leito(df):
-    df = clean_dataframe(df)
-    df = safe_convert_id(df, "id_leito")
-
-    for col in df.select_dtypes(include="object").columns:
-        df[col] = df[col].fillna("Não informado")
-
-    return df
-
-# ==========================================================
-# TRANSFORMAÇÃO TIPO CIRURGIA
-# ==========================================================
-
-
-def criar_dim_tipo_cirurgia(df_cirurgia):
-
-    if df_cirurgia is None:
-        return None
-
-    dim = df_cirurgia[["tipo_cirurgia"]].dropna().drop_duplicates()
-
-    if dim.empty:
-        return None
-
-    dim = dim.reset_index(drop=True)
-    dim["id_tipo_cirurgia"] = dim.index + 1
-
-    dim = dim[["id_tipo_cirurgia", "tipo_cirurgia"]]
-
-    return dim
-# ==========================================================
-# TRANSFORMAÇÃO MOTIVO INTERNAMENTO
-# ==========================================================
-
-
-def criar_dim_motivo_internamento(df_internamento):
-
-    dim = (
-        df_internamento[["motivo"]]
-        .dropna()
-        .drop_duplicates()
-        .reset_index(drop=True)
-    )
-
-    dim["id_motivo_internamento"] = dim.index + 1
-
-    dim = dim.rename(columns={
-        "motivo": "descricao_motivo"
-    })
-
-    dim = dim[[
-        "id_motivo_internamento",
-        "descricao_motivo"
-    ]]
-
-    return dim
-
-# ==========================================================
-# TRANSFORMAÇÃO CONSULTA
-# ==========================================================
-
-
-def transform_consulta(df):
-    df = clean_dataframe(df)
-
-    df = safe_convert_id(df, "id_consulta")
-    df = safe_convert_id(df, "id_paciente")
-    df = safe_convert_id(df, "id_medico")
-    df = safe_convert_id(df, "id_especialidade")
-
-    if "data_consulta" in df.columns:
-        df["data_consulta"] = pd.to_datetime(
-            df["data_consulta"], errors="coerce", dayfirst=True
-        )
-        df["ano_consulta"] = df["data_consulta"].dt.year
-        df["mes_consulta"] = df["data_consulta"].dt.month
-
-    if "valor_consulta" in df.columns:
-        df["valor_consulta"] = pd.to_numeric(
-            df["valor_consulta"], errors="coerce"
-        ).fillna(0)
-
-    return df
-
-# ==========================================================
-# TRANSFORMAÇÃO CIRURGIA
-# ==========================================================
-
-
-def transform_cirurgia(df):
-    df = clean_dataframe(df)
-
-    df = safe_convert_id(df, "id_cirurgia")
-    df = safe_convert_id(df, "id_paciente")
-    df = safe_convert_id(df, "id_medico")
-    df = safe_convert_id(df, "id_especialidade")
-    df = safe_convert_id(df, "id_tipo_cirurgia")
-
-    if "data_cirurgia" in df.columns:
-        df["data_cirurgia"] = pd.to_datetime(
-            df["data_cirurgia"], errors="coerce", dayfirst=True
-        )
-        df["ano_cirurgia"] = df["data_cirurgia"].dt.year
-        df["mes_cirurgia"] = df["data_cirurgia"].dt.month
-
-    if "valor_cirurgia" in df.columns:
-        df["valor_cirurgia"] = pd.to_numeric(
-            df["valor_cirurgia"], errors="coerce"
-        ).fillna(0)
-
-    df["quantidade_cirurgia"] = 1
-
-    return df
-
-# ==========================================================
-# TRANSFORMAÇÃO INTERNAMENTO
-# ==========================================================
-
-
-def transform_internamento(df):
-    df = clean_dataframe(df)
-
-    df = safe_convert_id(df, "id_internamento")
-    df = safe_convert_id(df, "id_paciente")
-    df = safe_convert_id(df, "id_medico")
-    df = safe_convert_id(df, "id_especialidade")
-    df = safe_convert_id(df, "id_motivo_internamento")
-    df = safe_convert_id(df, "id_leito")
-
-    if "data_entrada" in df.columns:
-        df["data_entrada"] = pd.to_datetime(
-            df["data_entrada"], errors="coerce", dayfirst=True
-        )
-    if "data_alta" in df.columns:
-        df["data_alta"] = pd.to_datetime(
-            df["data_alta"], errors="coerce", dayfirst=True
-        )
-
-    if "data_entrada" in df.columns and "data_alta" in df.columns:
-        df["dias_internado"] = (
-            df["data_alta"] - df["data_entrada"]
-        ).dt.days
-        df["dias_internado"] = df["dias_internado"].fillna(0)
-
-    df["quantidade_internamento"] = 1
-
-    return df
-
-# ==========================================================
-# CRIAÇÃO DA DIMENSÃO TEMPO
-# ==========================================================
-
-
-def criar_dim_tempo(*dataframes):
-    datas = pd.Series(dtype="datetime64[ns]")
-
-    for df in dataframes:
-        if df is not None:
-            for col in df.columns:
-                if "data" in col:
-                    datas = pd.concat([datas, df[col]])
-
-    datas = datas.dropna().drop_duplicates().sort_values()
-
-    dim_tempo = pd.DataFrame()
-    dim_tempo["data_completa"] = datas
-    dim_tempo["dia"] = dim_tempo["data_completa"].dt.day
-    dim_tempo["mes"] = dim_tempo["data_completa"].dt.month
-    dim_tempo["ano"] = dim_tempo["data_completa"].dt.year
-    dim_tempo["trimestre"] = dim_tempo["data_completa"].dt.quarter
-    dim_tempo["nome_mes"] = dim_tempo["data_completa"].dt.month_name()
-    dim_tempo["dia_semana"] = dim_tempo["data_completa"].dt.dayofweek
-    dim_tempo["nome_dia_semana"] = dim_tempo["data_completa"].dt.day_name()
-
-    return dim_tempo
+    return data
 
 
 def criar_dim_leito(internamento_df):
-    if internamento_df is None:
-        return None
+    """Cria dimensão de leitos a partir dos internamentos."""
+    data = clean_dataframe(internamento_df)
 
-    if "id_leito" not in internamento_df.columns:
-        return None
+    if "id_leito" not in data.columns:
+        return pd.DataFrame(columns=["id_leito"])
 
-    dim_leito = internamento_df[["id_leito"]].dropna().drop_duplicates()
+    dim_leito = pd.DataFrame({
+        "id_leito": pd.to_numeric(data["id_leito"], errors="coerce")
+    }).dropna().drop_duplicates()
 
-    dim_leito["id_leito"] = dim_leito["id_leito"].astype("Int64")
-
+    dim_leito["id_leito"] = dim_leito["id_leito"].astype(int)
     return dim_leito
 
 
 def criar_dim_tipo_cirurgia(df_cirurgia):
+    """Cria dimensão de tipo de cirurgia."""
+    data = clean_dataframe(df_cirurgia)
 
-    dim = (
-        df_cirurgia[["tipo_cirurgia"]]
-        .dropna()
-        .drop_duplicates()
-        .reset_index(drop=True)
-    )
+    if "tipo_cirurgia" not in data.columns:
+        return None
+
+    dim = data[["tipo_cirurgia"]].dropna().drop_duplicates().reset_index(drop=True)
+
+    if dim.empty:
+        return None
 
     dim["id_tipo_cirurgia"] = dim.index + 1
-
-    dim = dim[["id_tipo_cirurgia", "tipo_cirurgia"]]
-
-    return dim
+    return dim[["id_tipo_cirurgia", "tipo_cirurgia"]]
 
 
-def criar_dim_motivo_internamento(internamento_df):
-    if internamento_df is None:
+def criar_dim_motivo_internamento(df_internamento):
+    """Cria dimensão de motivos de internamento."""
+    data = clean_dataframe(df_internamento)
+
+    if "motivo" not in data.columns:
         return None
 
-    if "id_motivo_internamento" not in internamento_df.columns:
+    dim = data[["motivo"]].dropna().drop_duplicates().reset_index(drop=True)
+
+    if dim.empty:
         return None
 
-    dim_motivo = internamento_df[[
-        "id_motivo_internamento"]].dropna().drop_duplicates()
+    dim["id_motivo_internamento"] = dim.index + 1
+    dim = dim.rename(columns={"motivo": "descricao_motivo"})
 
-    dim_motivo["id_motivo_internamento"] = dim_motivo["id_motivo_internamento"].astype(
-        "Int64")
-
-    return dim_motivo
+    return dim[["id_motivo_internamento", "descricao_motivo"]]
 
 
 def transformar_fato_consulta(df_consulta):
-    df = df_consulta.copy()
+    """Transforma dados de consulta para a tabela fato."""
+    data = clean_dataframe(df_consulta)
 
-    df["data_consulta"] = pd.to_datetime(
-        df["data_consulta"],
-        dayfirst=True,
-        errors="coerce"
-    )
+    required_columns = [
+        "id_consulta", "id_paciente", "id_medico", "especialidade_id", "data_consulta"
+    ]
 
-    df["id_consulta"] = pd.to_numeric(df["id_consulta"], errors="coerce")
-    df["id_paciente"] = pd.to_numeric(df["id_paciente"], errors="coerce")
-    df["id_medico"] = pd.to_numeric(df["id_medico"], errors="coerce")
+    for column in required_columns:
+        if column not in data.columns:
+            return pd.DataFrame(columns=[
+                "id_consulta", "id_paciente", "id_medico", "id_especialidade", "data_consulta"
+            ])
 
-    # AQUI ESTÁ A CORREÇÃO
-    df["id_especialidade"] = pd.to_numeric(
-        df["especialidade_id"], errors="coerce"
-    )
+    data["data_consulta"] = parse_mixed_date(data["data_consulta"])
+    data["id_consulta"] = pd.to_numeric(data["id_consulta"], errors="coerce")
+    data["id_paciente"] = pd.to_numeric(data["id_paciente"], errors="coerce")
+    data["id_medico"] = pd.to_numeric(data["id_medico"], errors="coerce")
+    data["id_especialidade"] = pd.to_numeric(data["especialidade_id"], errors="coerce")
 
-    df = df.dropna(subset=[
-        "id_consulta",
-        "id_paciente",
-        "id_medico",
-        "id_especialidade",
-        "data_consulta"
+    data = data.dropna(subset=[
+        "id_consulta", "id_paciente", "id_medico", "id_especialidade", "data_consulta"
     ])
 
-    df = df[[
-        "id_consulta",
-        "id_paciente",
-        "id_medico",
-        "id_especialidade",
-        "data_consulta"
+    return data[[
+        "id_consulta", "id_paciente", "id_medico", "id_especialidade", "data_consulta"
     ]]
-
-    return df
 
 
 def transformar_fato_cirurgia(df_cirurgia, dim_tipo_cirurgia):
-    df = df_cirurgia.copy()
+    """Transforma dados de cirurgia para a tabela fato."""
+    data = clean_dataframe(df_cirurgia)
 
-    df["data_cirurgia"] = pd.to_datetime(
-        df["data_cirurgia"],
-        dayfirst=True,
-        errors="coerce"
-    )
+    if data.empty or dim_tipo_cirurgia is None:
+        return pd.DataFrame()
 
-    df["id_cirurgia"] = pd.to_numeric(df["id_cirurgia"], errors="coerce")
-    df["id_paciente"] = pd.to_numeric(df["id_paciente"], errors="coerce")
-    df["id_medico"] = pd.to_numeric(df["id_medico"], errors="coerce")
+    data["data_cirurgia"] = parse_mixed_date(data["data_cirurgia"])
+    data["id_cirurgia"] = pd.to_numeric(data["id_cirurgia"], errors="coerce")
+    data["id_paciente"] = pd.to_numeric(data["id_paciente"], errors="coerce")
+    data["id_medico"] = pd.to_numeric(data["id_medico"], errors="coerce")
 
-    df = df.merge(
-        dim_tipo_cirurgia,
-        on="tipo_cirurgia",
-        how="left"
-    )
+    data = data.merge(dim_tipo_cirurgia, on="tipo_cirurgia", how="left")
 
-    df = df.dropna(subset=[
-        "id_cirurgia",
-        "id_paciente",
-        "id_medico",
-        "id_tipo_cirurgia",
-        "data_cirurgia"
+    data = data.dropna(subset=[
+        "id_cirurgia", "id_paciente", "id_medico", "id_tipo_cirurgia", "data_cirurgia"
     ])
 
-    df = df[[
-        "id_cirurgia",
-        "id_paciente",
-        "id_medico",
-        "id_tipo_cirurgia",
-        "data_cirurgia"
+    return data[[
+        "id_cirurgia", "id_paciente", "id_medico", "id_tipo_cirurgia", "data_cirurgia"
     ]]
-
-    return df
 
 
 def transformar_fato_internamento(df_internamento, dim_motivo):
-    df = df_internamento.copy()
+    """Transforma dados de internamento para a tabela fato."""
+    data = clean_dataframe(df_internamento)
 
-    df["data_internamento"] = pd.to_datetime(
-        df["data_internamento"],
-        dayfirst=True,
-        errors="coerce"
-    )
+    if data.empty or dim_motivo is None:
+        return pd.DataFrame()
 
-    df["id_internamento"] = pd.to_numeric(
-        df["id_internamento"], errors="coerce")
-    df["id_paciente"] = pd.to_numeric(df["id_paciente"], errors="coerce")
-    df["id_leito"] = pd.to_numeric(df["id_leito"], errors="coerce")
+    for column in ["id_internamento", "id_paciente", "id_leito"]:
+        if column in data.columns:
+            data[column] = pd.to_numeric(data[column], errors="coerce")
 
-    df = df.merge(
+    if "data_internamento" in data.columns:
+        data["data_internamento"] = parse_mixed_date(data["data_internamento"])
+    elif "data_entrada" in data.columns:
+        data["data_internamento"] = parse_mixed_date(data["data_entrada"])
+    else:
+        data["data_internamento"] = pd.NaT
+
+    data = data.merge(
         dim_motivo,
         left_on="motivo",
         right_on="descricao_motivo",
         how="left"
     )
 
-    df = df.dropna(subset=[
-        "id_internamento",
-        "id_paciente",
-        "id_leito",
-        "id_motivo_internamento",
-        "data_internamento"
+    data = data.dropna(subset=[
+        "id_internamento", "id_paciente", "id_leito", "id_motivo_internamento", "data_internamento"
     ])
 
-    df = df[[
-        "id_internamento",
-        "id_paciente",
-        "id_leito",
-        "id_motivo_internamento",
-        "data_internamento"
+    return data[[
+        "id_internamento", "id_paciente", "id_leito", "id_motivo_internamento", "data_internamento"
     ]]
 
-    return df
+
+def criar_dim_tempo(*dataframes):
+    """Cria dimensão tempo com base nas datas das tabelas fato."""
+    datas = []
+
+    for dataframe in dataframes:
+        if dataframe is None or dataframe.empty:
+            continue
+
+        for column in ["data_consulta", "data_cirurgia", "data_internamento"]:
+            if column in dataframe.columns:
+                datas.extend(dataframe[column].dropna().tolist())
+
+    if not datas:
+        return pd.DataFrame(columns=["id_tempo", "data", "ano", "mes", "dia"])
+
+    serie_datas = pd.Series(pd.to_datetime(datas, errors="coerce")).dropna().drop_duplicates().sort_values()
+
+    dim_tempo = pd.DataFrame({"data": serie_datas})
+    dim_tempo["ano"] = dim_tempo["data"].dt.year
+    dim_tempo["mes"] = dim_tempo["data"].dt.month
+    dim_tempo["dia"] = dim_tempo["data"].dt.day
+    dim_tempo["id_tempo"] = dim_tempo["data"].dt.strftime("%Y%m%d").astype(int)
+
+    return dim_tempo[["id_tempo", "data", "ano", "mes", "dia"]]
