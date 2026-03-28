@@ -1,14 +1,18 @@
 import os
+from pathlib import Path
+from dotenv import load_dotenv
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(BASE_DIR / ".env")
 
-DATA_RAW = os.path.join(BASE_DIR, "data_raw")
-DATA_PROCESSED = os.path.join(BASE_DIR, "data_processed")
-LOG_PATH = os.path.join(BASE_DIR, "logs", "etl.log")
+DATA_RAW = BASE_DIR / "data_raw"
+OUTPUT_DIR = BASE_DIR / "output"
+LOG_PATH = BASE_DIR / "logs" / "etl.log"
 
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "SUA_SENHA",
-    "database": "hospital_dw"
+    "host": os.getenv("DB_HOST", "127.0.0.1"),
+    "port": int(os.getenv("DB_PORT", "3306")),
+    "user": os.getenv("DB_USER", "root"),
+    "password": os.getenv("DB_PASSWORD", ""),
+    "database": os.getenv("DB_NAME", "hospital_dw"),
 }
