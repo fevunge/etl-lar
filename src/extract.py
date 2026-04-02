@@ -52,10 +52,16 @@ def load_file(file_name):
 
 def extract_all():
     return {
-        "paciente": load_file("paciente.csv"),
-        "medico": load_file("medico.csv"),
-        "especialidade": load_file("especialidade.csv"),
-        "consulta": load_file("consulta.csv"),
-        "cirurgia": load_file("cirurgia.csv"),
-        "internamento": load_file("internamento.csv"),
+        "consultas": load_file("consultas.csv"),
+        "cirurgias": load_file("cirurgias.csv"),
+        "exames_complementares": load_file("exames_complementares.csv"),
+        "exames_laboratoriais": load_file("exames_laboratoriais.csv"),
+        "internamentos": load_file("internamentos.csv"),
+        "patologias": load_file("patologias.csv"),
+        "farmacia_consumo": load_file("farmacia_consumo.csv"),
+        "proveniencias": load_file("proveniencias.csv"),
+        "medicos": load_file("medicos.csv"),
+        "pacientes": load_file("pacientes.csv"),
     }
+
+code = "touch data_raw/consultas.csv data_raw/cirurgias.csv data_raw/exames_complementares.csv data_raw/exames_laboratoriais.csv data_raw/internamentos.csv data_raw/patologias.csv data_raw/farmacia_consumo.csv data_raw/proveniencias.csv data_raw/medicos.csv data_raw/pacientes.csv"
