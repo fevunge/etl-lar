@@ -10,9 +10,9 @@ OUTPUT_DIR = BASE_DIR / "output"
 LOG_PATH = BASE_DIR / "logs" / "etl.log"
 
 DB_CONFIG = {
-    "host": os.getenv("DB_HOST", "127.0.0.1"),
-    "port": int(os.getenv("DB_PORT", "3306")),
-    "user": os.getenv("DB_USER", "root"),
-    "password": os.getenv("DB_PASSWORD", ""),
-    "database": os.getenv("DB_NAME", "hospital_dw"),
+    "host": os.getenv("DB_HOST", "0.0.0.0:4501"),
+    "port": int(os.getenv("DB_PORT", "4501")),
+    "user": os.getenv("DB_USER", "zfleet"),
+    "password": os.getenv("DB_PASSWORD", "papers-catch-sorrows"),
+    "database": os.getenv("DB_NAME", "zfleet_auth"),
 }
