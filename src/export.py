@@ -5,7 +5,6 @@ from logs import logging
 
 
 def _consolidar_dataframes(dataframes):
-    """Consolida dataframes em uma tabela única para exportações globais."""
     frames = []
 
     for table_name, dataframe in dataframes.items():
@@ -23,7 +22,6 @@ def _consolidar_dataframes(dataframes):
 
 
 def exportar_csv(dataframes):
-    """Exporta dados transformados em CSV consolidado."""
     try:
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         path = OUTPUT_DIR / "dados_limpos.csv"
@@ -37,7 +35,6 @@ def exportar_csv(dataframes):
 
 
 def exportar_excel(dataframes):
-    """Exporta dados em um único arquivo Excel com uma aba por tabela e aba de relações."""
     try:
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         path = OUTPUT_DIR / "dados_limpos.xlsx"
@@ -145,7 +142,6 @@ def exportar_excel(dataframes):
 
 
 def _sql_value(value):
-    """Converte valores Python/Pandas para literais SQL."""
     if pd.isna(value):
         return "NULL"
 
@@ -160,7 +156,6 @@ def _sql_value(value):
 
 
 def exportar_sql(dataframes):
-    """Exporta INSERT statements SQL para os dados transformados."""
     try:
         OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
         path = OUTPUT_DIR / "dados_limpos.sql"
