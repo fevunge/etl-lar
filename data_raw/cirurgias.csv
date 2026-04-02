@@ -1,0 +1,1001 @@
+id,categoria,tipo_cirugia,data,realizado,cancelado,motivo_cancelamento,id_medico
+1,Urgência,Exérese de Pterígio,30/11/2025,Sim,Sim,Falta de Comparência,4
+2,Acto Cirúrgico,Exérese de Pterígio,13/04/2025,Sim,Não,Falta de Comparência,814
+3,Electiva,Exérese de Pterígio,03/03/2026,Não,Sim,Critério Médico,63
+4,Electiva,Exérese de Pterígio,01/03/2026,Sim,Sim,Falta de Comparência,71
+5,Electiva,Extração de Catarata,04/05/2025,Sim,Sim,Outro,488
+6,Acto Cirúrgico,Extração de Catarata,21/04/2025,Sim,Sim,Falta de Comparência,933
+7,Urgência,Extração de Catarata,22/04/2025,Sim,Sim,Critério Médico,642
+8,Urgência,Exérese de Pterígio,24/12/2025,Não,Não,Outro,630
+9,Urgência,Injecção Intravítrea,26/09/2025,Sim,Não,Outro,406
+10,Urgência,Injecção Intravítrea,17/11/2025,Sim,Sim,Falta de Comparência,582
+11,Acto Cirúrgico,Injecção Intravítrea,20/06/2025,Não,Não,Falta de Comparência,908
+12,Urgência,Extração de Catarata,03/11/2025,Sim,Não,Outro,47
+13,Acto Cirúrgico,Exérese de Pterígio,10/09/2025,Sim,Não,Outro,797
+14,Acto Cirúrgico,Extração de Catarata,21/01/2026,Não,Sim,Falta de Comparência,76
+15,Acto Cirúrgico,Extração de Catarata,08/01/2026,Sim,Não,Critério Médico,377
+16,Electiva,Injecção Intravítrea,28/12/2025,Não,Não,Falta de Comparência,31
+17,Urgência,Exérese de Pterígio,30/05/2025,Sim,Não,Falta de Comparência,18
+18,Acto Cirúrgico,Exérese de Pterígio,23/05/2025,Não,Não,Falta de Comparência,452
+19,Electiva,Extração de Catarata,12/01/2026,Sim,Não,Critério Médico,463
+20,Acto Cirúrgico,Exérese de Pterígio,24/12/2025,Sim,Não,Outro,961
+21,Urgência,Exérese de Pterígio,24/08/2025,Não,Não,Falta de Comparência,691
+22,Acto Cirúrgico,Extração de Catarata,20/02/2026,Não,Não,Outro,318
+23,Acto Cirúrgico,Exérese de Pterígio,08/01/2026,Não,Sim,Outro,871
+24,Acto Cirúrgico,Exérese de Pterígio,10/09/2025,Sim,Não,Falta de Comparência,50
+25,Urgência,Injecção Intravítrea,13/06/2025,Não,Não,Critério Médico,142
+26,Electiva,Injecção Intravítrea,02/03/2026,Sim,Sim,Outro,335
+27,Electiva,Exérese de Pterígio,13/08/2025,Sim,Sim,Outro,722
+28,Electiva,Exérese de Pterígio,06/02/2026,Não,Sim,Outro,995
+29,Electiva,Injecção Intravítrea,14/04/2025,Não,Não,Falta de Comparência,900
+30,Electiva,Extração de Catarata,12/01/2026,Não,Não,Falta de Comparência,508
+31,Electiva,Extração de Catarata,02/12/2025,Não,Não,Outro,594
+32,Acto Cirúrgico,Exérese de Pterígio,17/01/2026,Não,Não,Critério Médico,299
+33,Urgência,Exérese de Pterígio,17/11/2025,Não,Sim,Outro,60
+34,Urgência,Exérese de Pterígio,10/02/2026,Não,Sim,Outro,368
+35,Acto Cirúrgico,Injecção Intravítrea,04/05/2025,Não,Sim,Falta de Comparência,62
+36,Electiva,Injecção Intravítrea,27/02/2026,Não,Sim,Falta de Comparência,277
+37,Urgência,Exérese de Pterígio,06/07/2025,Não,Não,Critério Médico,107
+38,Urgência,Extração de Catarata,25/02/2026,Sim,Sim,Falta de Comparência,458
+39,Acto Cirúrgico,Injecção Intravítrea,04/02/2026,Sim,Não,Falta de Comparência,697
+40,Urgência,Extração de Catarata,12/11/2025,Sim,Não,Critério Médico,811
+41,Electiva,Extração de Catarata,18/04/2025,Não,Não,Critério Médico,400
+42,Acto Cirúrgico,Extração de Catarata,02/04/2025,Não,Não,Falta de Comparência,264
+43,Urgência,Extração de Catarata,16/05/2025,Não,Não,Outro,730
+44,Electiva,Exérese de Pterígio,26/03/2026,Não,Sim,Outro,409
+45,Acto Cirúrgico,Extração de Catarata,29/08/2025,Sim,Sim,Falta de Comparência,749
+46,Electiva,Extração de Catarata,05/01/2026,Sim,Não,Falta de Comparência,583
+47,Electiva,Extração de Catarata,01/04/2026,Não,Não,Falta de Comparência,443
+48,Electiva,Exérese de Pterígio,07/10/2025,Sim,Não,Critério Médico,262
+49,Acto Cirúrgico,Extração de Catarata,30/11/2025,Não,Não,Outro,10
+50,Acto Cirúrgico,Injecção Intravítrea,19/03/2026,Sim,Sim,Falta de Comparência,329
+51,Acto Cirúrgico,Exérese de Pterígio,16/03/2026,Não,Sim,Critério Médico,513
+52,Electiva,Extração de Catarata,20/06/2025,Não,Não,Outro,983
+53,Acto Cirúrgico,Injecção Intravítrea,07/06/2025,Sim,Não,Outro,120
+54,Electiva,Injecção Intravítrea,13/10/2025,Sim,Não,Falta de Comparência,590
+55,Urgência,Injecção Intravítrea,07/09/2025,Não,Não,Falta de Comparência,981
+56,Electiva,Extração de Catarata,22/07/2025,Sim,Não,Critério Médico,27
+57,Urgência,Extração de Catarata,09/02/2026,Não,Não,Falta de Comparência,253
+58,Electiva,Exérese de Pterígio,22/07/2025,Sim,Não,Critério Médico,864
+59,Urgência,Injecção Intravítrea,20/04/2025,Não,Não,Falta de Comparência,242
+60,Electiva,Injecção Intravítrea,01/11/2025,Não,Não,Falta de Comparência,479
+61,Electiva,Exérese de Pterígio,26/05/2025,Sim,Não,Falta de Comparência,701
+62,Acto Cirúrgico,Exérese de Pterígio,01/09/2025,Sim,Não,Outro,802
+63,Urgência,Exérese de Pterígio,11/08/2025,Não,Sim,Falta de Comparência,145
+64,Acto Cirúrgico,Extração de Catarata,04/01/2026,Não,Sim,Outro,510
+65,Urgência,Injecção Intravítrea,31/03/2026,Sim,Sim,Falta de Comparência,203
+66,Acto Cirúrgico,Extração de Catarata,07/01/2026,Sim,Sim,Outro,31
+67,Electiva,Extração de Catarata,26/10/2025,Não,Sim,Outro,252
+68,Urgência,Exérese de Pterígio,30/03/2026,Sim,Sim,Outro,337
+69,Urgência,Extração de Catarata,22/02/2026,Não,Sim,Outro,385
+70,Electiva,Exérese de Pterígio,14/12/2025,Sim,Não,Outro,74
+71,Acto Cirúrgico,Injecção Intravítrea,21/03/2026,Não,Não,Falta de Comparência,194
+72,Acto Cirúrgico,Injecção Intravítrea,14/11/2025,Não,Não,Critério Médico,373
+73,Acto Cirúrgico,Extração de Catarata,21/08/2025,Não,Não,Outro,102
+74,Urgência,Injecção Intravítrea,10/04/2025,Não,Não,Falta de Comparência,526
+75,Acto Cirúrgico,Injecção Intravítrea,27/09/2025,Não,Não,Falta de Comparência,913
+76,Electiva,Extração de Catarata,22/07/2025,Sim,Não,Critério Médico,836
+77,Urgência,Extração de Catarata,02/09/2025,Sim,Não,Outro,536
+78,Acto Cirúrgico,Extração de Catarata,19/01/2026,Sim,Sim,Outro,896
+79,Electiva,Exérese de Pterígio,30/10/2025,Não,Sim,Falta de Comparência,407
+80,Electiva,Exérese de Pterígio,12/12/2025,Não,Sim,Critério Médico,74
+81,Electiva,Exérese de Pterígio,18/09/2025,Sim,Não,Critério Médico,398
+82,Acto Cirúrgico,Extração de Catarata,27/02/2026,Sim,Não,Falta de Comparência,391
+83,Acto Cirúrgico,Exérese de Pterígio,25/05/2025,Não,Não,Critério Médico,244
+84,Acto Cirúrgico,Exérese de Pterígio,10/04/2025,Sim,Não,Outro,219
+85,Electiva,Extração de Catarata,10/03/2026,Não,Sim,Falta de Comparência,858
+86,Urgência,Injecção Intravítrea,05/07/2025,Sim,Não,Critério Médico,914
+87,Electiva,Extração de Catarata,01/12/2025,Não,Não,Critério Médico,735
+88,Electiva,Extração de Catarata,24/03/2026,Não,Não,Critério Médico,495
+89,Electiva,Injecção Intravítrea,27/12/2025,Não,Sim,Outro,466
+90,Acto Cirúrgico,Exérese de Pterígio,18/02/2026,Não,Não,Falta de Comparência,94
+91,Electiva,Injecção Intravítrea,01/05/2025,Sim,Sim,Critério Médico,779
+92,Acto Cirúrgico,Exérese de Pterígio,18/04/2025,Não,Sim,Falta de Comparência,114
+93,Electiva,Extração de Catarata,26/06/2025,Sim,Não,Outro,676
+94,Electiva,Extração de Catarata,24/05/2025,Não,Sim,Critério Médico,718
+95,Urgência,Exérese de Pterígio,19/12/2025,Sim,Não,Critério Médico,820
+96,Electiva,Exérese de Pterígio,27/03/2026,Sim,Não,Outro,209
+97,Urgência,Exérese de Pterígio,17/04/2025,Não,Não,Falta de Comparência,937
+98,Electiva,Exérese de Pterígio,12/08/2025,Não,Não,Falta de Comparência,773
+99,Urgência,Exérese de Pterígio,28/06/2025,Sim,Não,Falta de Comparência,417
+100,Acto Cirúrgico,Extração de Catarata,27/06/2025,Sim,Sim,Critério Médico,71
+101,Urgência,Extração de Catarata,23/05/2025,Sim,Sim,Critério Médico,994
+102,Electiva,Injecção Intravítrea,08/06/2025,Não,Sim,Outro,241
+103,Acto Cirúrgico,Injecção Intravítrea,23/02/2026,Sim,Não,Outro,976
+104,Acto Cirúrgico,Exérese de Pterígio,20/05/2025,Sim,Não,Outro,253
+105,Urgência,Exérese de Pterígio,01/04/2026,Não,Sim,Critério Médico,307
+106,Urgência,Injecção Intravítrea,18/02/2026,Não,Sim,Critério Médico,570
+107,Acto Cirúrgico,Exérese de Pterígio,28/04/2025,Sim,Não,Critério Médico,700
+108,Electiva,Extração de Catarata,07/07/2025,Não,Sim,Outro,76
+109,Acto Cirúrgico,Exérese de Pterígio,30/11/2025,Sim,Não,Falta de Comparência,743
+110,Urgência,Injecção Intravítrea,19/05/2025,Não,Não,Critério Médico,343
+111,Acto Cirúrgico,Injecção Intravítrea,08/05/2025,Não,Sim,Falta de Comparência,199
+112,Urgência,Extração de Catarata,28/02/2026,Sim,Não,Critério Médico,432
+113,Acto Cirúrgico,Extração de Catarata,26/06/2025,Não,Não,Critério Médico,426
+114,Electiva,Injecção Intravítrea,23/12/2025,Sim,Sim,Outro,640
+115,Acto Cirúrgico,Extração de Catarata,27/01/2026,Sim,Sim,Falta de Comparência,428
+116,Urgência,Injecção Intravítrea,03/09/2025,Sim,Sim,Outro,806
+117,Acto Cirúrgico,Exérese de Pterígio,25/12/2025,Não,Não,Falta de Comparência,59
+118,Acto Cirúrgico,Exérese de Pterígio,27/05/2025,Não,Não,Outro,842
+119,Urgência,Injecção Intravítrea,10/12/2025,Sim,Não,Critério Médico,743
+120,Urgência,Extração de Catarata,11/06/2025,Sim,Não,Outro,526
+121,Acto Cirúrgico,Extração de Catarata,07/01/2026,Sim,Sim,Critério Médico,552
+122,Acto Cirúrgico,Injecção Intravítrea,12/10/2025,Não,Não,Outro,308
+123,Acto Cirúrgico,Extração de Catarata,22/11/2025,Não,Sim,Outro,842
+124,Urgência,Injecção Intravítrea,27/12/2025,Não,Não,Critério Médico,301
+125,Electiva,Injecção Intravítrea,27/02/2026,Sim,Sim,Critério Médico,549
+126,Acto Cirúrgico,Injecção Intravítrea,31/10/2025,Sim,Não,Outro,852
+127,Urgência,Injecção Intravítrea,23/11/2025,Não,Sim,Falta de Comparência,836
+128,Acto Cirúrgico,Injecção Intravítrea,07/12/2025,Sim,Sim,Falta de Comparência,686
+129,Acto Cirúrgico,Exérese de Pterígio,03/08/2025,Sim,Sim,Critério Médico,374
+130,Urgência,Injecção Intravítrea,26/05/2025,Não,Sim,Critério Médico,915
+131,Urgência,Injecção Intravítrea,30/01/2026,Sim,Sim,Falta de Comparência,687
+132,Acto Cirúrgico,Extração de Catarata,09/01/2026,Sim,Não,Falta de Comparência,258
+133,Electiva,Exérese de Pterígio,07/03/2026,Não,Sim,Falta de Comparência,215
+134,Urgência,Injecção Intravítrea,16/07/2025,Não,Sim,Falta de Comparência,719
+135,Acto Cirúrgico,Exérese de Pterígio,20/02/2026,Sim,Não,Outro,495
+136,Acto Cirúrgico,Injecção Intravítrea,25/04/2025,Não,Não,Critério Médico,659
+137,Acto Cirúrgico,Extração de Catarata,20/04/2025,Não,Não,Outro,340
+138,Electiva,Extração de Catarata,07/10/2025,Sim,Não,Falta de Comparência,334
+139,Urgência,Exérese de Pterígio,24/09/2025,Não,Não,Critério Médico,866
+140,Electiva,Injecção Intravítrea,30/07/2025,Sim,Não,Critério Médico,154
+141,Electiva,Exérese de Pterígio,13/05/2025,Não,Não,Critério Médico,97
+142,Electiva,Extração de Catarata,12/07/2025,Não,Sim,Critério Médico,909
+143,Acto Cirúrgico,Exérese de Pterígio,03/06/2025,Sim,Não,Falta de Comparência,67
+144,Urgência,Extração de Catarata,02/09/2025,Não,Não,Falta de Comparência,741
+145,Electiva,Extração de Catarata,05/12/2025,Não,Sim,Critério Médico,4
+146,Electiva,Exérese de Pterígio,07/12/2025,Não,Não,Falta de Comparência,471
+147,Acto Cirúrgico,Injecção Intravítrea,20/01/2026,Não,Sim,Outro,148
+148,Acto Cirúrgico,Injecção Intravítrea,05/12/2025,Não,Não,Falta de Comparência,340
+149,Electiva,Extração de Catarata,21/06/2025,Sim,Não,Falta de Comparência,215
+150,Acto Cirúrgico,Exérese de Pterígio,17/11/2025,Sim,Não,Outro,987
+151,Acto Cirúrgico,Injecção Intravítrea,18/03/2026,Não,Não,Critério Médico,747
+152,Electiva,Extração de Catarata,16/01/2026,Sim,Não,Falta de Comparência,536
+153,Urgência,Injecção Intravítrea,08/04/2025,Sim,Não,Critério Médico,417
+154,Urgência,Exérese de Pterígio,11/09/2025,Sim,Não,Critério Médico,58
+155,Acto Cirúrgico,Exérese de Pterígio,27/03/2026,Não,Sim,Outro,453
+156,Urgência,Exérese de Pterígio,16/08/2025,Sim,Sim,Outro,423
+157,Electiva,Injecção Intravítrea,06/06/2025,Não,Não,Critério Médico,827
+158,Acto Cirúrgico,Extração de Catarata,08/02/2026,Sim,Sim,Falta de Comparência,46
+159,Electiva,Extração de Catarata,08/02/2026,Sim,Não,Falta de Comparência,214
+160,Urgência,Injecção Intravítrea,22/10/2025,Sim,Não,Outro,865
+161,Acto Cirúrgico,Exérese de Pterígio,04/04/2025,Sim,Não,Falta de Comparência,411
+162,Urgência,Exérese de Pterígio,19/08/2025,Não,Não,Falta de Comparência,108
+163,Urgência,Exérese de Pterígio,17/01/2026,Não,Não,Outro,860
+164,Acto Cirúrgico,Extração de Catarata,29/12/2025,Sim,Sim,Falta de Comparência,192
+165,Urgência,Injecção Intravítrea,12/08/2025,Não,Não,Critério Médico,45
+166,Acto Cirúrgico,Exérese de Pterígio,30/03/2026,Sim,Sim,Critério Médico,8
+167,Acto Cirúrgico,Injecção Intravítrea,28/07/2025,Não,Não,Outro,215
+168,Electiva,Injecção Intravítrea,17/06/2025,Não,Sim,Outro,834
+169,Acto Cirúrgico,Extração de Catarata,20/04/2025,Não,Não,Outro,287
+170,Acto Cirúrgico,Exérese de Pterígio,23/09/2025,Sim,Sim,Critério Médico,271
+171,Acto Cirúrgico,Injecção Intravítrea,16/10/2025,Sim,Sim,Falta de Comparência,350
+172,Urgência,Injecção Intravítrea,04/02/2026,Sim,Não,Critério Médico,439
+173,Urgência,Exérese de Pterígio,07/02/2026,Não,Não,Outro,149
+174,Acto Cirúrgico,Injecção Intravítrea,12/05/2025,Não,Não,Outro,386
+175,Urgência,Exérese de Pterígio,17/06/2025,Sim,Não,Falta de Comparência,811
+176,Electiva,Injecção Intravítrea,24/07/2025,Sim,Não,Falta de Comparência,920
+177,Acto Cirúrgico,Exérese de Pterígio,19/07/2025,Sim,Sim,Falta de Comparência,149
+178,Acto Cirúrgico,Exérese de Pterígio,24/03/2026,Sim,Não,Falta de Comparência,430
+179,Electiva,Injecção Intravítrea,08/12/2025,Não,Não,Outro,548
+180,Acto Cirúrgico,Extração de Catarata,22/05/2025,Não,Não,Falta de Comparência,298
+181,Acto Cirúrgico,Exérese de Pterígio,28/08/2025,Não,Não,Falta de Comparência,184
+182,Acto Cirúrgico,Extração de Catarata,12/10/2025,Não,Não,Falta de Comparência,614
+183,Urgência,Injecção Intravítrea,24/08/2025,Sim,Não,Falta de Comparência,262
+184,Acto Cirúrgico,Injecção Intravítrea,13/03/2026,Não,Não,Outro,249
+185,Electiva,Extração de Catarata,24/01/2026,Não,Não,Falta de Comparência,740
+186,Acto Cirúrgico,Exérese de Pterígio,31/10/2025,Sim,Sim,Falta de Comparência,486
+187,Acto Cirúrgico,Exérese de Pterígio,08/10/2025,Não,Não,Outro,988
+188,Electiva,Exérese de Pterígio,18/09/2025,Sim,Sim,Outro,542
+189,Electiva,Injecção Intravítrea,04/07/2025,Sim,Não,Outro,933
+190,Acto Cirúrgico,Injecção Intravítrea,06/07/2025,Sim,Não,Falta de Comparência,280
+191,Urgência,Exérese de Pterígio,22/04/2025,Não,Não,Falta de Comparência,201
+192,Electiva,Extração de Catarata,18/08/2025,Não,Não,Outro,797
+193,Urgência,Extração de Catarata,06/11/2025,Sim,Não,Falta de Comparência,667
+194,Electiva,Exérese de Pterígio,12/01/2026,Sim,Não,Outro,432
+195,Electiva,Extração de Catarata,05/03/2026,Sim,Não,Outro,376
+196,Urgência,Exérese de Pterígio,26/12/2025,Não,Não,Falta de Comparência,771
+197,Electiva,Injecção Intravítrea,07/07/2025,Sim,Sim,Critério Médico,574
+198,Urgência,Extração de Catarata,27/06/2025,Não,Sim,Outro,27
+199,Urgência,Exérese de Pterígio,14/07/2025,Sim,Sim,Falta de Comparência,144
+200,Electiva,Extração de Catarata,13/06/2025,Sim,Não,Outro,507
+201,Electiva,Injecção Intravítrea,31/05/2025,Sim,Não,Falta de Comparência,853
+202,Urgência,Extração de Catarata,13/10/2025,Sim,Não,Outro,588
+203,Electiva,Injecção Intravítrea,05/04/2025,Não,Não,Critério Médico,932
+204,Acto Cirúrgico,Injecção Intravítrea,05/09/2025,Sim,Não,Falta de Comparência,642
+205,Urgência,Extração de Catarata,24/08/2025,Não,Não,Outro,504
+206,Electiva,Injecção Intravítrea,05/03/2026,Não,Não,Outro,722
+207,Electiva,Exérese de Pterígio,23/12/2025,Sim,Não,Critério Médico,470
+208,Electiva,Injecção Intravítrea,31/01/2026,Sim,Não,Outro,184
+209,Electiva,Injecção Intravítrea,07/07/2025,Não,Não,Falta de Comparência,163
+210,Acto Cirúrgico,Extração de Catarata,30/03/2026,Não,Sim,Falta de Comparência,988
+211,Acto Cirúrgico,Injecção Intravítrea,06/04/2025,Não,Sim,Outro,17
+212,Acto Cirúrgico,Exérese de Pterígio,08/02/2026,Sim,Não,Falta de Comparência,237
+213,Acto Cirúrgico,Extração de Catarata,07/05/2025,Sim,Não,Falta de Comparência,902
+214,Acto Cirúrgico,Extração de Catarata,19/05/2025,Não,Não,Falta de Comparência,304
+215,Urgência,Injecção Intravítrea,25/12/2025,Sim,Não,Critério Médico,297
+216,Electiva,Extração de Catarata,25/01/2026,Não,Sim,Falta de Comparência,944
+217,Urgência,Exérese de Pterígio,19/10/2025,Sim,Não,Falta de Comparência,424
+218,Urgência,Extração de Catarata,22/01/2026,Sim,Não,Outro,298
+219,Acto Cirúrgico,Injecção Intravítrea,15/05/2025,Sim,Não,Outro,486
+220,Acto Cirúrgico,Injecção Intravítrea,31/05/2025,Sim,Sim,Falta de Comparência,371
+221,Electiva,Extração de Catarata,02/05/2025,Sim,Sim,Outro,480
+222,Acto Cirúrgico,Exérese de Pterígio,14/06/2025,Não,Não,Outro,753
+223,Electiva,Exérese de Pterígio,04/08/2025,Sim,Sim,Falta de Comparência,161
+224,Acto Cirúrgico,Exérese de Pterígio,15/05/2025,Não,Não,Falta de Comparência,524
+225,Urgência,Extração de Catarata,16/08/2025,Não,Sim,Outro,949
+226,Electiva,Exérese de Pterígio,23/01/2026,Sim,Não,Critério Médico,734
+227,Urgência,Exérese de Pterígio,30/05/2025,Não,Sim,Outro,539
+228,Electiva,Injecção Intravítrea,06/12/2025,Não,Não,Outro,962
+229,Urgência,Extração de Catarata,21/01/2026,Sim,Não,Falta de Comparência,188
+230,Urgência,Extração de Catarata,22/03/2026,Sim,Não,Critério Médico,103
+231,Acto Cirúrgico,Injecção Intravítrea,17/03/2026,Não,Não,Falta de Comparência,219
+232,Acto Cirúrgico,Exérese de Pterígio,01/03/2026,Sim,Não,Falta de Comparência,154
+233,Electiva,Extração de Catarata,21/10/2025,Não,Sim,Outro,130
+234,Electiva,Injecção Intravítrea,04/02/2026,Não,Não,Outro,965
+235,Urgência,Injecção Intravítrea,18/09/2025,Não,Sim,Outro,669
+236,Urgência,Injecção Intravítrea,25/08/2025,Sim,Não,Falta de Comparência,228
+237,Urgência,Injecção Intravítrea,24/04/2025,Não,Não,Falta de Comparência,665
+238,Urgência,Extração de Catarata,05/04/2025,Não,Não,Outro,61
+239,Urgência,Extração de Catarata,02/11/2025,Não,Não,Outro,757
+240,Acto Cirúrgico,Extração de Catarata,31/07/2025,Não,Não,Critério Médico,599
+241,Acto Cirúrgico,Injecção Intravítrea,17/04/2025,Não,Sim,Falta de Comparência,740
+242,Acto Cirúrgico,Exérese de Pterígio,07/12/2025,Sim,Sim,Critério Médico,171
+243,Electiva,Exérese de Pterígio,12/12/2025,Sim,Sim,Outro,818
+244,Acto Cirúrgico,Extração de Catarata,28/05/2025,Não,Não,Falta de Comparência,360
+245,Urgência,Extração de Catarata,23/08/2025,Sim,Não,Outro,299
+246,Urgência,Exérese de Pterígio,26/09/2025,Sim,Não,Outro,317
+247,Acto Cirúrgico,Injecção Intravítrea,07/07/2025,Sim,Não,Critério Médico,35
+248,Acto Cirúrgico,Exérese de Pterígio,08/12/2025,Não,Sim,Falta de Comparência,515
+249,Acto Cirúrgico,Extração de Catarata,23/02/2026,Sim,Não,Falta de Comparência,905
+250,Urgência,Extração de Catarata,24/06/2025,Sim,Não,Outro,33
+251,Urgência,Extração de Catarata,16/08/2025,Sim,Não,Falta de Comparência,903
+252,Electiva,Extração de Catarata,01/12/2025,Sim,Não,Falta de Comparência,8
+253,Electiva,Injecção Intravítrea,24/08/2025,Não,Não,Critério Médico,110
+254,Electiva,Exérese de Pterígio,23/11/2025,Sim,Não,Falta de Comparência,766
+255,Acto Cirúrgico,Extração de Catarata,01/12/2025,Sim,Sim,Outro,628
+256,Electiva,Injecção Intravítrea,02/10/2025,Sim,Não,Critério Médico,604
+257,Electiva,Extração de Catarata,15/06/2025,Sim,Não,Outro,62
+258,Urgência,Injecção Intravítrea,11/12/2025,Sim,Sim,Critério Médico,765
+259,Electiva,Extração de Catarata,15/09/2025,Não,Não,Critério Médico,652
+260,Electiva,Extração de Catarata,06/02/2026,Não,Não,Critério Médico,348
+261,Acto Cirúrgico,Extração de Catarata,28/09/2025,Não,Não,Outro,494
+262,Acto Cirúrgico,Injecção Intravítrea,06/02/2026,Não,Não,Critério Médico,638
+263,Electiva,Exérese de Pterígio,15/07/2025,Não,Não,Critério Médico,892
+264,Electiva,Exérese de Pterígio,06/11/2025,Não,Não,Falta de Comparência,310
+265,Acto Cirúrgico,Extração de Catarata,03/08/2025,Sim,Não,Outro,639
+266,Electiva,Injecção Intravítrea,15/01/2026,Não,Sim,Falta de Comparência,109
+267,Electiva,Extração de Catarata,19/10/2025,Sim,Não,Critério Médico,353
+268,Urgência,Exérese de Pterígio,04/01/2026,Não,Não,Falta de Comparência,340
+269,Electiva,Extração de Catarata,17/07/2025,Sim,Não,Critério Médico,613
+270,Acto Cirúrgico,Injecção Intravítrea,17/10/2025,Sim,Não,Critério Médico,300
+271,Acto Cirúrgico,Injecção Intravítrea,20/10/2025,Não,Não,Outro,807
+272,Urgência,Exérese de Pterígio,15/02/2026,Não,Não,Falta de Comparência,970
+273,Acto Cirúrgico,Injecção Intravítrea,27/03/2026,Não,Não,Outro,461
+274,Acto Cirúrgico,Extração de Catarata,10/06/2025,Sim,Sim,Falta de Comparência,691
+275,Urgência,Injecção Intravítrea,02/04/2025,Não,Sim,Critério Médico,958
+276,Electiva,Exérese de Pterígio,21/08/2025,Não,Não,Outro,603
+277,Urgência,Extração de Catarata,11/07/2025,Sim,Sim,Falta de Comparência,406
+278,Electiva,Extração de Catarata,14/11/2025,Não,Não,Falta de Comparência,237
+279,Electiva,Extração de Catarata,23/01/2026,Sim,Não,Outro,754
+280,Acto Cirúrgico,Injecção Intravítrea,22/11/2025,Não,Não,Critério Médico,247
+281,Acto Cirúrgico,Injecção Intravítrea,02/01/2026,Sim,Não,Falta de Comparência,461
+282,Acto Cirúrgico,Extração de Catarata,04/12/2025,Sim,Não,Outro,467
+283,Urgência,Extração de Catarata,21/10/2025,Sim,Sim,Outro,114
+284,Electiva,Exérese de Pterígio,21/12/2025,Não,Não,Critério Médico,305
+285,Electiva,Exérese de Pterígio,26/02/2026,Sim,Não,Falta de Comparência,934
+286,Acto Cirúrgico,Exérese de Pterígio,02/12/2025,Sim,Sim,Outro,69
+287,Electiva,Injecção Intravítrea,02/06/2025,Não,Não,Outro,586
+288,Acto Cirúrgico,Extração de Catarata,31/01/2026,Não,Não,Critério Médico,358
+289,Urgência,Extração de Catarata,08/06/2025,Não,Sim,Outro,271
+290,Urgência,Extração de Catarata,23/02/2026,Não,Não,Outro,304
+291,Electiva,Extração de Catarata,04/09/2025,Sim,Não,Falta de Comparência,101
+292,Acto Cirúrgico,Exérese de Pterígio,08/02/2026,Não,Sim,Critério Médico,702
+293,Electiva,Exérese de Pterígio,23/03/2026,Sim,Não,Falta de Comparência,880
+294,Acto Cirúrgico,Extração de Catarata,26/04/2025,Não,Sim,Critério Médico,738
+295,Urgência,Extração de Catarata,19/04/2025,Sim,Sim,Outro,408
+296,Electiva,Extração de Catarata,14/07/2025,Não,Sim,Critério Médico,427
+297,Urgência,Extração de Catarata,21/10/2025,Sim,Não,Outro,725
+298,Electiva,Exérese de Pterígio,04/03/2026,Não,Não,Falta de Comparência,169
+299,Acto Cirúrgico,Extração de Catarata,31/01/2026,Sim,Não,Falta de Comparência,730
+300,Acto Cirúrgico,Extração de Catarata,17/12/2025,Não,Sim,Outro,873
+301,Urgência,Extração de Catarata,14/02/2026,Não,Sim,Outro,602
+302,Electiva,Extração de Catarata,29/08/2025,Sim,Não,Critério Médico,205
+303,Acto Cirúrgico,Exérese de Pterígio,01/11/2025,Sim,Sim,Critério Médico,330
+304,Electiva,Exérese de Pterígio,22/10/2025,Sim,Não,Outro,434
+305,Urgência,Injecção Intravítrea,18/06/2025,Não,Sim,Critério Médico,491
+306,Electiva,Injecção Intravítrea,02/02/2026,Não,Sim,Outro,730
+307,Urgência,Injecção Intravítrea,26/11/2025,Não,Não,Outro,877
+308,Electiva,Injecção Intravítrea,25/07/2025,Sim,Não,Critério Médico,935
+309,Electiva,Exérese de Pterígio,04/05/2025,Sim,Sim,Outro,430
+310,Acto Cirúrgico,Exérese de Pterígio,01/01/2026,Não,Não,Outro,84
+311,Urgência,Injecção Intravítrea,13/09/2025,Não,Não,Critério Médico,117
+312,Urgência,Exérese de Pterígio,25/10/2025,Não,Sim,Critério Médico,176
+313,Acto Cirúrgico,Exérese de Pterígio,22/06/2025,Não,Não,Critério Médico,12
+314,Electiva,Exérese de Pterígio,17/12/2025,Não,Sim,Critério Médico,983
+315,Acto Cirúrgico,Injecção Intravítrea,15/02/2026,Não,Não,Outro,51
+316,Acto Cirúrgico,Injecção Intravítrea,04/04/2025,Não,Sim,Critério Médico,307
+317,Urgência,Exérese de Pterígio,28/07/2025,Sim,Sim,Critério Médico,856
+318,Urgência,Injecção Intravítrea,21/06/2025,Sim,Não,Critério Médico,204
+319,Acto Cirúrgico,Exérese de Pterígio,04/10/2025,Sim,Sim,Outro,656
+320,Electiva,Injecção Intravítrea,16/09/2025,Sim,Não,Critério Médico,849
+321,Urgência,Injecção Intravítrea,21/09/2025,Sim,Sim,Critério Médico,29
+322,Electiva,Injecção Intravítrea,05/12/2025,Sim,Não,Outro,706
+323,Acto Cirúrgico,Exérese de Pterígio,21/05/2025,Sim,Não,Falta de Comparência,121
+324,Acto Cirúrgico,Injecção Intravítrea,26/09/2025,Não,Não,Critério Médico,655
+325,Urgência,Exérese de Pterígio,20/01/2026,Sim,Não,Critério Médico,623
+326,Urgência,Exérese de Pterígio,02/09/2025,Não,Não,Outro,441
+327,Acto Cirúrgico,Injecção Intravítrea,04/05/2025,Não,Sim,Falta de Comparência,305
+328,Electiva,Exérese de Pterígio,22/09/2025,Não,Não,Critério Médico,766
+329,Acto Cirúrgico,Injecção Intravítrea,21/11/2025,Não,Sim,Critério Médico,350
+330,Electiva,Exérese de Pterígio,05/12/2025,Não,Não,Critério Médico,550
+331,Acto Cirúrgico,Injecção Intravítrea,08/02/2026,Sim,Não,Critério Médico,958
+332,Electiva,Exérese de Pterígio,28/06/2025,Não,Não,Outro,299
+333,Electiva,Extração de Catarata,11/05/2025,Não,Sim,Falta de Comparência,583
+334,Acto Cirúrgico,Injecção Intravítrea,30/09/2025,Sim,Sim,Falta de Comparência,113
+335,Electiva,Exérese de Pterígio,02/03/2026,Não,Sim,Outro,516
+336,Electiva,Exérese de Pterígio,30/11/2025,Não,Não,Outro,232
+337,Acto Cirúrgico,Exérese de Pterígio,29/01/2026,Não,Não,Outro,672
+338,Electiva,Exérese de Pterígio,21/05/2025,Sim,Não,Critério Médico,398
+339,Electiva,Injecção Intravítrea,22/12/2025,Não,Não,Critério Médico,446
+340,Acto Cirúrgico,Extração de Catarata,30/12/2025,Não,Não,Outro,79
+341,Urgência,Exérese de Pterígio,04/11/2025,Não,Não,Falta de Comparência,671
+342,Acto Cirúrgico,Injecção Intravítrea,15/02/2026,Não,Não,Outro,833
+343,Urgência,Extração de Catarata,15/07/2025,Sim,Sim,Critério Médico,447
+344,Electiva,Extração de Catarata,16/11/2025,Sim,Não,Falta de Comparência,10
+345,Electiva,Exérese de Pterígio,02/02/2026,Sim,Sim,Critério Médico,335
+346,Acto Cirúrgico,Exérese de Pterígio,23/11/2025,Sim,Sim,Critério Médico,228
+347,Acto Cirúrgico,Injecção Intravítrea,25/08/2025,Não,Não,Outro,721
+348,Acto Cirúrgico,Exérese de Pterígio,23/05/2025,Sim,Sim,Falta de Comparência,312
+349,Urgência,Exérese de Pterígio,30/03/2026,Sim,Não,Falta de Comparência,106
+350,Electiva,Exérese de Pterígio,08/08/2025,Não,Sim,Falta de Comparência,289
+351,Electiva,Injecção Intravítrea,17/05/2025,Sim,Não,Outro,488
+352,Urgência,Injecção Intravítrea,11/05/2025,Sim,Não,Outro,473
+353,Electiva,Injecção Intravítrea,10/01/2026,Sim,Não,Outro,759
+354,Urgência,Extração de Catarata,12/09/2025,Sim,Não,Outro,131
+355,Acto Cirúrgico,Injecção Intravítrea,11/05/2025,Não,Sim,Falta de Comparência,177
+356,Acto Cirúrgico,Exérese de Pterígio,11/09/2025,Não,Não,Outro,864
+357,Electiva,Exérese de Pterígio,21/06/2025,Sim,Não,Critério Médico,487
+358,Electiva,Injecção Intravítrea,22/06/2025,Sim,Não,Outro,202
+359,Acto Cirúrgico,Injecção Intravítrea,07/03/2026,Sim,Não,Outro,794
+360,Urgência,Injecção Intravítrea,20/10/2025,Não,Sim,Critério Médico,620
+361,Acto Cirúrgico,Injecção Intravítrea,04/02/2026,Não,Não,Critério Médico,268
+362,Acto Cirúrgico,Exérese de Pterígio,17/08/2025,Sim,Não,Critério Médico,304
+363,Electiva,Exérese de Pterígio,14/06/2025,Não,Não,Falta de Comparência,50
+364,Acto Cirúrgico,Extração de Catarata,20/07/2025,Sim,Não,Outro,522
+365,Electiva,Injecção Intravítrea,15/05/2025,Sim,Sim,Falta de Comparência,99
+366,Acto Cirúrgico,Exérese de Pterígio,10/01/2026,Sim,Não,Critério Médico,156
+367,Acto Cirúrgico,Injecção Intravítrea,28/02/2026,Sim,Sim,Falta de Comparência,226
+368,Urgência,Extração de Catarata,22/01/2026,Não,Não,Critério Médico,106
+369,Urgência,Extração de Catarata,27/07/2025,Sim,Não,Critério Médico,120
+370,Acto Cirúrgico,Exérese de Pterígio,02/07/2025,Não,Não,Outro,864
+371,Electiva,Extração de Catarata,30/07/2025,Sim,Sim,Outro,214
+372,Acto Cirúrgico,Extração de Catarata,11/03/2026,Não,Não,Critério Médico,52
+373,Acto Cirúrgico,Injecção Intravítrea,15/09/2025,Sim,Sim,Outro,991
+374,Electiva,Extração de Catarata,24/12/2025,Não,Sim,Outro,215
+375,Urgência,Injecção Intravítrea,17/06/2025,Sim,Não,Outro,1
+376,Electiva,Exérese de Pterígio,07/10/2025,Sim,Não,Critério Médico,571
+377,Urgência,Injecção Intravítrea,12/03/2026,Sim,Não,Falta de Comparência,987
+378,Urgência,Extração de Catarata,04/11/2025,Não,Sim,Outro,433
+379,Electiva,Extração de Catarata,29/01/2026,Sim,Sim,Outro,597
+380,Electiva,Injecção Intravítrea,25/08/2025,Sim,Não,Critério Médico,901
+381,Acto Cirúrgico,Injecção Intravítrea,08/11/2025,Sim,Não,Critério Médico,364
+382,Acto Cirúrgico,Injecção Intravítrea,21/04/2025,Sim,Não,Falta de Comparência,140
+383,Urgência,Extração de Catarata,07/05/2025,Sim,Não,Critério Médico,559
+384,Urgência,Extração de Catarata,28/03/2026,Não,Não,Falta de Comparência,287
+385,Acto Cirúrgico,Injecção Intravítrea,01/01/2026,Não,Não,Critério Médico,1000
+386,Urgência,Extração de Catarata,30/01/2026,Não,Não,Outro,119
+387,Electiva,Injecção Intravítrea,05/05/2025,Sim,Não,Critério Médico,632
+388,Electiva,Exérese de Pterígio,05/12/2025,Não,Sim,Critério Médico,78
+389,Electiva,Extração de Catarata,18/08/2025,Sim,Não,Critério Médico,588
+390,Acto Cirúrgico,Injecção Intravítrea,04/06/2025,Não,Não,Critério Médico,631
+391,Electiva,Extração de Catarata,24/02/2026,Sim,Não,Critério Médico,88
+392,Electiva,Extração de Catarata,01/12/2025,Não,Não,Falta de Comparência,520
+393,Urgência,Injecção Intravítrea,10/06/2025,Não,Não,Falta de Comparência,135
+394,Urgência,Extração de Catarata,27/02/2026,Não,Não,Falta de Comparência,413
+395,Acto Cirúrgico,Injecção Intravítrea,01/10/2025,Sim,Não,Outro,650
+396,Acto Cirúrgico,Extração de Catarata,11/10/2025,Não,Não,Critério Médico,457
+397,Acto Cirúrgico,Extração de Catarata,13/11/2025,Não,Sim,Outro,70
+398,Urgência,Injecção Intravítrea,26/04/2025,Sim,Não,Falta de Comparência,714
+399,Electiva,Extração de Catarata,02/04/2025,Não,Sim,Critério Médico,158
+400,Acto Cirúrgico,Extração de Catarata,04/02/2026,Não,Não,Falta de Comparência,123
+401,Urgência,Exérese de Pterígio,08/11/2025,Não,Não,Falta de Comparência,97
+402,Urgência,Extração de Catarata,01/06/2025,Sim,Não,Outro,447
+403,Urgência,Extração de Catarata,05/04/2025,Sim,Não,Critério Médico,754
+404,Acto Cirúrgico,Exérese de Pterígio,21/11/2025,Não,Não,Falta de Comparência,220
+405,Acto Cirúrgico,Extração de Catarata,01/09/2025,Não,Não,Critério Médico,669
+406,Electiva,Injecção Intravítrea,19/01/2026,Sim,Não,Falta de Comparência,862
+407,Electiva,Injecção Intravítrea,24/05/2025,Não,Não,Falta de Comparência,949
+408,Acto Cirúrgico,Extração de Catarata,28/06/2025,Não,Não,Critério Médico,48
+409,Urgência,Injecção Intravítrea,03/08/2025,Sim,Não,Falta de Comparência,481
+410,Acto Cirúrgico,Exérese de Pterígio,17/08/2025,Sim,Não,Critério Médico,539
+411,Urgência,Injecção Intravítrea,12/02/2026,Não,Não,Falta de Comparência,852
+412,Acto Cirúrgico,Injecção Intravítrea,30/09/2025,Sim,Não,Critério Médico,377
+413,Acto Cirúrgico,Exérese de Pterígio,25/06/2025,Sim,Sim,Falta de Comparência,20
+414,Electiva,Exérese de Pterígio,02/10/2025,Sim,Sim,Falta de Comparência,955
+415,Urgência,Injecção Intravítrea,29/08/2025,Não,Sim,Critério Médico,343
+416,Acto Cirúrgico,Injecção Intravítrea,02/02/2026,Não,Não,Critério Médico,3
+417,Electiva,Injecção Intravítrea,22/06/2025,Não,Não,Outro,14
+418,Acto Cirúrgico,Exérese de Pterígio,25/06/2025,Não,Não,Outro,685
+419,Acto Cirúrgico,Extração de Catarata,04/01/2026,Não,Não,Critério Médico,678
+420,Electiva,Injecção Intravítrea,05/11/2025,Não,Não,Critério Médico,2
+421,Acto Cirúrgico,Extração de Catarata,16/05/2025,Sim,Não,Falta de Comparência,201
+422,Acto Cirúrgico,Extração de Catarata,17/05/2025,Sim,Não,Critério Médico,246
+423,Acto Cirúrgico,Injecção Intravítrea,01/12/2025,Sim,Não,Critério Médico,150
+424,Electiva,Injecção Intravítrea,19/06/2025,Não,Sim,Critério Médico,651
+425,Urgência,Exérese de Pterígio,21/05/2025,Sim,Sim,Outro,1
+426,Acto Cirúrgico,Exérese de Pterígio,30/05/2025,Não,Não,Outro,636
+427,Electiva,Injecção Intravítrea,15/06/2025,Não,Sim,Outro,329
+428,Urgência,Injecção Intravítrea,11/06/2025,Não,Não,Outro,900
+429,Electiva,Exérese de Pterígio,22/02/2026,Sim,Não,Critério Médico,283
+430,Urgência,Injecção Intravítrea,20/10/2025,Não,Sim,Falta de Comparência,869
+431,Electiva,Extração de Catarata,17/08/2025,Não,Não,Falta de Comparência,158
+432,Electiva,Injecção Intravítrea,12/12/2025,Não,Sim,Outro,35
+433,Electiva,Injecção Intravítrea,03/01/2026,Sim,Não,Falta de Comparência,687
+434,Acto Cirúrgico,Extração de Catarata,06/04/2025,Sim,Sim,Critério Médico,890
+435,Urgência,Extração de Catarata,26/01/2026,Não,Sim,Critério Médico,311
+436,Electiva,Extração de Catarata,08/07/2025,Não,Não,Falta de Comparência,976
+437,Urgência,Exérese de Pterígio,12/08/2025,Sim,Não,Critério Médico,707
+438,Acto Cirúrgico,Injecção Intravítrea,21/01/2026,Não,Sim,Outro,936
+439,Electiva,Injecção Intravítrea,20/02/2026,Não,Não,Outro,729
+440,Acto Cirúrgico,Extração de Catarata,21/06/2025,Não,Não,Critério Médico,504
+441,Electiva,Extração de Catarata,27/02/2026,Não,Não,Critério Médico,425
+442,Urgência,Extração de Catarata,09/10/2025,Sim,Não,Outro,14
+443,Acto Cirúrgico,Extração de Catarata,05/09/2025,Não,Não,Outro,645
+444,Urgência,Injecção Intravítrea,04/06/2025,Não,Não,Falta de Comparência,669
+445,Urgência,Extração de Catarata,29/04/2025,Sim,Não,Critério Médico,371
+446,Urgência,Extração de Catarata,02/12/2025,Não,Não,Falta de Comparência,878
+447,Electiva,Exérese de Pterígio,21/01/2026,Não,Sim,Falta de Comparência,110
+448,Urgência,Injecção Intravítrea,21/05/2025,Sim,Sim,Outro,83
+449,Urgência,Extração de Catarata,29/11/2025,Não,Não,Outro,588
+450,Acto Cirúrgico,Extração de Catarata,04/03/2026,Sim,Não,Outro,172
+451,Acto Cirúrgico,Injecção Intravítrea,13/12/2025,Não,Sim,Falta de Comparência,907
+452,Urgência,Injecção Intravítrea,02/11/2025,Sim,Não,Falta de Comparência,905
+453,Electiva,Extração de Catarata,16/05/2025,Não,Não,Falta de Comparência,570
+454,Urgência,Exérese de Pterígio,19/06/2025,Não,Não,Outro,947
+455,Electiva,Injecção Intravítrea,13/03/2026,Sim,Não,Outro,347
+456,Acto Cirúrgico,Exérese de Pterígio,26/11/2025,Não,Sim,Outro,459
+457,Electiva,Extração de Catarata,28/10/2025,Não,Não,Falta de Comparência,458
+458,Acto Cirúrgico,Exérese de Pterígio,26/04/2025,Sim,Sim,Critério Médico,459
+459,Acto Cirúrgico,Extração de Catarata,24/06/2025,Não,Não,Critério Médico,939
+460,Electiva,Exérese de Pterígio,11/08/2025,Sim,Sim,Critério Médico,81
+461,Electiva,Injecção Intravítrea,28/08/2025,Não,Sim,Critério Médico,810
+462,Electiva,Injecção Intravítrea,19/09/2025,Sim,Não,Critério Médico,317
+463,Urgência,Injecção Intravítrea,16/07/2025,Sim,Não,Critério Médico,119
+464,Acto Cirúrgico,Extração de Catarata,18/11/2025,Sim,Não,Falta de Comparência,396
+465,Acto Cirúrgico,Injecção Intravítrea,05/06/2025,Não,Não,Falta de Comparência,663
+466,Electiva,Injecção Intravítrea,18/12/2025,Sim,Não,Outro,613
+467,Electiva,Injecção Intravítrea,29/12/2025,Não,Sim,Critério Médico,338
+468,Electiva,Extração de Catarata,06/03/2026,Não,Não,Critério Médico,652
+469,Electiva,Injecção Intravítrea,08/05/2025,Não,Sim,Falta de Comparência,535
+470,Urgência,Exérese de Pterígio,30/04/2025,Não,Sim,Outro,809
+471,Acto Cirúrgico,Extração de Catarata,21/08/2025,Sim,Não,Outro,136
+472,Electiva,Exérese de Pterígio,28/10/2025,Não,Sim,Outro,982
+473,Urgência,Exérese de Pterígio,21/01/2026,Sim,Não,Outro,54
+474,Electiva,Injecção Intravítrea,18/02/2026,Não,Não,Falta de Comparência,61
+475,Urgência,Injecção Intravítrea,25/12/2025,Sim,Sim,Outro,271
+476,Electiva,Injecção Intravítrea,03/12/2025,Sim,Não,Outro,109
+477,Acto Cirúrgico,Injecção Intravítrea,22/03/2026,Sim,Não,Outro,528
+478,Urgência,Exérese de Pterígio,05/07/2025,Sim,Não,Falta de Comparência,148
+479,Electiva,Injecção Intravítrea,24/01/2026,Sim,Não,Falta de Comparência,708
+480,Acto Cirúrgico,Extração de Catarata,18/08/2025,Sim,Sim,Critério Médico,806
+481,Urgência,Exérese de Pterígio,31/03/2026,Sim,Não,Critério Médico,197
+482,Urgência,Extração de Catarata,01/04/2026,Não,Não,Critério Médico,141
+483,Acto Cirúrgico,Exérese de Pterígio,02/07/2025,Não,Não,Falta de Comparência,22
+484,Electiva,Extração de Catarata,29/03/2026,Sim,Sim,Outro,133
+485,Acto Cirúrgico,Injecção Intravítrea,07/11/2025,Não,Não,Outro,134
+486,Electiva,Injecção Intravítrea,22/11/2025,Não,Não,Outro,426
+487,Electiva,Exérese de Pterígio,15/04/2025,Não,Sim,Falta de Comparência,393
+488,Electiva,Extração de Catarata,16/04/2025,Não,Não,Outro,698
+489,Acto Cirúrgico,Extração de Catarata,23/07/2025,Sim,Sim,Falta de Comparência,798
+490,Electiva,Extração de Catarata,06/03/2026,Não,Sim,Falta de Comparência,46
+491,Acto Cirúrgico,Injecção Intravítrea,06/01/2026,Sim,Não,Outro,459
+492,Urgência,Injecção Intravítrea,01/08/2025,Não,Sim,Critério Médico,332
+493,Acto Cirúrgico,Extração de Catarata,17/10/2025,Sim,Sim,Falta de Comparência,221
+494,Electiva,Extração de Catarata,02/11/2025,Não,Sim,Critério Médico,917
+495,Urgência,Exérese de Pterígio,09/03/2026,Sim,Não,Falta de Comparência,429
+496,Urgência,Exérese de Pterígio,25/03/2026,Sim,Não,Critério Médico,262
+497,Urgência,Injecção Intravítrea,01/12/2025,Sim,Não,Critério Médico,698
+498,Urgência,Injecção Intravítrea,26/08/2025,Não,Não,Critério Médico,107
+499,Acto Cirúrgico,Exérese de Pterígio,15/12/2025,Sim,Sim,Outro,925
+500,Electiva,Extração de Catarata,24/09/2025,Não,Sim,Outro,332
+501,Electiva,Extração de Catarata,09/09/2025,Sim,Sim,Critério Médico,887
+502,Urgência,Extração de Catarata,02/01/2026,Não,Sim,Critério Médico,991
+503,Acto Cirúrgico,Exérese de Pterígio,26/07/2025,Sim,Sim,Critério Médico,173
+504,Urgência,Injecção Intravítrea,15/05/2025,Sim,Sim,Critério Médico,408
+505,Electiva,Extração de Catarata,07/07/2025,Não,Sim,Falta de Comparência,720
+506,Urgência,Exérese de Pterígio,20/09/2025,Sim,Não,Outro,588
+507,Electiva,Extração de Catarata,14/02/2026,Não,Não,Falta de Comparência,160
+508,Electiva,Injecção Intravítrea,01/06/2025,Não,Não,Falta de Comparência,805
+509,Electiva,Exérese de Pterígio,05/09/2025,Sim,Sim,Falta de Comparência,721
+510,Urgência,Exérese de Pterígio,08/03/2026,Não,Não,Outro,390
+511,Acto Cirúrgico,Injecção Intravítrea,13/07/2025,Não,Não,Critério Médico,334
+512,Urgência,Exérese de Pterígio,03/01/2026,Sim,Não,Critério Médico,579
+513,Acto Cirúrgico,Exérese de Pterígio,05/04/2025,Sim,Não,Outro,218
+514,Acto Cirúrgico,Injecção Intravítrea,07/11/2025,Sim,Não,Outro,256
+515,Urgência,Injecção Intravítrea,14/01/2026,Não,Sim,Outro,605
+516,Acto Cirúrgico,Injecção Intravítrea,11/07/2025,Não,Sim,Falta de Comparência,163
+517,Urgência,Exérese de Pterígio,26/11/2025,Não,Não,Outro,277
+518,Electiva,Exérese de Pterígio,06/01/2026,Sim,Não,Outro,599
+519,Acto Cirúrgico,Exérese de Pterígio,27/10/2025,Sim,Sim,Outro,392
+520,Acto Cirúrgico,Injecção Intravítrea,28/07/2025,Não,Sim,Critério Médico,668
+521,Urgência,Exérese de Pterígio,31/10/2025,Sim,Sim,Falta de Comparência,324
+522,Acto Cirúrgico,Extração de Catarata,04/07/2025,Sim,Sim,Outro,183
+523,Urgência,Extração de Catarata,05/06/2025,Sim,Não,Critério Médico,172
+524,Urgência,Injecção Intravítrea,20/04/2025,Sim,Não,Falta de Comparência,642
+525,Electiva,Extração de Catarata,26/07/2025,Não,Sim,Critério Médico,416
+526,Acto Cirúrgico,Extração de Catarata,20/12/2025,Não,Sim,Falta de Comparência,493
+527,Acto Cirúrgico,Exérese de Pterígio,19/04/2025,Sim,Não,Critério Médico,135
+528,Electiva,Injecção Intravítrea,01/11/2025,Não,Sim,Critério Médico,527
+529,Electiva,Injecção Intravítrea,25/02/2026,Não,Não,Critério Médico,337
+530,Acto Cirúrgico,Exérese de Pterígio,24/02/2026,Sim,Não,Falta de Comparência,439
+531,Electiva,Injecção Intravítrea,15/04/2025,Não,Sim,Falta de Comparência,8
+532,Acto Cirúrgico,Injecção Intravítrea,12/01/2026,Não,Sim,Outro,928
+533,Urgência,Extração de Catarata,19/12/2025,Sim,Não,Falta de Comparência,393
+534,Acto Cirúrgico,Injecção Intravítrea,06/02/2026,Não,Sim,Falta de Comparência,549
+535,Electiva,Extração de Catarata,25/05/2025,Não,Não,Critério Médico,515
+536,Urgência,Exérese de Pterígio,10/08/2025,Sim,Não,Outro,532
+537,Urgência,Injecção Intravítrea,04/06/2025,Não,Não,Falta de Comparência,463
+538,Urgência,Extração de Catarata,09/05/2025,Não,Não,Outro,783
+539,Urgência,Extração de Catarata,16/08/2025,Sim,Não,Critério Médico,257
+540,Urgência,Extração de Catarata,17/08/2025,Sim,Sim,Falta de Comparência,441
+541,Electiva,Injecção Intravítrea,19/09/2025,Não,Não,Outro,244
+542,Urgência,Injecção Intravítrea,30/01/2026,Não,Sim,Falta de Comparência,959
+543,Electiva,Exérese de Pterígio,18/02/2026,Não,Não,Falta de Comparência,644
+544,Acto Cirúrgico,Injecção Intravítrea,09/08/2025,Não,Sim,Outro,67
+545,Acto Cirúrgico,Injecção Intravítrea,30/06/2025,Não,Não,Critério Médico,92
+546,Acto Cirúrgico,Extração de Catarata,19/06/2025,Sim,Sim,Falta de Comparência,771
+547,Electiva,Extração de Catarata,04/10/2025,Sim,Sim,Falta de Comparência,577
+548,Acto Cirúrgico,Exérese de Pterígio,06/11/2025,Não,Não,Critério Médico,723
+549,Acto Cirúrgico,Injecção Intravítrea,04/10/2025,Sim,Não,Falta de Comparência,65
+550,Acto Cirúrgico,Exérese de Pterígio,10/12/2025,Sim,Não,Outro,481
+551,Electiva,Extração de Catarata,28/09/2025,Sim,Sim,Critério Médico,893
+552,Urgência,Extração de Catarata,03/06/2025,Sim,Não,Critério Médico,261
+553,Urgência,Injecção Intravítrea,25/03/2026,Sim,Não,Falta de Comparência,15
+554,Electiva,Exérese de Pterígio,11/03/2026,Não,Sim,Falta de Comparência,785
+555,Acto Cirúrgico,Injecção Intravítrea,02/06/2025,Não,Sim,Critério Médico,105
+556,Urgência,Exérese de Pterígio,03/03/2026,Sim,Sim,Falta de Comparência,955
+557,Electiva,Exérese de Pterígio,14/08/2025,Não,Não,Critério Médico,776
+558,Urgência,Injecção Intravítrea,30/06/2025,Sim,Sim,Critério Médico,590
+559,Acto Cirúrgico,Exérese de Pterígio,21/06/2025,Sim,Não,Outro,310
+560,Electiva,Extração de Catarata,10/06/2025,Sim,Sim,Critério Médico,106
+561,Electiva,Exérese de Pterígio,06/10/2025,Sim,Não,Critério Médico,92
+562,Acto Cirúrgico,Injecção Intravítrea,11/11/2025,Não,Não,Outro,546
+563,Electiva,Exérese de Pterígio,19/12/2025,Sim,Não,Falta de Comparência,551
+564,Electiva,Extração de Catarata,24/06/2025,Não,Não,Critério Médico,925
+565,Acto Cirúrgico,Extração de Catarata,30/10/2025,Sim,Não,Outro,265
+566,Electiva,Exérese de Pterígio,31/07/2025,Não,Sim,Outro,822
+567,Urgência,Injecção Intravítrea,12/04/2025,Sim,Sim,Critério Médico,158
+568,Acto Cirúrgico,Injecção Intravítrea,30/11/2025,Sim,Sim,Falta de Comparência,24
+569,Urgência,Extração de Catarata,14/08/2025,Não,Sim,Critério Médico,475
+570,Acto Cirúrgico,Exérese de Pterígio,30/09/2025,Não,Sim,Outro,906
+571,Urgência,Injecção Intravítrea,04/03/2026,Não,Não,Falta de Comparência,195
+572,Urgência,Injecção Intravítrea,30/06/2025,Não,Não,Outro,761
+573,Urgência,Extração de Catarata,14/09/2025,Não,Não,Falta de Comparência,977
+574,Urgência,Exérese de Pterígio,03/07/2025,Sim,Não,Critério Médico,798
+575,Electiva,Injecção Intravítrea,24/05/2025,Sim,Não,Critério Médico,126
+576,Urgência,Extração de Catarata,03/06/2025,Sim,Não,Critério Médico,532
+577,Acto Cirúrgico,Exérese de Pterígio,08/03/2026,Não,Sim,Falta de Comparência,895
+578,Electiva,Extração de Catarata,05/05/2025,Não,Não,Outro,859
+579,Urgência,Extração de Catarata,08/02/2026,Sim,Não,Critério Médico,732
+580,Urgência,Injecção Intravítrea,29/05/2025,Sim,Sim,Falta de Comparência,10
+581,Electiva,Exérese de Pterígio,21/06/2025,Sim,Sim,Critério Médico,644
+582,Urgência,Injecção Intravítrea,13/01/2026,Não,Sim,Falta de Comparência,723
+583,Urgência,Extração de Catarata,14/03/2026,Não,Não,Outro,33
+584,Acto Cirúrgico,Extração de Catarata,28/11/2025,Sim,Não,Outro,449
+585,Acto Cirúrgico,Extração de Catarata,02/02/2026,Não,Não,Outro,944
+586,Acto Cirúrgico,Injecção Intravítrea,11/07/2025,Sim,Não,Outro,270
+587,Urgência,Injecção Intravítrea,05/12/2025,Não,Sim,Outro,360
+588,Urgência,Injecção Intravítrea,04/11/2025,Não,Sim,Critério Médico,104
+589,Electiva,Exérese de Pterígio,11/12/2025,Não,Sim,Falta de Comparência,528
+590,Acto Cirúrgico,Exérese de Pterígio,28/01/2026,Não,Não,Critério Médico,581
+591,Electiva,Extração de Catarata,15/02/2026,Sim,Não,Outro,793
+592,Acto Cirúrgico,Extração de Catarata,03/03/2026,Não,Não,Outro,625
+593,Urgência,Injecção Intravítrea,14/07/2025,Sim,Sim,Falta de Comparência,72
+594,Electiva,Extração de Catarata,06/02/2026,Não,Não,Outro,200
+595,Urgência,Injecção Intravítrea,31/01/2026,Sim,Não,Outro,497
+596,Acto Cirúrgico,Exérese de Pterígio,04/04/2025,Sim,Não,Critério Médico,685
+597,Electiva,Extração de Catarata,04/05/2025,Sim,Não,Outro,595
+598,Electiva,Injecção Intravítrea,15/08/2025,Sim,Sim,Falta de Comparência,987
+599,Acto Cirúrgico,Exérese de Pterígio,27/05/2025,Sim,Não,Falta de Comparência,107
+600,Electiva,Extração de Catarata,28/12/2025,Sim,Não,Falta de Comparência,363
+601,Electiva,Injecção Intravítrea,19/07/2025,Sim,Sim,Critério Médico,377
+602,Electiva,Injecção Intravítrea,11/11/2025,Sim,Não,Falta de Comparência,396
+603,Electiva,Exérese de Pterígio,22/07/2025,Sim,Não,Falta de Comparência,215
+604,Electiva,Exérese de Pterígio,19/08/2025,Não,Não,Falta de Comparência,691
+605,Urgência,Exérese de Pterígio,15/05/2025,Sim,Sim,Falta de Comparência,584
+606,Electiva,Extração de Catarata,05/07/2025,Não,Não,Critério Médico,3
+607,Urgência,Extração de Catarata,01/01/2026,Não,Não,Critério Médico,529
+608,Urgência,Extração de Catarata,12/01/2026,Sim,Sim,Critério Médico,810
+609,Electiva,Exérese de Pterígio,25/07/2025,Sim,Não,Outro,653
+610,Acto Cirúrgico,Exérese de Pterígio,03/09/2025,Não,Não,Critério Médico,857
+611,Electiva,Extração de Catarata,07/01/2026,Sim,Não,Falta de Comparência,443
+612,Electiva,Injecção Intravítrea,08/08/2025,Não,Sim,Falta de Comparência,25
+613,Electiva,Extração de Catarata,14/10/2025,Não,Não,Falta de Comparência,366
+614,Electiva,Extração de Catarata,25/06/2025,Não,Não,Falta de Comparência,670
+615,Acto Cirúrgico,Exérese de Pterígio,09/12/2025,Sim,Não,Falta de Comparência,812
+616,Acto Cirúrgico,Exérese de Pterígio,19/08/2025,Sim,Não,Critério Médico,462
+617,Urgência,Exérese de Pterígio,07/04/2025,Não,Não,Outro,796
+618,Electiva,Extração de Catarata,06/02/2026,Sim,Não,Outro,599
+619,Electiva,Injecção Intravítrea,07/08/2025,Sim,Não,Outro,582
+620,Electiva,Extração de Catarata,10/05/2025,Não,Não,Falta de Comparência,994
+621,Urgência,Extração de Catarata,24/05/2025,Não,Não,Outro,849
+622,Acto Cirúrgico,Exérese de Pterígio,07/06/2025,Não,Não,Critério Médico,926
+623,Electiva,Injecção Intravítrea,25/03/2026,Sim,Sim,Outro,463
+624,Urgência,Exérese de Pterígio,05/02/2026,Sim,Não,Outro,751
+625,Acto Cirúrgico,Exérese de Pterígio,05/02/2026,Sim,Não,Critério Médico,207
+626,Electiva,Extração de Catarata,21/03/2026,Não,Sim,Falta de Comparência,799
+627,Acto Cirúrgico,Extração de Catarata,29/01/2026,Sim,Sim,Critério Médico,297
+628,Urgência,Extração de Catarata,27/03/2026,Sim,Não,Critério Médico,494
+629,Electiva,Exérese de Pterígio,21/01/2026,Não,Não,Critério Médico,731
+630,Acto Cirúrgico,Exérese de Pterígio,10/11/2025,Não,Sim,Falta de Comparência,569
+631,Acto Cirúrgico,Exérese de Pterígio,09/01/2026,Não,Não,Critério Médico,148
+632,Urgência,Exérese de Pterígio,04/07/2025,Não,Não,Outro,974
+633,Urgência,Exérese de Pterígio,12/07/2025,Não,Não,Outro,936
+634,Urgência,Extração de Catarata,24/07/2025,Não,Não,Falta de Comparência,347
+635,Electiva,Injecção Intravítrea,15/04/2025,Não,Não,Critério Médico,102
+636,Acto Cirúrgico,Exérese de Pterígio,11/12/2025,Não,Não,Critério Médico,915
+637,Electiva,Exérese de Pterígio,27/02/2026,Sim,Não,Critério Médico,885
+638,Acto Cirúrgico,Extração de Catarata,29/12/2025,Sim,Não,Critério Médico,127
+639,Urgência,Exérese de Pterígio,05/02/2026,Sim,Sim,Outro,16
+640,Urgência,Extração de Catarata,18/08/2025,Não,Não,Outro,172
+641,Electiva,Injecção Intravítrea,07/12/2025,Sim,Não,Critério Médico,372
+642,Urgência,Extração de Catarata,27/12/2025,Sim,Não,Falta de Comparência,60
+643,Urgência,Extração de Catarata,29/08/2025,Sim,Não,Falta de Comparência,165
+644,Acto Cirúrgico,Injecção Intravítrea,14/10/2025,Sim,Não,Critério Médico,118
+645,Urgência,Exérese de Pterígio,18/12/2025,Sim,Não,Falta de Comparência,431
+646,Electiva,Extração de Catarata,10/04/2025,Sim,Não,Critério Médico,408
+647,Urgência,Injecção Intravítrea,02/09/2025,Sim,Não,Outro,822
+648,Acto Cirúrgico,Exérese de Pterígio,20/08/2025,Sim,Não,Falta de Comparência,991
+649,Electiva,Extração de Catarata,30/12/2025,Sim,Sim,Falta de Comparência,936
+650,Electiva,Injecção Intravítrea,17/12/2025,Sim,Não,Falta de Comparência,893
+651,Electiva,Exérese de Pterígio,11/04/2025,Sim,Sim,Critério Médico,297
+652,Acto Cirúrgico,Exérese de Pterígio,20/06/2025,Sim,Não,Falta de Comparência,738
+653,Urgência,Exérese de Pterígio,13/08/2025,Não,Não,Falta de Comparência,539
+654,Electiva,Exérese de Pterígio,06/07/2025,Sim,Sim,Critério Médico,907
+655,Urgência,Exérese de Pterígio,09/08/2025,Sim,Não,Falta de Comparência,705
+656,Electiva,Injecção Intravítrea,03/06/2025,Sim,Não,Falta de Comparência,705
+657,Electiva,Injecção Intravítrea,05/08/2025,Não,Não,Outro,547
+658,Electiva,Extração de Catarata,04/12/2025,Sim,Não,Outro,592
+659,Electiva,Extração de Catarata,05/08/2025,Não,Sim,Falta de Comparência,42
+660,Urgência,Extração de Catarata,07/07/2025,Não,Não,Falta de Comparência,533
+661,Acto Cirúrgico,Injecção Intravítrea,05/03/2026,Não,Não,Critério Médico,951
+662,Urgência,Injecção Intravítrea,01/01/2026,Sim,Não,Outro,596
+663,Urgência,Injecção Intravítrea,05/06/2025,Sim,Não,Critério Médico,57
+664,Acto Cirúrgico,Exérese de Pterígio,18/05/2025,Não,Não,Outro,803
+665,Acto Cirúrgico,Injecção Intravítrea,02/02/2026,Não,Não,Outro,789
+666,Electiva,Extração de Catarata,08/12/2025,Sim,Não,Outro,149
+667,Acto Cirúrgico,Extração de Catarata,09/11/2025,Sim,Não,Falta de Comparência,391
+668,Urgência,Injecção Intravítrea,30/09/2025,Sim,Não,Critério Médico,571
+669,Electiva,Exérese de Pterígio,24/08/2025,Não,Sim,Outro,26
+670,Acto Cirúrgico,Injecção Intravítrea,16/09/2025,Sim,Sim,Outro,689
+671,Acto Cirúrgico,Extração de Catarata,25/03/2026,Não,Não,Outro,707
+672,Electiva,Extração de Catarata,02/04/2025,Não,Não,Outro,845
+673,Acto Cirúrgico,Extração de Catarata,30/11/2025,Sim,Não,Outro,990
+674,Acto Cirúrgico,Injecção Intravítrea,28/08/2025,Sim,Não,Outro,710
+675,Acto Cirúrgico,Extração de Catarata,26/01/2026,Sim,Sim,Falta de Comparência,192
+676,Acto Cirúrgico,Injecção Intravítrea,02/06/2025,Não,Não,Critério Médico,130
+677,Electiva,Exérese de Pterígio,01/05/2025,Sim,Não,Critério Médico,109
+678,Acto Cirúrgico,Exérese de Pterígio,20/03/2026,Sim,Não,Outro,192
+679,Electiva,Exérese de Pterígio,29/03/2026,Não,Não,Critério Médico,880
+680,Urgência,Extração de Catarata,08/07/2025,Sim,Sim,Falta de Comparência,844
+681,Urgência,Extração de Catarata,05/05/2025,Sim,Não,Critério Médico,422
+682,Electiva,Extração de Catarata,24/04/2025,Sim,Não,Critério Médico,721
+683,Electiva,Extração de Catarata,05/10/2025,Não,Não,Outro,492
+684,Electiva,Exérese de Pterígio,02/01/2026,Não,Não,Critério Médico,730
+685,Urgência,Injecção Intravítrea,05/08/2025,Não,Não,Critério Médico,144
+686,Urgência,Exérese de Pterígio,07/12/2025,Não,Não,Critério Médico,6
+687,Acto Cirúrgico,Injecção Intravítrea,22/05/2025,Não,Não,Outro,39
+688,Urgência,Exérese de Pterígio,28/07/2025,Sim,Sim,Falta de Comparência,458
+689,Electiva,Exérese de Pterígio,12/11/2025,Não,Não,Falta de Comparência,344
+690,Urgência,Extração de Catarata,20/07/2025,Sim,Sim,Critério Médico,37
+691,Acto Cirúrgico,Extração de Catarata,06/10/2025,Não,Sim,Critério Médico,777
+692,Acto Cirúrgico,Injecção Intravítrea,15/01/2026,Não,Não,Falta de Comparência,637
+693,Urgência,Extração de Catarata,26/06/2025,Sim,Não,Falta de Comparência,686
+694,Urgência,Injecção Intravítrea,04/01/2026,Sim,Sim,Critério Médico,755
+695,Electiva,Exérese de Pterígio,26/11/2025,Não,Não,Outro,383
+696,Electiva,Exérese de Pterígio,23/06/2025,Não,Sim,Falta de Comparência,676
+697,Urgência,Exérese de Pterígio,24/07/2025,Não,Sim,Falta de Comparência,976
+698,Urgência,Injecção Intravítrea,02/01/2026,Não,Não,Outro,592
+699,Urgência,Extração de Catarata,07/06/2025,Sim,Não,Critério Médico,669
+700,Acto Cirúrgico,Extração de Catarata,16/08/2025,Não,Sim,Falta de Comparência,292
+701,Electiva,Injecção Intravítrea,04/12/2025,Sim,Não,Critério Médico,664
+702,Urgência,Injecção Intravítrea,22/03/2026,Não,Não,Critério Médico,227
+703,Acto Cirúrgico,Injecção Intravítrea,14/01/2026,Não,Sim,Falta de Comparência,278
+704,Acto Cirúrgico,Injecção Intravítrea,16/10/2025,Sim,Não,Falta de Comparência,415
+705,Urgência,Injecção Intravítrea,14/07/2025,Sim,Não,Critério Médico,571
+706,Electiva,Exérese de Pterígio,14/07/2025,Sim,Sim,Outro,265
+707,Electiva,Exérese de Pterígio,13/06/2025,Sim,Não,Outro,646
+708,Acto Cirúrgico,Injecção Intravítrea,20/04/2025,Sim,Sim,Critério Médico,401
+709,Urgência,Exérese de Pterígio,28/12/2025,Não,Sim,Critério Médico,518
+710,Electiva,Injecção Intravítrea,24/12/2025,Sim,Sim,Critério Médico,880
+711,Electiva,Exérese de Pterígio,01/02/2026,Não,Não,Falta de Comparência,100
+712,Electiva,Injecção Intravítrea,05/03/2026,Sim,Sim,Outro,677
+713,Electiva,Exérese de Pterígio,14/01/2026,Sim,Sim,Critério Médico,857
+714,Acto Cirúrgico,Extração de Catarata,28/10/2025,Sim,Não,Falta de Comparência,138
+715,Electiva,Injecção Intravítrea,27/04/2025,Não,Sim,Falta de Comparência,675
+716,Urgência,Extração de Catarata,11/08/2025,Não,Não,Outro,698
+717,Urgência,Exérese de Pterígio,25/12/2025,Sim,Sim,Falta de Comparência,677
+718,Acto Cirúrgico,Exérese de Pterígio,15/09/2025,Sim,Sim,Critério Médico,951
+719,Electiva,Extração de Catarata,29/09/2025,Sim,Não,Outro,330
+720,Acto Cirúrgico,Exérese de Pterígio,05/11/2025,Não,Não,Critério Médico,297
+721,Electiva,Exérese de Pterígio,02/05/2025,Sim,Não,Falta de Comparência,637
+722,Electiva,Extração de Catarata,16/07/2025,Não,Não,Critério Médico,706
+723,Urgência,Extração de Catarata,05/09/2025,Sim,Não,Critério Médico,8
+724,Acto Cirúrgico,Injecção Intravítrea,16/01/2026,Sim,Não,Critério Médico,946
+725,Acto Cirúrgico,Exérese de Pterígio,17/05/2025,Sim,Não,Outro,802
+726,Urgência,Injecção Intravítrea,31/07/2025,Não,Sim,Critério Médico,624
+727,Acto Cirúrgico,Injecção Intravítrea,25/01/2026,Não,Sim,Falta de Comparência,149
+728,Acto Cirúrgico,Exérese de Pterígio,08/04/2025,Não,Sim,Critério Médico,540
+729,Urgência,Extração de Catarata,08/03/2026,Sim,Sim,Outro,533
+730,Urgência,Exérese de Pterígio,25/03/2026,Sim,Não,Outro,83
+731,Electiva,Exérese de Pterígio,22/06/2025,Sim,Não,Critério Médico,295
+732,Acto Cirúrgico,Extração de Catarata,21/12/2025,Não,Não,Critério Médico,934
+733,Electiva,Extração de Catarata,27/02/2026,Não,Não,Critério Médico,235
+734,Urgência,Extração de Catarata,13/07/2025,Não,Não,Critério Médico,124
+735,Urgência,Injecção Intravítrea,05/01/2026,Sim,Sim,Critério Médico,547
+736,Urgência,Exérese de Pterígio,22/10/2025,Sim,Não,Falta de Comparência,917
+737,Urgência,Injecção Intravítrea,17/09/2025,Sim,Não,Critério Médico,623
+738,Urgência,Extração de Catarata,26/11/2025,Sim,Não,Critério Médico,542
+739,Urgência,Injecção Intravítrea,15/07/2025,Sim,Não,Falta de Comparência,422
+740,Acto Cirúrgico,Exérese de Pterígio,28/02/2026,Sim,Sim,Outro,935
+741,Acto Cirúrgico,Extração de Catarata,26/02/2026,Não,Não,Falta de Comparência,107
+742,Acto Cirúrgico,Exérese de Pterígio,16/04/2025,Sim,Sim,Critério Médico,20
+743,Urgência,Extração de Catarata,18/09/2025,Não,Não,Falta de Comparência,520
+744,Acto Cirúrgico,Exérese de Pterígio,26/10/2025,Sim,Não,Critério Médico,413
+745,Urgência,Exérese de Pterígio,19/03/2026,Não,Não,Outro,398
+746,Urgência,Exérese de Pterígio,26/05/2025,Sim,Não,Critério Médico,406
+747,Urgência,Exérese de Pterígio,14/07/2025,Não,Sim,Outro,82
+748,Urgência,Injecção Intravítrea,04/08/2025,Sim,Sim,Falta de Comparência,192
+749,Urgência,Injecção Intravítrea,25/11/2025,Não,Sim,Critério Médico,390
+750,Urgência,Injecção Intravítrea,15/03/2026,Sim,Sim,Falta de Comparência,579
+751,Acto Cirúrgico,Injecção Intravítrea,03/12/2025,Não,Sim,Falta de Comparência,323
+752,Acto Cirúrgico,Extração de Catarata,29/07/2025,Sim,Não,Falta de Comparência,756
+753,Urgência,Exérese de Pterígio,27/08/2025,Não,Não,Outro,166
+754,Urgência,Exérese de Pterígio,01/08/2025,Sim,Não,Outro,538
+755,Acto Cirúrgico,Injecção Intravítrea,24/08/2025,Sim,Não,Critério Médico,650
+756,Acto Cirúrgico,Exérese de Pterígio,09/01/2026,Sim,Sim,Falta de Comparência,362
+757,Acto Cirúrgico,Extração de Catarata,07/05/2025,Não,Não,Critério Médico,406
+758,Acto Cirúrgico,Extração de Catarata,10/09/2025,Não,Não,Outro,821
+759,Urgência,Injecção Intravítrea,28/12/2025,Sim,Sim,Critério Médico,649
+760,Acto Cirúrgico,Extração de Catarata,03/01/2026,Não,Não,Critério Médico,497
+761,Urgência,Injecção Intravítrea,19/10/2025,Não,Sim,Outro,118
+762,Urgência,Exérese de Pterígio,24/02/2026,Sim,Não,Falta de Comparência,302
+763,Acto Cirúrgico,Extração de Catarata,16/12/2025,Sim,Sim,Critério Médico,40
+764,Electiva,Injecção Intravítrea,09/04/2025,Sim,Não,Falta de Comparência,621
+765,Urgência,Exérese de Pterígio,25/07/2025,Sim,Sim,Critério Médico,955
+766,Electiva,Extração de Catarata,03/01/2026,Não,Não,Critério Médico,658
+767,Urgência,Extração de Catarata,01/12/2025,Não,Não,Critério Médico,817
+768,Electiva,Exérese de Pterígio,15/04/2025,Sim,Sim,Outro,578
+769,Electiva,Extração de Catarata,18/02/2026,Sim,Não,Outro,291
+770,Urgência,Extração de Catarata,13/07/2025,Não,Sim,Critério Médico,587
+771,Acto Cirúrgico,Injecção Intravítrea,22/08/2025,Sim,Sim,Critério Médico,359
+772,Electiva,Exérese de Pterígio,29/09/2025,Sim,Não,Falta de Comparência,833
+773,Electiva,Injecção Intravítrea,30/12/2025,Não,Sim,Falta de Comparência,462
+774,Urgência,Extração de Catarata,02/01/2026,Sim,Não,Critério Médico,944
+775,Urgência,Exérese de Pterígio,01/01/2026,Não,Não,Outro,980
+776,Urgência,Extração de Catarata,15/06/2025,Não,Sim,Outro,686
+777,Electiva,Injecção Intravítrea,09/05/2025,Sim,Não,Falta de Comparência,519
+778,Acto Cirúrgico,Exérese de Pterígio,11/06/2025,Não,Sim,Outro,450
+779,Electiva,Injecção Intravítrea,06/06/2025,Não,Não,Critério Médico,310
+780,Electiva,Exérese de Pterígio,31/12/2025,Sim,Não,Falta de Comparência,84
+781,Acto Cirúrgico,Exérese de Pterígio,26/07/2025,Não,Não,Falta de Comparência,36
+782,Urgência,Exérese de Pterígio,19/06/2025,Não,Sim,Critério Médico,730
+783,Acto Cirúrgico,Injecção Intravítrea,10/03/2026,Não,Não,Outro,904
+784,Urgência,Exérese de Pterígio,09/09/2025,Não,Não,Falta de Comparência,855
+785,Electiva,Exérese de Pterígio,10/07/2025,Sim,Não,Critério Médico,824
+786,Acto Cirúrgico,Exérese de Pterígio,16/03/2026,Não,Sim,Outro,599
+787,Acto Cirúrgico,Injecção Intravítrea,09/08/2025,Não,Não,Outro,621
+788,Electiva,Injecção Intravítrea,16/04/2025,Não,Sim,Outro,72
+789,Urgência,Exérese de Pterígio,06/01/2026,Sim,Sim,Falta de Comparência,213
+790,Urgência,Extração de Catarata,15/12/2025,Não,Não,Outro,152
+791,Urgência,Extração de Catarata,11/03/2026,Sim,Não,Falta de Comparência,988
+792,Electiva,Injecção Intravítrea,27/12/2025,Não,Não,Outro,671
+793,Urgência,Injecção Intravítrea,11/10/2025,Não,Sim,Outro,300
+794,Acto Cirúrgico,Injecção Intravítrea,18/07/2025,Sim,Não,Falta de Comparência,131
+795,Acto Cirúrgico,Exérese de Pterígio,09/01/2026,Não,Não,Critério Médico,674
+796,Urgência,Extração de Catarata,29/10/2025,Não,Sim,Outro,496
+797,Electiva,Extração de Catarata,05/12/2025,Sim,Sim,Falta de Comparência,747
+798,Electiva,Exérese de Pterígio,06/02/2026,Não,Não,Falta de Comparência,480
+799,Acto Cirúrgico,Extração de Catarata,23/08/2025,Sim,Não,Falta de Comparência,423
+800,Electiva,Injecção Intravítrea,19/07/2025,Sim,Não,Critério Médico,367
+801,Acto Cirúrgico,Extração de Catarata,08/02/2026,Sim,Sim,Outro,929
+802,Electiva,Exérese de Pterígio,24/06/2025,Não,Não,Outro,177
+803,Urgência,Injecção Intravítrea,07/06/2025,Não,Não,Outro,628
+804,Urgência,Exérese de Pterígio,15/07/2025,Não,Não,Outro,927
+805,Urgência,Exérese de Pterígio,03/07/2025,Não,Não,Critério Médico,878
+806,Urgência,Injecção Intravítrea,08/10/2025,Não,Não,Outro,927
+807,Urgência,Injecção Intravítrea,07/07/2025,Não,Não,Outro,804
+808,Electiva,Exérese de Pterígio,21/12/2025,Sim,Não,Critério Médico,711
+809,Electiva,Extração de Catarata,10/10/2025,Não,Sim,Outro,763
+810,Urgência,Extração de Catarata,13/07/2025,Não,Não,Outro,663
+811,Acto Cirúrgico,Injecção Intravítrea,08/07/2025,Sim,Não,Falta de Comparência,287
+812,Electiva,Exérese de Pterígio,27/06/2025,Não,Sim,Falta de Comparência,607
+813,Urgência,Extração de Catarata,28/06/2025,Sim,Não,Falta de Comparência,549
+814,Electiva,Exérese de Pterígio,26/05/2025,Sim,Sim,Critério Médico,173
+815,Acto Cirúrgico,Extração de Catarata,10/12/2025,Sim,Sim,Outro,579
+816,Electiva,Extração de Catarata,14/05/2025,Sim,Não,Outro,992
+817,Acto Cirúrgico,Exérese de Pterígio,04/04/2025,Não,Não,Outro,319
+818,Acto Cirúrgico,Injecção Intravítrea,03/08/2025,Sim,Não,Falta de Comparência,473
+819,Acto Cirúrgico,Exérese de Pterígio,20/06/2025,Não,Não,Critério Médico,34
+820,Electiva,Extração de Catarata,01/12/2025,Não,Não,Falta de Comparência,101
+821,Acto Cirúrgico,Extração de Catarata,11/09/2025,Não,Não,Critério Médico,532
+822,Acto Cirúrgico,Exérese de Pterígio,19/01/2026,Sim,Não,Falta de Comparência,15
+823,Acto Cirúrgico,Extração de Catarata,09/08/2025,Não,Não,Critério Médico,748
+824,Electiva,Extração de Catarata,26/05/2025,Não,Não,Critério Médico,669
+825,Urgência,Injecção Intravítrea,05/04/2025,Não,Não,Falta de Comparência,71
+826,Electiva,Extração de Catarata,12/05/2025,Não,Sim,Falta de Comparência,5
+827,Electiva,Exérese de Pterígio,24/01/2026,Não,Não,Falta de Comparência,873
+828,Urgência,Extração de Catarata,17/08/2025,Sim,Não,Outro,203
+829,Urgência,Injecção Intravítrea,21/09/2025,Sim,Não,Critério Médico,85
+830,Urgência,Extração de Catarata,19/06/2025,Não,Não,Critério Médico,709
+831,Urgência,Extração de Catarata,04/09/2025,Não,Sim,Critério Médico,866
+832,Electiva,Injecção Intravítrea,05/04/2025,Não,Não,Falta de Comparência,70
+833,Electiva,Injecção Intravítrea,30/12/2025,Sim,Não,Critério Médico,974
+834,Electiva,Exérese de Pterígio,26/01/2026,Não,Sim,Critério Médico,564
+835,Urgência,Extração de Catarata,20/07/2025,Sim,Sim,Outro,374
+836,Urgência,Injecção Intravítrea,29/11/2025,Sim,Não,Outro,73
+837,Acto Cirúrgico,Injecção Intravítrea,07/12/2025,Não,Não,Outro,205
+838,Urgência,Exérese de Pterígio,24/01/2026,Sim,Não,Falta de Comparência,504
+839,Acto Cirúrgico,Injecção Intravítrea,28/08/2025,Não,Não,Outro,856
+840,Urgência,Extração de Catarata,28/04/2025,Não,Não,Critério Médico,364
+841,Acto Cirúrgico,Injecção Intravítrea,07/03/2026,Não,Não,Falta de Comparência,29
+842,Electiva,Injecção Intravítrea,31/01/2026,Sim,Não,Critério Médico,485
+843,Acto Cirúrgico,Injecção Intravítrea,21/09/2025,Não,Não,Outro,953
+844,Acto Cirúrgico,Exérese de Pterígio,29/12/2025,Sim,Não,Critério Médico,261
+845,Urgência,Injecção Intravítrea,14/12/2025,Sim,Não,Outro,570
+846,Electiva,Extração de Catarata,15/10/2025,Não,Sim,Outro,693
+847,Urgência,Extração de Catarata,28/03/2026,Sim,Não,Falta de Comparência,447
+848,Electiva,Extração de Catarata,19/04/2025,Sim,Não,Outro,323
+849,Acto Cirúrgico,Injecção Intravítrea,29/07/2025,Não,Não,Critério Médico,367
+850,Acto Cirúrgico,Injecção Intravítrea,15/01/2026,Não,Sim,Outro,9
+851,Electiva,Extração de Catarata,05/02/2026,Não,Não,Outro,827
+852,Urgência,Extração de Catarata,24/11/2025,Não,Não,Falta de Comparência,796
+853,Urgência,Exérese de Pterígio,13/10/2025,Não,Não,Critério Médico,923
+854,Urgência,Injecção Intravítrea,21/06/2025,Não,Não,Outro,52
+855,Acto Cirúrgico,Extração de Catarata,13/04/2025,Sim,Sim,Falta de Comparência,336
+856,Urgência,Exérese de Pterígio,26/10/2025,Sim,Não,Critério Médico,643
+857,Electiva,Extração de Catarata,14/12/2025,Não,Não,Outro,820
+858,Electiva,Injecção Intravítrea,09/11/2025,Não,Sim,Falta de Comparência,624
+859,Acto Cirúrgico,Injecção Intravítrea,24/06/2025,Sim,Não,Outro,190
+860,Electiva,Injecção Intravítrea,10/07/2025,Não,Não,Critério Médico,775
+861,Urgência,Extração de Catarata,16/05/2025,Sim,Não,Falta de Comparência,208
+862,Urgência,Exérese de Pterígio,07/05/2025,Sim,Sim,Outro,689
+863,Electiva,Injecção Intravítrea,12/07/2025,Não,Não,Falta de Comparência,779
+864,Acto Cirúrgico,Injecção Intravítrea,19/06/2025,Sim,Não,Critério Médico,314
+865,Electiva,Injecção Intravítrea,19/02/2026,Sim,Sim,Critério Médico,571
+866,Electiva,Extração de Catarata,09/11/2025,Não,Não,Falta de Comparência,289
+867,Electiva,Extração de Catarata,26/10/2025,Não,Não,Critério Médico,428
+868,Acto Cirúrgico,Extração de Catarata,10/04/2025,Sim,Não,Falta de Comparência,492
+869,Electiva,Exérese de Pterígio,05/03/2026,Sim,Não,Falta de Comparência,288
+870,Electiva,Injecção Intravítrea,23/04/2025,Sim,Não,Falta de Comparência,958
+871,Urgência,Exérese de Pterígio,18/02/2026,Sim,Não,Falta de Comparência,748
+872,Urgência,Extração de Catarata,27/04/2025,Sim,Não,Outro,863
+873,Urgência,Extração de Catarata,01/12/2025,Sim,Sim,Outro,900
+874,Urgência,Injecção Intravítrea,18/10/2025,Não,Não,Outro,726
+875,Urgência,Extração de Catarata,21/01/2026,Sim,Sim,Falta de Comparência,485
+876,Electiva,Extração de Catarata,19/06/2025,Sim,Sim,Critério Médico,303
+877,Urgência,Injecção Intravítrea,08/01/2026,Sim,Não,Falta de Comparência,638
+878,Acto Cirúrgico,Extração de Catarata,25/09/2025,Não,Sim,Critério Médico,344
+879,Urgência,Injecção Intravítrea,31/07/2025,Sim,Sim,Critério Médico,751
+880,Acto Cirúrgico,Injecção Intravítrea,11/05/2025,Sim,Sim,Outro,619
+881,Electiva,Extração de Catarata,19/04/2025,Não,Sim,Falta de Comparência,811
+882,Electiva,Injecção Intravítrea,22/10/2025,Sim,Não,Falta de Comparência,185
+883,Acto Cirúrgico,Exérese de Pterígio,29/04/2025,Não,Não,Critério Médico,89
+884,Urgência,Injecção Intravítrea,05/11/2025,Sim,Não,Falta de Comparência,33
+885,Urgência,Exérese de Pterígio,06/08/2025,Sim,Não,Critério Médico,612
+886,Electiva,Extração de Catarata,26/07/2025,Sim,Sim,Falta de Comparência,59
+887,Urgência,Extração de Catarata,26/12/2025,Não,Não,Outro,60
+888,Electiva,Injecção Intravítrea,20/09/2025,Sim,Não,Outro,53
+889,Electiva,Injecção Intravítrea,09/09/2025,Sim,Não,Falta de Comparência,358
+890,Urgência,Extração de Catarata,02/07/2025,Sim,Não,Falta de Comparência,416
+891,Urgência,Injecção Intravítrea,09/01/2026,Não,Sim,Falta de Comparência,168
+892,Acto Cirúrgico,Injecção Intravítrea,09/12/2025,Sim,Não,Critério Médico,840
+893,Urgência,Extração de Catarata,12/02/2026,Não,Não,Falta de Comparência,351
+894,Acto Cirúrgico,Injecção Intravítrea,12/06/2025,Não,Não,Outro,151
+895,Acto Cirúrgico,Exérese de Pterígio,22/01/2026,Não,Sim,Critério Médico,482
+896,Acto Cirúrgico,Extração de Catarata,25/05/2025,Não,Não,Outro,112
+897,Electiva,Extração de Catarata,28/06/2025,Não,Não,Outro,338
+898,Urgência,Injecção Intravítrea,10/10/2025,Sim,Sim,Falta de Comparência,322
+899,Electiva,Extração de Catarata,01/03/2026,Sim,Sim,Outro,897
+900,Acto Cirúrgico,Injecção Intravítrea,09/05/2025,Sim,Não,Critério Médico,804
+901,Urgência,Injecção Intravítrea,14/08/2025,Não,Sim,Falta de Comparência,493
+902,Urgência,Exérese de Pterígio,09/08/2025,Não,Não,Critério Médico,49
+903,Electiva,Extração de Catarata,30/08/2025,Não,Não,Critério Médico,818
+904,Acto Cirúrgico,Injecção Intravítrea,20/06/2025,Não,Sim,Critério Médico,194
+905,Acto Cirúrgico,Injecção Intravítrea,05/06/2025,Não,Não,Outro,941
+906,Acto Cirúrgico,Exérese de Pterígio,19/09/2025,Sim,Não,Outro,301
+907,Acto Cirúrgico,Injecção Intravítrea,26/05/2025,Sim,Não,Falta de Comparência,823
+908,Electiva,Extração de Catarata,24/11/2025,Não,Sim,Critério Médico,929
+909,Electiva,Injecção Intravítrea,26/07/2025,Sim,Não,Critério Médico,172
+910,Urgência,Extração de Catarata,31/01/2026,Sim,Não,Outro,671
+911,Electiva,Extração de Catarata,17/08/2025,Sim,Não,Outro,405
+912,Urgência,Injecção Intravítrea,30/04/2025,Sim,Sim,Outro,848
+913,Acto Cirúrgico,Extração de Catarata,06/05/2025,Sim,Não,Falta de Comparência,531
+914,Acto Cirúrgico,Exérese de Pterígio,30/03/2026,Sim,Sim,Outro,7
+915,Electiva,Injecção Intravítrea,20/09/2025,Sim,Sim,Critério Médico,292
+916,Electiva,Exérese de Pterígio,04/09/2025,Sim,Não,Falta de Comparência,748
+917,Urgência,Extração de Catarata,02/08/2025,Não,Sim,Critério Médico,719
+918,Urgência,Injecção Intravítrea,23/02/2026,Não,Não,Falta de Comparência,36
+919,Urgência,Injecção Intravítrea,17/03/2026,Sim,Não,Critério Médico,94
+920,Acto Cirúrgico,Injecção Intravítrea,04/08/2025,Sim,Não,Falta de Comparência,482
+921,Urgência,Extração de Catarata,18/11/2025,Não,Sim,Critério Médico,846
+922,Urgência,Exérese de Pterígio,07/05/2025,Não,Não,Critério Médico,600
+923,Acto Cirúrgico,Injecção Intravítrea,08/03/2026,Não,Não,Outro,281
+924,Urgência,Extração de Catarata,02/04/2025,Sim,Não,Critério Médico,1000
+925,Urgência,Extração de Catarata,23/03/2026,Sim,Não,Falta de Comparência,462
+926,Electiva,Extração de Catarata,26/01/2026,Sim,Sim,Critério Médico,483
+927,Electiva,Exérese de Pterígio,09/04/2025,Sim,Não,Critério Médico,560
+928,Electiva,Exérese de Pterígio,12/04/2025,Não,Não,Falta de Comparência,852
+929,Urgência,Extração de Catarata,12/02/2026,Não,Não,Falta de Comparência,653
+930,Acto Cirúrgico,Exérese de Pterígio,15/09/2025,Sim,Sim,Critério Médico,247
+931,Acto Cirúrgico,Injecção Intravítrea,04/08/2025,Não,Sim,Falta de Comparência,938
+932,Electiva,Injecção Intravítrea,03/01/2026,Sim,Não,Falta de Comparência,525
+933,Acto Cirúrgico,Injecção Intravítrea,17/03/2026,Não,Não,Critério Médico,806
+934,Electiva,Extração de Catarata,14/11/2025,Sim,Não,Outro,942
+935,Electiva,Injecção Intravítrea,29/08/2025,Sim,Sim,Falta de Comparência,592
+936,Electiva,Extração de Catarata,07/08/2025,Não,Sim,Falta de Comparência,683
+937,Electiva,Injecção Intravítrea,20/10/2025,Sim,Não,Falta de Comparência,464
+938,Acto Cirúrgico,Exérese de Pterígio,28/10/2025,Sim,Não,Outro,261
+939,Acto Cirúrgico,Extração de Catarata,01/09/2025,Sim,Sim,Falta de Comparência,990
+940,Urgência,Injecção Intravítrea,13/05/2025,Sim,Sim,Outro,903
+941,Urgência,Extração de Catarata,12/01/2026,Sim,Não,Falta de Comparência,852
+942,Acto Cirúrgico,Injecção Intravítrea,22/10/2025,Não,Sim,Falta de Comparência,867
+943,Acto Cirúrgico,Injecção Intravítrea,17/10/2025,Não,Não,Outro,227
+944,Urgência,Injecção Intravítrea,01/11/2025,Não,Sim,Critério Médico,137
+945,Urgência,Exérese de Pterígio,07/09/2025,Sim,Não,Critério Médico,514
+946,Acto Cirúrgico,Exérese de Pterígio,25/10/2025,Sim,Não,Falta de Comparência,17
+947,Acto Cirúrgico,Injecção Intravítrea,10/01/2026,Sim,Não,Outro,616
+948,Acto Cirúrgico,Exérese de Pterígio,04/03/2026,Sim,Não,Critério Médico,75
+949,Acto Cirúrgico,Exérese de Pterígio,20/06/2025,Sim,Não,Falta de Comparência,89
+950,Acto Cirúrgico,Extração de Catarata,28/10/2025,Não,Não,Falta de Comparência,668
+951,Acto Cirúrgico,Injecção Intravítrea,26/01/2026,Sim,Sim,Falta de Comparência,109
+952,Electiva,Exérese de Pterígio,14/07/2025,Não,Não,Outro,658
+953,Urgência,Exérese de Pterígio,29/09/2025,Não,Sim,Falta de Comparência,180
+954,Electiva,Exérese de Pterígio,25/05/2025,Não,Não,Critério Médico,618
+955,Acto Cirúrgico,Exérese de Pterígio,24/05/2025,Não,Sim,Falta de Comparência,431
+956,Acto Cirúrgico,Injecção Intravítrea,26/04/2025,Sim,Não,Falta de Comparência,709
+957,Urgência,Exérese de Pterígio,11/04/2025,Sim,Sim,Falta de Comparência,203
+958,Acto Cirúrgico,Extração de Catarata,13/07/2025,Não,Não,Falta de Comparência,1000
+959,Electiva,Injecção Intravítrea,26/06/2025,Não,Não,Outro,321
+960,Electiva,Injecção Intravítrea,10/06/2025,Sim,Não,Critério Médico,765
+961,Electiva,Extração de Catarata,10/09/2025,Não,Sim,Outro,930
+962,Urgência,Extração de Catarata,18/05/2025,Não,Não,Critério Médico,12
+963,Acto Cirúrgico,Extração de Catarata,22/09/2025,Sim,Não,Falta de Comparência,679
+964,Urgência,Extração de Catarata,23/07/2025,Sim,Não,Critério Médico,756
+965,Electiva,Extração de Catarata,17/03/2026,Sim,Sim,Falta de Comparência,430
+966,Acto Cirúrgico,Exérese de Pterígio,28/04/2025,Sim,Sim,Outro,164
+967,Electiva,Exérese de Pterígio,17/11/2025,Não,Sim,Falta de Comparência,226
+968,Acto Cirúrgico,Extração de Catarata,01/01/2026,Sim,Sim,Falta de Comparência,474
+969,Acto Cirúrgico,Extração de Catarata,19/12/2025,Sim,Não,Falta de Comparência,153
+970,Electiva,Extração de Catarata,24/04/2025,Sim,Não,Critério Médico,296
+971,Electiva,Extração de Catarata,01/02/2026,Não,Não,Critério Médico,714
+972,Acto Cirúrgico,Injecção Intravítrea,14/09/2025,Não,Não,Outro,49
+973,Acto Cirúrgico,Extração de Catarata,28/02/2026,Não,Sim,Critério Médico,476
+974,Electiva,Injecção Intravítrea,05/11/2025,Sim,Sim,Critério Médico,178
+975,Urgência,Injecção Intravítrea,20/07/2025,Sim,Não,Critério Médico,277
+976,Acto Cirúrgico,Injecção Intravítrea,05/02/2026,Não,Sim,Critério Médico,274
+977,Acto Cirúrgico,Extração de Catarata,27/09/2025,Não,Não,Outro,560
+978,Electiva,Extração de Catarata,11/11/2025,Não,Não,Critério Médico,720
+979,Electiva,Injecção Intravítrea,03/08/2025,Sim,Não,Outro,135
+980,Acto Cirúrgico,Extração de Catarata,15/03/2026,Sim,Sim,Critério Médico,938
+981,Urgência,Extração de Catarata,30/01/2026,Sim,Não,Falta de Comparência,425
+982,Electiva,Exérese de Pterígio,06/02/2026,Sim,Não,Critério Médico,493
+983,Electiva,Extração de Catarata,10/11/2025,Não,Não,Falta de Comparência,975
+984,Urgência,Injecção Intravítrea,22/09/2025,Sim,Não,Critério Médico,909
+985,Acto Cirúrgico,Exérese de Pterígio,13/03/2026,Não,Sim,Critério Médico,211
+986,Acto Cirúrgico,Injecção Intravítrea,15/06/2025,Não,Sim,Falta de Comparência,692
+987,Acto Cirúrgico,Exérese de Pterígio,05/02/2026,Sim,Não,Outro,841
+988,Electiva,Extração de Catarata,12/04/2025,Não,Sim,Outro,371
+989,Urgência,Exérese de Pterígio,21/09/2025,Não,Sim,Outro,541
+990,Acto Cirúrgico,Extração de Catarata,13/08/2025,Sim,Não,Critério Médico,894
+991,Urgência,Exérese de Pterígio,16/05/2025,Não,Não,Outro,213
+992,Acto Cirúrgico,Injecção Intravítrea,07/01/2026,Sim,Sim,Critério Médico,210
+993,Electiva,Exérese de Pterígio,22/05/2025,Sim,Não,Falta de Comparência,691
+994,Acto Cirúrgico,Extração de Catarata,29/04/2025,Não,Não,Outro,995
+995,Acto Cirúrgico,Exérese de Pterígio,30/09/2025,Não,Não,Outro,141
+996,Acto Cirúrgico,Injecção Intravítrea,29/12/2025,Sim,Não,Outro,841
+997,Urgência,Exérese de Pterígio,09/11/2025,Não,Sim,Critério Médico,935
+998,Electiva,Exérese de Pterígio,25/08/2025,Não,Não,Outro,217
+999,Electiva,Extração de Catarata,01/08/2025,Não,Não,Critério Médico,289
+1000,Electiva,Injecção Intravítrea,26/03/2026,Sim,Sim,Critério Médico,668
