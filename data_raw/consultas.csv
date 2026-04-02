@@ -1,0 +1,1001 @@
+id,data,tipo_consulta,faixa_etaria,sexo,id_medico,id_paciente
+1,06/03/2026,Medicina Interna,65+,Masculino,216,483
+2,18/01/2026,Anestesia,45-64,Feminino,589,291
+3,17/04/2025,Medicina Interna,25-44,Feminino,845,542
+4,26/04/2025,Oftalmologia,25-44,Feminino,841,857
+5,12/06/2025,Medicina Interna,15-24,Feminino,853,119
+6,13/08/2025,Oftalmologia,65+,Feminino,622,893
+7,30/12/2025,Oftalmologia,15-24,Masculino,593,606
+8,26/10/2025,Oftalmologia,25-44,Masculino,807,348
+9,01/09/2025,Oftalmologia,65+,Feminino,668,333
+10,20/12/2025,Medicina Interna,45-64,Feminino,855,264
+11,02/01/2026,Anestesia,15-24,Masculino,504,175
+12,30/09/2025,Medicina Interna,0-14,Masculino,686,853
+13,27/07/2025,Anestesia,0-14,Masculino,914,475
+14,26/01/2026,Medicina Interna,0-14,Feminino,180,339
+15,20/01/2026,Medicina Interna,15-24,Feminino,283,435
+16,11/11/2025,Anestesia,45-64,Masculino,429,159
+17,27/02/2026,Oftalmologia,65+,Feminino,82,166
+18,16/11/2025,Oftalmologia,25-44,Masculino,888,404
+19,10/09/2025,Anestesia,45-64,Feminino,357,590
+20,27/05/2025,Medicina Interna,45-64,Masculino,958,571
+21,29/07/2025,Oftalmologia,45-64,Feminino,976,734
+22,16/01/2026,Oftalmologia,0-14,Masculino,21,272
+23,16/10/2025,Oftalmologia,15-24,Feminino,136,268
+24,04/06/2025,Oftalmologia,25-44,Feminino,581,796
+25,30/09/2025,Oftalmologia,15-24,Masculino,525,140
+26,26/06/2025,Oftalmologia,0-14,Feminino,203,90
+27,16/06/2025,Medicina Interna,45-64,Masculino,664,373
+28,15/07/2025,Oftalmologia,45-64,Masculino,76,708
+29,24/08/2025,Medicina Interna,25-44,Masculino,300,253
+30,15/12/2025,Oftalmologia,15-24,Masculino,803,812
+31,12/04/2025,Anestesia,45-64,Masculino,578,359
+32,25/08/2025,Oftalmologia,25-44,Feminino,814,817
+33,07/09/2025,Oftalmologia,15-24,Feminino,478,733
+34,24/09/2025,Oftalmologia,45-64,Feminino,525,789
+35,07/09/2025,Medicina Interna,15-24,Feminino,956,495
+36,29/08/2025,Medicina Interna,45-64,Masculino,124,792
+37,21/02/2026,Oftalmologia,45-64,Masculino,423,516
+38,23/07/2025,Medicina Interna,15-24,Feminino,526,767
+39,14/01/2026,Anestesia,65+,Masculino,644,275
+40,13/09/2025,Medicina Interna,45-64,Masculino,399,712
+41,09/12/2025,Anestesia,15-24,Masculino,897,67
+42,06/08/2025,Anestesia,45-64,Masculino,258,881
+43,16/09/2025,Oftalmologia,45-64,Masculino,676,181
+44,13/09/2025,Oftalmologia,45-64,Masculino,430,308
+45,09/09/2025,Medicina Interna,45-64,Feminino,319,421
+46,18/10/2025,Oftalmologia,45-64,Feminino,246,831
+47,26/08/2025,Oftalmologia,45-64,Feminino,154,62
+48,17/10/2025,Medicina Interna,25-44,Feminino,622,237
+49,02/11/2025,Medicina Interna,0-14,Feminino,716,808
+50,21/02/2026,Oftalmologia,65+,Masculino,967,849
+51,19/04/2025,Oftalmologia,45-64,Feminino,176,775
+52,13/04/2025,Medicina Interna,45-64,Feminino,189,346
+53,13/01/2026,Oftalmologia,25-44,Masculino,585,187
+54,09/10/2025,Oftalmologia,45-64,Feminino,227,184
+55,09/10/2025,Oftalmologia,15-24,Feminino,28,236
+56,17/04/2025,Medicina Interna,45-64,Feminino,25,380
+57,18/07/2025,Medicina Interna,65+,Masculino,368,36
+58,09/11/2025,Oftalmologia,65+,Masculino,232,562
+59,03/01/2026,Oftalmologia,45-64,Feminino,779,260
+60,13/09/2025,Medicina Interna,45-64,Masculino,355,257
+61,20/12/2025,Oftalmologia,25-44,Feminino,838,506
+62,01/06/2025,Medicina Interna,65+,Feminino,553,267
+63,04/07/2025,Oftalmologia,0-14,Masculino,786,28
+64,25/07/2025,Oftalmologia,0-14,Feminino,939,479
+65,23/10/2025,Medicina Interna,25-44,Feminino,196,105
+66,23/04/2025,Medicina Interna,65+,Masculino,36,976
+67,21/01/2026,Anestesia,45-64,Feminino,14,314
+68,12/03/2026,Anestesia,65+,Feminino,716,335
+69,22/04/2025,Oftalmologia,0-14,Feminino,4,459
+70,26/06/2025,Oftalmologia,45-64,Masculino,319,674
+71,08/02/2026,Medicina Interna,0-14,Feminino,129,915
+72,12/06/2025,Medicina Interna,15-24,Feminino,314,946
+73,06/01/2026,Anestesia,45-64,Feminino,761,967
+74,09/06/2025,Oftalmologia,25-44,Feminino,485,430
+75,10/08/2025,Anestesia,45-64,Feminino,100,12
+76,29/04/2025,Medicina Interna,15-24,Masculino,99,729
+77,28/07/2025,Medicina Interna,45-64,Feminino,106,734
+78,11/04/2025,Medicina Interna,25-44,Masculino,371,862
+79,16/12/2025,Medicina Interna,0-14,Feminino,259,943
+80,02/08/2025,Medicina Interna,45-64,Feminino,254,518
+81,05/06/2025,Anestesia,25-44,Masculino,191,169
+82,01/02/2026,Oftalmologia,45-64,Feminino,156,399
+83,23/12/2025,Oftalmologia,0-14,Masculino,385,355
+84,10/09/2025,Medicina Interna,25-44,Feminino,374,152
+85,05/01/2026,Medicina Interna,65+,Masculino,661,8
+86,11/01/2026,Oftalmologia,25-44,Feminino,518,570
+87,12/08/2025,Anestesia,45-64,Masculino,749,445
+88,13/01/2026,Medicina Interna,15-24,Feminino,10,340
+89,30/12/2025,Oftalmologia,45-64,Feminino,657,226
+90,21/03/2026,Medicina Interna,0-14,Masculino,232,136
+91,27/02/2026,Medicina Interna,45-64,Feminino,8,262
+92,23/07/2025,Medicina Interna,65+,Feminino,737,33
+93,30/08/2025,Oftalmologia,45-64,Feminino,206,582
+94,08/11/2025,Oftalmologia,15-24,Masculino,428,400
+95,08/01/2026,Oftalmologia,45-64,Masculino,736,206
+96,12/05/2025,Oftalmologia,25-44,Feminino,731,152
+97,22/07/2025,Oftalmologia,45-64,Feminino,54,744
+98,12/03/2026,Medicina Interna,15-24,Feminino,964,315
+99,11/09/2025,Medicina Interna,0-14,Masculino,869,911
+100,20/11/2025,Oftalmologia,25-44,Feminino,224,424
+101,20/01/2026,Oftalmologia,65+,Masculino,163,350
+102,13/11/2025,Oftalmologia,65+,Masculino,634,624
+103,04/12/2025,Oftalmologia,65+,Feminino,229,768
+104,19/12/2025,Oftalmologia,0-14,Masculino,746,840
+105,29/12/2025,Oftalmologia,15-24,Feminino,864,214
+106,28/08/2025,Oftalmologia,25-44,Masculino,946,89
+107,03/07/2025,Medicina Interna,15-24,Masculino,87,426
+108,18/01/2026,Anestesia,65+,Masculino,648,325
+109,20/08/2025,Medicina Interna,45-64,Feminino,686,306
+110,26/12/2025,Anestesia,45-64,Masculino,681,570
+111,05/09/2025,Oftalmologia,45-64,Feminino,443,559
+112,28/06/2025,Oftalmologia,0-14,Masculino,173,237
+113,19/02/2026,Medicina Interna,15-24,Masculino,429,929
+114,19/11/2025,Medicina Interna,0-14,Feminino,28,302
+115,01/04/2026,Oftalmologia,45-64,Feminino,80,395
+116,25/08/2025,Oftalmologia,65+,Feminino,514,983
+117,21/05/2025,Anestesia,65+,Feminino,688,973
+118,03/08/2025,Anestesia,45-64,Masculino,718,461
+119,14/09/2025,Anestesia,45-64,Masculino,710,787
+120,02/04/2025,Oftalmologia,0-14,Masculino,204,61
+121,28/05/2025,Oftalmologia,45-64,Feminino,890,287
+122,11/04/2025,Oftalmologia,15-24,Feminino,379,520
+123,20/12/2025,Medicina Interna,0-14,Feminino,462,475
+124,13/07/2025,Oftalmologia,65+,Masculino,713,630
+125,20/07/2025,Oftalmologia,65+,Masculino,272,273
+126,01/12/2025,Medicina Interna,45-64,Masculino,199,404
+127,15/08/2025,Oftalmologia,15-24,Masculino,971,721
+128,13/10/2025,Anestesia,45-64,Feminino,834,697
+129,13/05/2025,Anestesia,45-64,Masculino,727,726
+130,06/10/2025,Oftalmologia,25-44,Masculino,842,94
+131,10/05/2025,Oftalmologia,45-64,Masculino,198,779
+132,14/11/2025,Medicina Interna,65+,Feminino,431,262
+133,30/10/2025,Medicina Interna,25-44,Masculino,330,219
+134,02/10/2025,Oftalmologia,15-24,Feminino,517,685
+135,30/06/2025,Medicina Interna,65+,Masculino,892,454
+136,25/02/2026,Anestesia,15-24,Masculino,892,328
+137,05/08/2025,Oftalmologia,65+,Masculino,899,197
+138,10/12/2025,Oftalmologia,15-24,Feminino,394,441
+139,29/01/2026,Oftalmologia,15-24,Feminino,435,427
+140,30/11/2025,Oftalmologia,15-24,Feminino,618,19
+141,03/09/2025,Medicina Interna,0-14,Feminino,45,370
+142,25/02/2026,Oftalmologia,25-44,Masculino,588,335
+143,15/01/2026,Oftalmologia,65+,Masculino,526,876
+144,16/02/2026,Medicina Interna,45-64,Masculino,21,42
+145,18/03/2026,Medicina Interna,0-14,Feminino,444,439
+146,06/09/2025,Oftalmologia,65+,Masculino,158,330
+147,03/02/2026,Anestesia,45-64,Masculino,259,282
+148,06/06/2025,Oftalmologia,45-64,Feminino,463,714
+149,04/11/2025,Oftalmologia,65+,Masculino,433,133
+150,09/04/2025,Oftalmologia,45-64,Masculino,568,375
+151,30/04/2025,Oftalmologia,25-44,Feminino,524,27
+152,13/11/2025,Medicina Interna,15-24,Masculino,488,312
+153,11/06/2025,Oftalmologia,45-64,Feminino,516,414
+154,03/04/2025,Oftalmologia,0-14,Feminino,946,993
+155,10/04/2025,Medicina Interna,15-24,Masculino,411,113
+156,02/01/2026,Medicina Interna,45-64,Masculino,381,713
+157,06/02/2026,Oftalmologia,45-64,Masculino,174,912
+158,02/10/2025,Oftalmologia,25-44,Masculino,310,828
+159,11/08/2025,Oftalmologia,45-64,Masculino,568,617
+160,02/02/2026,Medicina Interna,65+,Feminino,35,786
+161,24/03/2026,Oftalmologia,65+,Masculino,697,608
+162,10/11/2025,Oftalmologia,45-64,Feminino,557,975
+163,06/03/2026,Oftalmologia,65+,Masculino,265,940
+164,24/03/2026,Oftalmologia,65+,Feminino,613,819
+165,06/02/2026,Medicina Interna,15-24,Masculino,847,44
+166,19/11/2025,Anestesia,45-64,Feminino,689,271
+167,01/03/2026,Medicina Interna,15-24,Masculino,78,572
+168,05/07/2025,Oftalmologia,45-64,Masculino,73,576
+169,26/08/2025,Medicina Interna,0-14,Masculino,471,137
+170,18/07/2025,Medicina Interna,15-24,Feminino,21,514
+171,04/05/2025,Medicina Interna,0-14,Feminino,168,887
+172,24/02/2026,Oftalmologia,15-24,Feminino,137,806
+173,17/08/2025,Anestesia,65+,Masculino,519,74
+174,16/01/2026,Anestesia,45-64,Masculino,877,199
+175,21/06/2025,Medicina Interna,65+,Feminino,477,92
+176,26/04/2025,Oftalmologia,15-24,Masculino,269,375
+177,20/12/2025,Oftalmologia,0-14,Feminino,967,816
+178,04/08/2025,Medicina Interna,25-44,Feminino,995,152
+179,13/07/2025,Medicina Interna,45-64,Feminino,360,632
+180,05/09/2025,Oftalmologia,45-64,Masculino,737,981
+181,03/06/2025,Anestesia,25-44,Feminino,182,452
+182,22/11/2025,Oftalmologia,25-44,Feminino,949,322
+183,07/04/2025,Anestesia,45-64,Masculino,132,131
+184,13/02/2026,Medicina Interna,45-64,Feminino,481,4
+185,12/12/2025,Medicina Interna,0-14,Masculino,121,154
+186,16/12/2025,Anestesia,15-24,Feminino,469,472
+187,08/04/2025,Oftalmologia,45-64,Masculino,310,488
+188,04/09/2025,Oftalmologia,45-64,Masculino,667,923
+189,03/04/2025,Oftalmologia,15-24,Feminino,312,48
+190,10/09/2025,Medicina Interna,45-64,Masculino,49,93
+191,02/03/2026,Medicina Interna,0-14,Masculino,533,50
+192,19/10/2025,Medicina Interna,65+,Masculino,526,654
+193,19/07/2025,Oftalmologia,65+,Masculino,852,646
+194,24/12/2025,Oftalmologia,45-64,Masculino,960,558
+195,18/01/2026,Oftalmologia,0-14,Masculino,363,264
+196,28/10/2025,Oftalmologia,25-44,Feminino,530,515
+197,03/05/2025,Oftalmologia,25-44,Feminino,883,431
+198,20/12/2025,Anestesia,65+,Masculino,524,438
+199,28/10/2025,Medicina Interna,0-14,Masculino,352,658
+200,21/09/2025,Oftalmologia,65+,Feminino,74,155
+201,28/08/2025,Oftalmologia,65+,Masculino,605,0
+202,27/07/2025,Oftalmologia,65+,Masculino,501,530
+203,07/07/2025,Oftalmologia,15-24,Masculino,615,935
+204,15/08/2025,Anestesia,0-14,Feminino,638,67
+205,09/01/2026,Oftalmologia,15-24,Masculino,923,592
+206,09/05/2025,Oftalmologia,0-14,Feminino,296,846
+207,03/06/2025,Medicina Interna,45-64,Masculino,104,970
+208,04/10/2025,Oftalmologia,65+,Feminino,461,459
+209,28/11/2025,Oftalmologia,65+,Feminino,652,457
+210,25/09/2025,Anestesia,45-64,Masculino,623,887
+211,20/03/2026,Anestesia,15-24,Feminino,900,459
+212,29/08/2025,Anestesia,15-24,Feminino,36,220
+213,06/12/2025,Oftalmologia,65+,Masculino,126,675
+214,17/10/2025,Anestesia,65+,Feminino,438,670
+215,27/05/2025,Medicina Interna,25-44,Masculino,787,520
+216,29/11/2025,Anestesia,0-14,Feminino,41,868
+217,31/01/2026,Medicina Interna,0-14,Masculino,795,549
+218,09/03/2026,Medicina Interna,25-44,Masculino,227,604
+219,22/03/2026,Oftalmologia,15-24,Masculino,847,879
+220,02/05/2025,Oftalmologia,45-64,Feminino,752,592
+221,03/08/2025,Medicina Interna,0-14,Feminino,506,804
+222,08/06/2025,Medicina Interna,45-64,Feminino,776,923
+223,04/09/2025,Oftalmologia,65+,Masculino,166,901
+224,17/03/2026,Oftalmologia,0-14,Masculino,448,466
+225,07/08/2025,Medicina Interna,15-24,Masculino,831,362
+226,08/11/2025,Medicina Interna,0-14,Masculino,965,364
+227,08/09/2025,Medicina Interna,15-24,Masculino,618,708
+228,18/09/2025,Oftalmologia,25-44,Masculino,769,972
+229,15/10/2025,Oftalmologia,25-44,Masculino,243,825
+230,10/04/2025,Oftalmologia,15-24,Feminino,122,618
+231,18/11/2025,Medicina Interna,45-64,Masculino,582,212
+232,15/10/2025,Anestesia,65+,Masculino,457,799
+233,13/10/2025,Medicina Interna,0-14,Feminino,25,130
+234,03/01/2026,Medicina Interna,0-14,Feminino,541,841
+235,20/05/2025,Medicina Interna,0-14,Feminino,715,337
+236,29/07/2025,Anestesia,45-64,Feminino,714,778
+237,14/02/2026,Medicina Interna,65+,Masculino,841,255
+238,05/03/2026,Oftalmologia,0-14,Masculino,976,599
+239,20/07/2025,Oftalmologia,15-24,Masculino,792,65
+240,27/06/2025,Medicina Interna,45-64,Masculino,722,927
+241,29/10/2025,Oftalmologia,45-64,Feminino,154,620
+242,20/03/2026,Oftalmologia,15-24,Masculino,618,908
+243,08/07/2025,Oftalmologia,15-24,Feminino,481,526
+244,25/08/2025,Oftalmologia,45-64,Masculino,334,272
+245,07/04/2025,Medicina Interna,65+,Masculino,183,414
+246,03/04/2025,Oftalmologia,25-44,Masculino,539,416
+247,17/07/2025,Oftalmologia,65+,Masculino,412,490
+248,10/02/2026,Oftalmologia,0-14,Feminino,413,518
+249,14/05/2025,Medicina Interna,15-24,Feminino,847,781
+250,25/03/2026,Anestesia,0-14,Feminino,498,442
+251,13/06/2025,Oftalmologia,45-64,Masculino,399,540
+252,11/05/2025,Medicina Interna,15-24,Feminino,431,467
+253,09/03/2026,Medicina Interna,45-64,Masculino,631,369
+254,20/02/2026,Oftalmologia,25-44,Feminino,673,376
+255,27/12/2025,Oftalmologia,65+,Masculino,435,997
+256,22/06/2025,Oftalmologia,65+,Feminino,782,552
+257,25/12/2025,Oftalmologia,15-24,Feminino,759,557
+258,04/07/2025,Oftalmologia,0-14,Masculino,282,751
+259,04/03/2026,Oftalmologia,65+,Feminino,512,302
+260,02/09/2025,Oftalmologia,65+,Feminino,587,804
+261,10/05/2025,Oftalmologia,45-64,Feminino,513,476
+262,01/04/2026,Oftalmologia,65+,Feminino,512,265
+263,20/06/2025,Anestesia,45-64,Masculino,543,755
+264,05/10/2025,Oftalmologia,45-64,Feminino,351,999
+265,22/01/2026,Medicina Interna,0-14,Feminino,538,376
+266,25/05/2025,Medicina Interna,45-64,Masculino,856,507
+267,27/02/2026,Anestesia,45-64,Masculino,29,626
+268,29/05/2025,Oftalmologia,45-64,Masculino,683,762
+269,27/03/2026,Medicina Interna,65+,Masculino,596,133
+270,24/05/2025,Oftalmologia,15-24,Masculino,805,119
+271,02/03/2026,Oftalmologia,45-64,Masculino,377,361
+272,12/11/2025,Oftalmologia,15-24,Masculino,762,528
+273,12/04/2025,Oftalmologia,25-44,Feminino,146,644
+274,08/02/2026,Oftalmologia,15-24,Masculino,615,932
+275,06/01/2026,Oftalmologia,0-14,Feminino,454,189
+276,09/09/2025,Medicina Interna,25-44,Feminino,142,503
+277,19/09/2025,Medicina Interna,25-44,Feminino,462,981
+278,12/03/2026,Medicina Interna,25-44,Masculino,195,13
+279,25/06/2025,Medicina Interna,45-64,Masculino,337,378
+280,06/04/2025,Medicina Interna,0-14,Masculino,109,528
+281,08/04/2025,Oftalmologia,25-44,Feminino,128,716
+282,26/09/2025,Anestesia,15-24,Feminino,828,821
+283,01/11/2025,Oftalmologia,0-14,Masculino,956,324
+284,06/12/2025,Oftalmologia,0-14,Feminino,243,292
+285,02/09/2025,Oftalmologia,65+,Masculino,397,803
+286,27/03/2026,Medicina Interna,65+,Feminino,356,748
+287,26/08/2025,Medicina Interna,65+,Feminino,925,18
+288,04/02/2026,Medicina Interna,0-14,Feminino,959,453
+289,15/08/2025,Medicina Interna,65+,Masculino,150,359
+290,31/10/2025,Medicina Interna,25-44,Feminino,810,416
+291,06/05/2025,Oftalmologia,25-44,Feminino,805,963
+292,03/09/2025,Medicina Interna,15-24,Masculino,283,102
+293,03/03/2026,Oftalmologia,25-44,Feminino,22,453
+294,18/04/2025,Anestesia,0-14,Masculino,995,320
+295,26/10/2025,Medicina Interna,65+,Feminino,264,787
+296,19/08/2025,Medicina Interna,15-24,Feminino,648,699
+297,02/02/2026,Medicina Interna,15-24,Masculino,406,75
+298,12/05/2025,Oftalmologia,65+,Masculino,123,104
+299,09/02/2026,Anestesia,45-64,Feminino,437,504
+300,15/10/2025,Oftalmologia,45-64,Feminino,941,978
+301,13/08/2025,Medicina Interna,25-44,Feminino,477,657
+302,22/02/2026,Anestesia,45-64,Feminino,858,815
+303,27/04/2025,Medicina Interna,65+,Masculino,958,345
+304,24/08/2025,Oftalmologia,45-64,Feminino,582,87
+305,24/11/2025,Oftalmologia,25-44,Masculino,332,985
+306,16/03/2026,Oftalmologia,45-64,Feminino,570,784
+307,18/06/2025,Anestesia,45-64,Feminino,265,301
+308,23/09/2025,Oftalmologia,45-64,Feminino,858,214
+309,20/12/2025,Oftalmologia,65+,Feminino,241,294
+310,12/02/2026,Oftalmologia,45-64,Feminino,734,49
+311,10/11/2025,Anestesia,65+,Masculino,471,522
+312,05/02/2026,Medicina Interna,15-24,Feminino,584,371
+313,06/09/2025,Oftalmologia,65+,Feminino,522,701
+314,26/12/2025,Oftalmologia,45-64,Masculino,176,738
+315,22/04/2025,Anestesia,45-64,Masculino,699,430
+316,24/01/2026,Anestesia,0-14,Masculino,711,9
+317,13/05/2025,Oftalmologia,65+,Feminino,711,548
+318,21/12/2025,Medicina Interna,25-44,Feminino,195,319
+319,11/01/2026,Anestesia,25-44,Feminino,187,557
+320,09/08/2025,Oftalmologia,65+,Feminino,80,31
+321,13/09/2025,Anestesia,15-24,Masculino,854,99
+322,08/05/2025,Medicina Interna,15-24,Feminino,354,456
+323,15/09/2025,Oftalmologia,45-64,Masculino,112,452
+324,17/11/2025,Anestesia,15-24,Feminino,682,773
+325,23/06/2025,Medicina Interna,15-24,Masculino,157,373
+326,27/12/2025,Medicina Interna,25-44,Masculino,485,45
+327,05/04/2025,Anestesia,25-44,Masculino,19,542
+328,04/11/2025,Oftalmologia,0-14,Feminino,360,770
+329,15/09/2025,Anestesia,45-64,Masculino,64,209
+330,04/12/2025,Medicina Interna,65+,Masculino,992,770
+331,26/12/2025,Oftalmologia,45-64,Masculino,742,89
+332,13/11/2025,Oftalmologia,25-44,Feminino,618,991
+333,09/10/2025,Oftalmologia,0-14,Feminino,514,196
+334,17/06/2025,Oftalmologia,65+,Masculino,651,670
+335,20/11/2025,Oftalmologia,45-64,Feminino,770,408
+336,31/05/2025,Oftalmologia,15-24,Feminino,873,261
+337,21/11/2025,Anestesia,15-24,Masculino,344,257
+338,19/12/2025,Anestesia,15-24,Feminino,110,847
+339,04/07/2025,Oftalmologia,45-64,Feminino,667,283
+340,01/12/2025,Oftalmologia,45-64,Feminino,33,418
+341,26/12/2025,Anestesia,65+,Masculino,241,7
+342,02/12/2025,Medicina Interna,25-44,Feminino,40,255
+343,03/02/2026,Medicina Interna,25-44,Feminino,273,767
+344,21/08/2025,Medicina Interna,15-24,Feminino,12,806
+345,04/03/2026,Medicina Interna,0-14,Feminino,541,313
+346,21/11/2025,Medicina Interna,45-64,Masculino,513,948
+347,21/12/2025,Medicina Interna,0-14,Feminino,454,590
+348,01/06/2025,Medicina Interna,0-14,Masculino,718,981
+349,25/04/2025,Oftalmologia,65+,Feminino,708,942
+350,19/04/2025,Oftalmologia,65+,Masculino,483,933
+351,25/09/2025,Medicina Interna,45-64,Masculino,388,234
+352,04/08/2025,Oftalmologia,45-64,Feminino,867,289
+353,25/07/2025,Anestesia,15-24,Feminino,607,48
+354,28/02/2026,Anestesia,65+,Masculino,61,904
+355,17/06/2025,Oftalmologia,0-14,Masculino,929,859
+356,12/08/2025,Oftalmologia,0-14,Masculino,499,820
+357,10/05/2025,Oftalmologia,15-24,Feminino,564,488
+358,24/02/2026,Oftalmologia,15-24,Masculino,706,107
+359,11/02/2026,Medicina Interna,65+,Feminino,535,953
+360,03/11/2025,Oftalmologia,0-14,Feminino,857,334
+361,28/11/2025,Oftalmologia,45-64,Masculino,27,229
+362,11/01/2026,Oftalmologia,45-64,Masculino,913,97
+363,23/02/2026,Medicina Interna,45-64,Masculino,408,187
+364,02/04/2025,Medicina Interna,45-64,Feminino,808,89
+365,26/05/2025,Anestesia,0-14,Masculino,690,432
+366,23/03/2026,Oftalmologia,65+,Masculino,710,461
+367,03/04/2025,Anestesia,65+,Masculino,861,456
+368,21/08/2025,Medicina Interna,65+,Feminino,105,631
+369,29/06/2025,Anestesia,25-44,Feminino,783,751
+370,27/08/2025,Oftalmologia,25-44,Masculino,50,268
+371,14/07/2025,Oftalmologia,65+,Feminino,494,441
+372,17/09/2025,Oftalmologia,0-14,Feminino,257,740
+373,07/05/2025,Anestesia,45-64,Feminino,432,769
+374,23/05/2025,Medicina Interna,45-64,Feminino,213,709
+375,06/06/2025,Medicina Interna,65+,Masculino,848,46
+376,15/08/2025,Oftalmologia,0-14,Feminino,969,627
+377,08/05/2025,Oftalmologia,65+,Masculino,39,884
+378,29/07/2025,Oftalmologia,15-24,Masculino,993,897
+379,01/05/2025,Oftalmologia,25-44,Feminino,19,105
+380,08/08/2025,Medicina Interna,65+,Feminino,321,788
+381,01/07/2025,Anestesia,0-14,Feminino,490,975
+382,11/02/2026,Oftalmologia,45-64,Feminino,350,796
+383,28/05/2025,Oftalmologia,45-64,Masculino,561,908
+384,16/12/2025,Oftalmologia,25-44,Masculino,371,641
+385,14/08/2025,Medicina Interna,45-64,Masculino,672,536
+386,08/10/2025,Oftalmologia,45-64,Masculino,786,325
+387,13/11/2025,Oftalmologia,15-24,Masculino,866,511
+388,15/08/2025,Oftalmologia,45-64,Masculino,820,7
+389,04/08/2025,Medicina Interna,65+,Masculino,89,931
+390,11/01/2026,Oftalmologia,45-64,Feminino,38,73
+391,04/10/2025,Anestesia,0-14,Masculino,675,250
+392,14/10/2025,Oftalmologia,65+,Masculino,263,555
+393,22/09/2025,Medicina Interna,45-64,Feminino,719,155
+394,10/09/2025,Oftalmologia,15-24,Masculino,949,220
+395,18/11/2025,Oftalmologia,15-24,Masculino,11,453
+396,18/11/2025,Anestesia,15-24,Masculino,404,948
+397,21/09/2025,Medicina Interna,45-64,Masculino,826,840
+398,22/03/2026,Oftalmologia,0-14,Feminino,24,752
+399,07/09/2025,Oftalmologia,15-24,Feminino,319,845
+400,03/10/2025,Oftalmologia,0-14,Feminino,199,895
+401,25/02/2026,Medicina Interna,15-24,Masculino,162,483
+402,04/03/2026,Anestesia,15-24,Feminino,996,542
+403,02/05/2025,Anestesia,25-44,Masculino,382,331
+404,08/11/2025,Medicina Interna,45-64,Masculino,968,401
+405,19/03/2026,Oftalmologia,0-14,Feminino,404,259
+406,22/01/2026,Oftalmologia,65+,Masculino,603,355
+407,09/11/2025,Medicina Interna,65+,Feminino,122,549
+408,29/08/2025,Medicina Interna,65+,Masculino,263,524
+409,27/02/2026,Medicina Interna,0-14,Masculino,824,786
+410,25/06/2025,Oftalmologia,0-14,Feminino,711,654
+411,22/03/2026,Medicina Interna,65+,Feminino,63,306
+412,28/06/2025,Oftalmologia,15-24,Feminino,237,444
+413,12/01/2026,Oftalmologia,45-64,Feminino,607,747
+414,04/02/2026,Oftalmologia,45-64,Masculino,654,542
+415,12/12/2025,Medicina Interna,45-64,Feminino,451,848
+416,07/02/2026,Anestesia,45-64,Masculino,68,321
+417,06/03/2026,Oftalmologia,15-24,Feminino,297,75
+418,28/06/2025,Oftalmologia,65+,Feminino,274,548
+419,22/05/2025,Medicina Interna,45-64,Masculino,496,824
+420,14/04/2025,Anestesia,65+,Masculino,943,925
+421,17/02/2026,Oftalmologia,15-24,Feminino,380,843
+422,03/12/2025,Medicina Interna,45-64,Feminino,423,515
+423,06/07/2025,Medicina Interna,15-24,Feminino,286,963
+424,03/01/2026,Medicina Interna,45-64,Masculino,736,749
+425,04/10/2025,Oftalmologia,25-44,Feminino,59,386
+426,27/12/2025,Oftalmologia,15-24,Masculino,576,201
+427,26/06/2025,Anestesia,45-64,Masculino,464,368
+428,16/10/2025,Anestesia,25-44,Feminino,380,103
+429,17/12/2025,Medicina Interna,15-24,Feminino,165,60
+430,10/06/2025,Medicina Interna,45-64,Feminino,530,208
+431,17/09/2025,Medicina Interna,25-44,Masculino,866,181
+432,06/10/2025,Medicina Interna,25-44,Feminino,925,532
+433,08/04/2025,Medicina Interna,25-44,Masculino,983,243
+434,27/03/2026,Oftalmologia,65+,Masculino,344,84
+435,08/10/2025,Medicina Interna,15-24,Feminino,290,767
+436,03/06/2025,Oftalmologia,45-64,Masculino,598,558
+437,04/09/2025,Medicina Interna,25-44,Feminino,609,384
+438,21/08/2025,Medicina Interna,45-64,Masculino,67,482
+439,08/04/2025,Oftalmologia,65+,Masculino,102,802
+440,05/02/2026,Oftalmologia,15-24,Feminino,737,778
+441,15/04/2025,Medicina Interna,25-44,Feminino,969,644
+442,11/01/2026,Oftalmologia,25-44,Feminino,252,806
+443,03/10/2025,Medicina Interna,45-64,Masculino,257,976
+444,04/12/2025,Medicina Interna,65+,Masculino,873,639
+445,21/07/2025,Oftalmologia,45-64,Masculino,856,332
+446,13/05/2025,Oftalmologia,15-24,Masculino,771,459
+447,09/09/2025,Medicina Interna,15-24,Feminino,433,114
+448,09/06/2025,Oftalmologia,45-64,Feminino,92,194
+449,13/09/2025,Anestesia,25-44,Feminino,863,744
+450,17/12/2025,Medicina Interna,15-24,Masculino,955,261
+451,13/09/2025,Oftalmologia,45-64,Masculino,799,469
+452,07/12/2025,Medicina Interna,45-64,Feminino,96,540
+453,29/04/2025,Medicina Interna,25-44,Feminino,385,381
+454,01/07/2025,Anestesia,0-14,Feminino,742,708
+455,28/11/2025,Medicina Interna,25-44,Feminino,984,85
+456,26/04/2025,Oftalmologia,45-64,Feminino,369,495
+457,07/04/2025,Oftalmologia,0-14,Masculino,786,348
+458,05/06/2025,Oftalmologia,45-64,Masculino,700,91
+459,06/05/2025,Oftalmologia,15-24,Masculino,710,821
+460,26/09/2025,Oftalmologia,15-24,Feminino,198,954
+461,26/11/2025,Oftalmologia,0-14,Masculino,80,43
+462,10/05/2025,Oftalmologia,25-44,Masculino,92,525
+463,02/03/2026,Medicina Interna,45-64,Feminino,258,189
+464,02/06/2025,Oftalmologia,45-64,Masculino,489,847
+465,24/09/2025,Oftalmologia,15-24,Feminino,719,155
+466,13/08/2025,Anestesia,65+,Masculino,669,462
+467,12/05/2025,Medicina Interna,0-14,Masculino,652,868
+468,24/02/2026,Medicina Interna,45-64,Feminino,570,174
+469,17/09/2025,Anestesia,45-64,Masculino,627,275
+470,14/09/2025,Oftalmologia,45-64,Masculino,238,267
+471,21/03/2026,Oftalmologia,0-14,Feminino,250,139
+472,21/05/2025,Medicina Interna,65+,Feminino,435,126
+473,09/06/2025,Medicina Interna,15-24,Feminino,991,256
+474,10/09/2025,Medicina Interna,25-44,Masculino,628,447
+475,11/11/2025,Medicina Interna,15-24,Masculino,238,654
+476,30/12/2025,Oftalmologia,65+,Masculino,21,184
+477,28/09/2025,Oftalmologia,45-64,Feminino,583,458
+478,02/01/2026,Anestesia,25-44,Masculino,796,967
+479,01/08/2025,Oftalmologia,0-14,Feminino,640,673
+480,20/11/2025,Anestesia,45-64,Feminino,822,51
+481,14/12/2025,Medicina Interna,65+,Masculino,969,868
+482,17/10/2025,Medicina Interna,25-44,Feminino,929,647
+483,24/11/2025,Medicina Interna,65+,Feminino,925,162
+484,21/01/2026,Medicina Interna,45-64,Masculino,668,63
+485,11/07/2025,Oftalmologia,65+,Feminino,991,307
+486,11/09/2025,Oftalmologia,0-14,Masculino,102,450
+487,06/09/2025,Medicina Interna,45-64,Feminino,758,467
+488,25/12/2025,Medicina Interna,0-14,Feminino,268,115
+489,11/11/2025,Medicina Interna,45-64,Masculino,609,881
+490,21/10/2025,Anestesia,25-44,Feminino,337,526
+491,09/08/2025,Medicina Interna,65+,Feminino,385,896
+492,14/04/2025,Medicina Interna,25-44,Masculino,308,843
+493,20/04/2025,Medicina Interna,45-64,Masculino,678,867
+494,26/03/2026,Oftalmologia,45-64,Masculino,247,483
+495,19/11/2025,Oftalmologia,65+,Masculino,17,970
+496,29/12/2025,Anestesia,45-64,Masculino,541,790
+497,09/03/2026,Oftalmologia,45-64,Masculino,435,673
+498,17/03/2026,Medicina Interna,45-64,Feminino,544,36
+499,21/12/2025,Anestesia,15-24,Masculino,731,273
+500,16/07/2025,Oftalmologia,0-14,Feminino,42,20
+501,26/01/2026,Medicina Interna,45-64,Feminino,474,291
+502,12/02/2026,Oftalmologia,25-44,Feminino,386,612
+503,05/03/2026,Medicina Interna,25-44,Feminino,468,983
+504,11/05/2025,Medicina Interna,25-44,Masculino,8,347
+505,19/05/2025,Oftalmologia,0-14,Feminino,452,655
+506,30/07/2025,Oftalmologia,45-64,Feminino,899,100
+507,08/05/2025,Medicina Interna,45-64,Feminino,207,655
+508,09/04/2025,Medicina Interna,0-14,Masculino,98,978
+509,10/02/2026,Medicina Interna,45-64,Feminino,471,18
+510,28/12/2025,Medicina Interna,45-64,Feminino,737,354
+511,18/02/2026,Medicina Interna,0-14,Masculino,457,653
+512,16/01/2026,Oftalmologia,15-24,Masculino,229,630
+513,18/03/2026,Oftalmologia,0-14,Feminino,192,339
+514,25/07/2025,Oftalmologia,45-64,Feminino,871,308
+515,07/04/2025,Medicina Interna,25-44,Feminino,244,249
+516,07/04/2025,Medicina Interna,15-24,Masculino,616,572
+517,11/08/2025,Medicina Interna,25-44,Feminino,220,184
+518,03/01/2026,Oftalmologia,0-14,Masculino,6,75
+519,13/07/2025,Oftalmologia,25-44,Feminino,270,233
+520,17/07/2025,Anestesia,0-14,Masculino,227,35
+521,29/05/2025,Anestesia,15-24,Feminino,395,747
+522,06/12/2025,Anestesia,15-24,Masculino,175,771
+523,28/02/2026,Medicina Interna,25-44,Masculino,972,509
+524,14/03/2026,Oftalmologia,15-24,Feminino,780,591
+525,03/05/2025,Oftalmologia,25-44,Feminino,961,903
+526,21/12/2025,Medicina Interna,45-64,Feminino,166,257
+527,09/12/2025,Oftalmologia,25-44,Feminino,514,772
+528,13/02/2026,Oftalmologia,25-44,Masculino,191,846
+529,17/07/2025,Oftalmologia,15-24,Masculino,441,98
+530,12/03/2026,Oftalmologia,0-14,Masculino,443,451
+531,09/03/2026,Oftalmologia,0-14,Feminino,641,272
+532,31/07/2025,Oftalmologia,65+,Feminino,360,106
+533,29/01/2026,Medicina Interna,45-64,Feminino,307,541
+534,30/11/2025,Oftalmologia,45-64,Masculino,489,986
+535,04/08/2025,Medicina Interna,45-64,Feminino,852,528
+536,07/11/2025,Oftalmologia,45-64,Masculino,67,491
+537,27/02/2026,Anestesia,15-24,Feminino,253,378
+538,03/06/2025,Oftalmologia,65+,Feminino,587,917
+539,21/06/2025,Medicina Interna,65+,Masculino,325,670
+540,30/03/2026,Oftalmologia,25-44,Masculino,60,75
+541,03/04/2025,Anestesia,65+,Masculino,511,736
+542,27/12/2025,Oftalmologia,0-14,Masculino,742,333
+543,14/03/2026,Anestesia,0-14,Feminino,607,912
+544,05/06/2025,Medicina Interna,45-64,Feminino,833,708
+545,10/04/2025,Medicina Interna,65+,Masculino,378,475
+546,18/07/2025,Medicina Interna,45-64,Feminino,974,872
+547,13/03/2026,Oftalmologia,25-44,Masculino,895,717
+548,10/12/2025,Anestesia,45-64,Masculino,728,440
+549,01/04/2026,Oftalmologia,0-14,Feminino,765,714
+550,19/10/2025,Oftalmologia,45-64,Feminino,717,175
+551,05/04/2025,Medicina Interna,15-24,Masculino,557,751
+552,29/06/2025,Oftalmologia,45-64,Masculino,325,390
+553,13/10/2025,Medicina Interna,0-14,Feminino,334,878
+554,29/01/2026,Oftalmologia,45-64,Feminino,652,597
+555,01/02/2026,Medicina Interna,25-44,Masculino,821,917
+556,20/10/2025,Oftalmologia,65+,Feminino,912,44
+557,22/01/2026,Oftalmologia,15-24,Masculino,776,648
+558,02/12/2025,Oftalmologia,45-64,Masculino,170,547
+559,18/12/2025,Medicina Interna,45-64,Feminino,740,808
+560,20/08/2025,Oftalmologia,0-14,Feminino,463,277
+561,15/12/2025,Medicina Interna,25-44,Feminino,645,917
+562,02/04/2025,Medicina Interna,0-14,Masculino,61,762
+563,08/07/2025,Medicina Interna,0-14,Masculino,934,404
+564,24/05/2025,Medicina Interna,65+,Masculino,97,548
+565,12/03/2026,Anestesia,25-44,Feminino,289,146
+566,12/05/2025,Oftalmologia,45-64,Masculino,251,553
+567,21/09/2025,Oftalmologia,65+,Masculino,776,264
+568,26/09/2025,Oftalmologia,0-14,Feminino,17,294
+569,18/08/2025,Medicina Interna,25-44,Feminino,400,118
+570,18/01/2026,Medicina Interna,65+,Masculino,851,392
+571,30/07/2025,Oftalmologia,0-14,Masculino,666,132
+572,09/06/2025,Medicina Interna,45-64,Masculino,541,270
+573,03/10/2025,Medicina Interna,65+,Feminino,927,384
+574,14/09/2025,Oftalmologia,65+,Masculino,547,484
+575,03/10/2025,Oftalmologia,15-24,Masculino,548,259
+576,26/11/2025,Oftalmologia,45-64,Masculino,169,848
+577,29/11/2025,Medicina Interna,15-24,Feminino,720,257
+578,14/09/2025,Medicina Interna,15-24,Feminino,234,942
+579,23/02/2026,Medicina Interna,15-24,Masculino,939,459
+580,01/06/2025,Oftalmologia,25-44,Feminino,69,557
+581,03/02/2026,Oftalmologia,0-14,Feminino,959,813
+582,09/09/2025,Oftalmologia,65+,Masculino,873,654
+583,29/07/2025,Medicina Interna,45-64,Masculino,306,232
+584,21/02/2026,Oftalmologia,65+,Masculino,17,550
+585,13/06/2025,Oftalmologia,0-14,Feminino,939,142
+586,09/03/2026,Oftalmologia,25-44,Feminino,243,747
+587,02/06/2025,Medicina Interna,45-64,Masculino,464,287
+588,16/07/2025,Oftalmologia,0-14,Masculino,730,244
+589,25/05/2025,Oftalmologia,45-64,Masculino,993,227
+590,09/08/2025,Medicina Interna,65+,Feminino,320,763
+591,17/02/2026,Oftalmologia,0-14,Feminino,812,961
+592,25/12/2025,Oftalmologia,0-14,Feminino,896,259
+593,25/07/2025,Oftalmologia,25-44,Masculino,807,463
+594,03/06/2025,Oftalmologia,25-44,Masculino,488,150
+595,13/08/2025,Medicina Interna,0-14,Feminino,566,331
+596,24/10/2025,Medicina Interna,15-24,Masculino,435,632
+597,06/03/2026,Oftalmologia,0-14,Feminino,982,349
+598,04/09/2025,Oftalmologia,65+,Masculino,780,606
+599,13/10/2025,Anestesia,0-14,Feminino,731,54
+600,05/02/2026,Oftalmologia,0-14,Feminino,317,915
+601,03/12/2025,Oftalmologia,45-64,Feminino,33,997
+602,26/12/2025,Oftalmologia,45-64,Feminino,199,250
+603,21/05/2025,Anestesia,25-44,Masculino,68,578
+604,09/07/2025,Oftalmologia,45-64,Feminino,959,971
+605,03/06/2025,Oftalmologia,25-44,Feminino,561,427
+606,17/03/2026,Medicina Interna,15-24,Masculino,505,285
+607,22/08/2025,Medicina Interna,15-24,Feminino,442,970
+608,15/03/2026,Medicina Interna,65+,Masculino,162,467
+609,18/01/2026,Medicina Interna,15-24,Feminino,315,754
+610,03/03/2026,Medicina Interna,0-14,Feminino,313,971
+611,31/08/2025,Oftalmologia,45-64,Masculino,662,138
+612,04/04/2025,Oftalmologia,15-24,Feminino,777,936
+613,07/09/2025,Oftalmologia,65+,Masculino,967,561
+614,07/08/2025,Oftalmologia,45-64,Feminino,473,129
+615,14/06/2025,Oftalmologia,0-14,Feminino,275,893
+616,14/12/2025,Oftalmologia,25-44,Masculino,497,31
+617,08/08/2025,Oftalmologia,45-64,Masculino,876,522
+618,19/04/2025,Medicina Interna,45-64,Feminino,714,244
+619,04/03/2026,Anestesia,25-44,Masculino,825,691
+620,29/12/2025,Oftalmologia,0-14,Feminino,201,316
+621,19/07/2025,Oftalmologia,15-24,Masculino,957,410
+622,09/03/2026,Anestesia,25-44,Masculino,26,875
+623,10/04/2025,Anestesia,0-14,Feminino,174,259
+624,19/04/2025,Medicina Interna,45-64,Masculino,417,262
+625,02/03/2026,Oftalmologia,15-24,Feminino,58,93
+626,24/03/2026,Oftalmologia,65+,Masculino,269,136
+627,24/02/2026,Oftalmologia,25-44,Feminino,502,423
+628,14/07/2025,Medicina Interna,15-24,Masculino,543,622
+629,22/03/2026,Medicina Interna,65+,Masculino,532,164
+630,10/01/2026,Anestesia,25-44,Feminino,459,454
+631,03/05/2025,Anestesia,45-64,Masculino,242,699
+632,06/10/2025,Medicina Interna,45-64,Masculino,792,369
+633,20/04/2025,Medicina Interna,0-14,Masculino,775,897
+634,25/09/2025,Medicina Interna,45-64,Feminino,445,919
+635,09/01/2026,Medicina Interna,25-44,Masculino,131,762
+636,09/01/2026,Oftalmologia,25-44,Masculino,608,584
+637,22/12/2025,Medicina Interna,65+,Masculino,367,462
+638,17/01/2026,Medicina Interna,0-14,Feminino,556,359
+639,09/08/2025,Oftalmologia,0-14,Masculino,920,966
+640,14/06/2025,Oftalmologia,15-24,Feminino,467,712
+641,10/09/2025,Medicina Interna,45-64,Masculino,475,9
+642,06/02/2026,Oftalmologia,25-44,Feminino,47,181
+643,23/02/2026,Oftalmologia,25-44,Masculino,643,236
+644,12/08/2025,Anestesia,45-64,Feminino,31,264
+645,10/03/2026,Oftalmologia,0-14,Masculino,768,18
+646,12/01/2026,Oftalmologia,0-14,Masculino,820,169
+647,12/12/2025,Oftalmologia,45-64,Feminino,690,859
+648,04/09/2025,Oftalmologia,65+,Feminino,575,268
+649,27/02/2026,Oftalmologia,65+,Feminino,559,37
+650,19/08/2025,Oftalmologia,15-24,Masculino,655,113
+651,23/08/2025,Oftalmologia,45-64,Masculino,156,745
+652,14/02/2026,Medicina Interna,45-64,Masculino,186,129
+653,02/08/2025,Oftalmologia,45-64,Masculino,448,250
+654,10/05/2025,Anestesia,65+,Masculino,3,10
+655,05/08/2025,Oftalmologia,0-14,Feminino,264,427
+656,13/12/2025,Medicina Interna,65+,Masculino,940,636
+657,11/09/2025,Medicina Interna,65+,Feminino,326,917
+658,30/06/2025,Anestesia,65+,Masculino,773,651
+659,01/09/2025,Medicina Interna,45-64,Masculino,264,628
+660,29/11/2025,Medicina Interna,0-14,Masculino,23,177
+661,20/07/2025,Anestesia,0-14,Masculino,609,99
+662,14/02/2026,Anestesia,45-64,Feminino,520,801
+663,25/06/2025,Medicina Interna,0-14,Masculino,82,212
+664,15/02/2026,Oftalmologia,15-24,Masculino,275,325
+665,01/02/2026,Medicina Interna,15-24,Feminino,965,591
+666,20/01/2026,Oftalmologia,45-64,Feminino,483,569
+667,06/06/2025,Oftalmologia,0-14,Masculino,366,689
+668,28/12/2025,Anestesia,0-14,Feminino,79,377
+669,19/01/2026,Oftalmologia,25-44,Masculino,500,646
+670,13/06/2025,Oftalmologia,0-14,Feminino,755,336
+671,10/04/2025,Medicina Interna,65+,Masculino,253,740
+672,03/12/2025,Medicina Interna,45-64,Masculino,706,877
+673,20/04/2025,Oftalmologia,65+,Masculino,660,665
+674,03/06/2025,Medicina Interna,25-44,Masculino,562,4
+675,10/08/2025,Medicina Interna,15-24,Masculino,208,35
+676,29/04/2025,Oftalmologia,45-64,Feminino,104,703
+677,03/10/2025,Oftalmologia,25-44,Feminino,407,305
+678,06/10/2025,Oftalmologia,65+,Masculino,99,128
+679,22/09/2025,Medicina Interna,0-14,Masculino,264,962
+680,07/03/2026,Medicina Interna,15-24,Feminino,184,528
+681,09/12/2025,Oftalmologia,45-64,Feminino,504,838
+682,06/06/2025,Medicina Interna,45-64,Masculino,835,9
+683,13/08/2025,Oftalmologia,25-44,Feminino,996,999
+684,19/03/2026,Oftalmologia,0-14,Feminino,381,99
+685,16/05/2025,Oftalmologia,15-24,Masculino,786,179
+686,08/11/2025,Oftalmologia,15-24,Masculino,51,316
+687,28/09/2025,Medicina Interna,45-64,Feminino,609,230
+688,15/09/2025,Oftalmologia,15-24,Feminino,983,38
+689,22/11/2025,Anestesia,45-64,Feminino,858,517
+690,21/07/2025,Oftalmologia,15-24,Masculino,62,62
+691,14/08/2025,Oftalmologia,45-64,Masculino,135,207
+692,10/12/2025,Oftalmologia,45-64,Feminino,226,451
+693,24/05/2025,Medicina Interna,0-14,Masculino,588,414
+694,09/05/2025,Oftalmologia,0-14,Feminino,792,670
+695,25/03/2026,Oftalmologia,45-64,Feminino,801,688
+696,17/08/2025,Oftalmologia,15-24,Masculino,570,28
+697,28/11/2025,Anestesia,15-24,Masculino,52,833
+698,12/08/2025,Oftalmologia,0-14,Feminino,334,21
+699,13/11/2025,Anestesia,45-64,Masculino,101,21
+700,07/09/2025,Anestesia,15-24,Feminino,129,572
+701,08/03/2026,Medicina Interna,45-64,Masculino,727,765
+702,26/09/2025,Oftalmologia,15-24,Feminino,402,293
+703,18/05/2025,Anestesia,15-24,Masculino,413,230
+704,23/03/2026,Medicina Interna,0-14,Masculino,859,404
+705,02/07/2025,Oftalmologia,65+,Masculino,397,212
+706,27/09/2025,Oftalmologia,45-64,Masculino,430,265
+707,17/11/2025,Medicina Interna,25-44,Masculino,893,36
+708,21/08/2025,Medicina Interna,45-64,Masculino,684,493
+709,14/11/2025,Oftalmologia,45-64,Feminino,47,78
+710,03/01/2026,Oftalmologia,45-64,Feminino,821,42
+711,03/01/2026,Medicina Interna,65+,Feminino,457,610
+712,21/10/2025,Oftalmologia,0-14,Feminino,4,412
+713,12/12/2025,Anestesia,15-24,Feminino,105,354
+714,29/04/2025,Medicina Interna,15-24,Masculino,968,407
+715,29/01/2026,Anestesia,45-64,Masculino,866,458
+716,08/04/2025,Medicina Interna,65+,Masculino,852,964
+717,18/03/2026,Oftalmologia,0-14,Masculino,987,658
+718,02/01/2026,Medicina Interna,45-64,Feminino,936,71
+719,13/07/2025,Oftalmologia,65+,Masculino,923,27
+720,19/03/2026,Anestesia,45-64,Masculino,981,711
+721,25/11/2025,Medicina Interna,0-14,Feminino,338,62
+722,24/08/2025,Oftalmologia,25-44,Feminino,312,205
+723,21/09/2025,Oftalmologia,0-14,Masculino,231,548
+724,15/02/2026,Medicina Interna,45-64,Feminino,833,980
+725,23/11/2025,Oftalmologia,15-24,Masculino,165,34
+726,13/10/2025,Oftalmologia,25-44,Feminino,464,965
+727,09/06/2025,Medicina Interna,0-14,Feminino,202,132
+728,31/05/2025,Oftalmologia,45-64,Feminino,186,713
+729,28/11/2025,Oftalmologia,45-64,Feminino,806,267
+730,13/10/2025,Oftalmologia,45-64,Feminino,87,875
+731,23/10/2025,Oftalmologia,0-14,Masculino,567,614
+732,18/03/2026,Oftalmologia,25-44,Feminino,596,716
+733,21/08/2025,Anestesia,15-24,Masculino,950,646
+734,10/02/2026,Oftalmologia,0-14,Masculino,772,642
+735,09/06/2025,Oftalmologia,45-64,Feminino,61,324
+736,15/02/2026,Medicina Interna,45-64,Masculino,228,208
+737,06/12/2025,Medicina Interna,0-14,Masculino,143,196
+738,11/05/2025,Anestesia,45-64,Feminino,35,274
+739,06/03/2026,Oftalmologia,45-64,Masculino,691,356
+740,07/08/2025,Medicina Interna,45-64,Feminino,101,780
+741,18/10/2025,Oftalmologia,25-44,Masculino,189,614
+742,07/11/2025,Oftalmologia,0-14,Masculino,909,766
+743,10/08/2025,Medicina Interna,45-64,Masculino,287,115
+744,12/06/2025,Anestesia,65+,Feminino,701,696
+745,22/03/2026,Oftalmologia,65+,Feminino,209,968
+746,02/01/2026,Medicina Interna,45-64,Masculino,143,249
+747,11/04/2025,Oftalmologia,65+,Feminino,667,192
+748,31/12/2025,Oftalmologia,0-14,Feminino,371,579
+749,01/02/2026,Oftalmologia,45-64,Masculino,327,409
+750,17/04/2025,Medicina Interna,0-14,Feminino,831,326
+751,03/09/2025,Anestesia,45-64,Feminino,898,345
+752,25/03/2026,Anestesia,65+,Masculino,417,703
+753,22/10/2025,Medicina Interna,0-14,Masculino,196,631
+754,07/08/2025,Oftalmologia,45-64,Masculino,51,293
+755,04/09/2025,Medicina Interna,65+,Masculino,372,660
+756,11/07/2025,Oftalmologia,15-24,Feminino,569,729
+757,02/07/2025,Medicina Interna,65+,Feminino,986,263
+758,18/02/2026,Medicina Interna,25-44,Masculino,359,161
+759,02/02/2026,Anestesia,15-24,Masculino,856,271
+760,15/01/2026,Medicina Interna,45-64,Feminino,725,553
+761,15/01/2026,Medicina Interna,45-64,Masculino,393,973
+762,26/04/2025,Medicina Interna,15-24,Masculino,905,964
+763,21/02/2026,Oftalmologia,45-64,Feminino,125,440
+764,17/12/2025,Medicina Interna,0-14,Feminino,694,515
+765,24/01/2026,Medicina Interna,15-24,Masculino,58,405
+766,29/04/2025,Oftalmologia,15-24,Feminino,197,247
+767,21/09/2025,Oftalmologia,0-14,Masculino,588,724
+768,16/01/2026,Oftalmologia,45-64,Masculino,833,776
+769,02/06/2025,Oftalmologia,0-14,Masculino,959,576
+770,23/03/2026,Medicina Interna,45-64,Feminino,785,827
+771,04/11/2025,Oftalmologia,65+,Feminino,30,964
+772,02/08/2025,Anestesia,0-14,Feminino,738,698
+773,16/08/2025,Oftalmologia,25-44,Feminino,3,982
+774,16/07/2025,Anestesia,15-24,Feminino,478,60
+775,08/12/2025,Medicina Interna,0-14,Feminino,747,503
+776,10/01/2026,Medicina Interna,65+,Feminino,685,946
+777,09/12/2025,Medicina Interna,45-64,Feminino,972,997
+778,01/04/2026,Oftalmologia,45-64,Masculino,947,541
+779,14/02/2026,Anestesia,0-14,Masculino,980,485
+780,02/03/2026,Anestesia,25-44,Masculino,89,351
+781,30/11/2025,Oftalmologia,65+,Masculino,313,288
+782,16/05/2025,Oftalmologia,15-24,Masculino,371,918
+783,05/09/2025,Oftalmologia,65+,Masculino,632,286
+784,22/01/2026,Oftalmologia,45-64,Masculino,754,547
+785,06/05/2025,Medicina Interna,25-44,Masculino,697,886
+786,07/01/2026,Medicina Interna,45-64,Masculino,979,808
+787,13/01/2026,Oftalmologia,65+,Feminino,900,756
+788,01/09/2025,Oftalmologia,45-64,Feminino,137,727
+789,16/05/2025,Oftalmologia,45-64,Masculino,423,237
+790,10/01/2026,Medicina Interna,45-64,Feminino,582,401
+791,19/08/2025,Medicina Interna,25-44,Masculino,381,251
+792,22/01/2026,Anestesia,0-14,Masculino,272,824
+793,19/11/2025,Oftalmologia,0-14,Feminino,248,756
+794,13/07/2025,Oftalmologia,15-24,Masculino,496,64
+795,02/12/2025,Medicina Interna,45-64,Feminino,12,464
+796,17/03/2026,Oftalmologia,45-64,Feminino,100,613
+797,27/11/2025,Medicina Interna,65+,Masculino,715,969
+798,08/06/2025,Oftalmologia,45-64,Masculino,500,235
+799,17/12/2025,Oftalmologia,15-24,Feminino,4,999
+800,25/03/2026,Medicina Interna,65+,Feminino,261,945
+801,02/06/2025,Medicina Interna,45-64,Masculino,135,486
+802,22/02/2026,Oftalmologia,15-24,Feminino,948,384
+803,11/01/2026,Anestesia,45-64,Masculino,221,174
+804,02/10/2025,Medicina Interna,45-64,Masculino,708,647
+805,17/08/2025,Oftalmologia,65+,Feminino,238,855
+806,13/10/2025,Oftalmologia,25-44,Feminino,618,993
+807,27/02/2026,Oftalmologia,25-44,Feminino,291,894
+808,13/03/2026,Oftalmologia,65+,Feminino,184,88
+809,20/08/2025,Medicina Interna,15-24,Masculino,541,823
+810,30/07/2025,Anestesia,45-64,Masculino,617,260
+811,18/04/2025,Oftalmologia,0-14,Feminino,293,879
+812,26/10/2025,Medicina Interna,65+,Masculino,909,450
+813,13/01/2026,Oftalmologia,15-24,Masculino,136,583
+814,20/11/2025,Oftalmologia,65+,Masculino,146,904
+815,28/02/2026,Oftalmologia,25-44,Masculino,246,103
+816,30/07/2025,Oftalmologia,0-14,Feminino,480,262
+817,27/09/2025,Oftalmologia,45-64,Feminino,212,124
+818,14/02/2026,Oftalmologia,65+,Masculino,828,22
+819,19/06/2025,Oftalmologia,0-14,Masculino,397,709
+820,05/06/2025,Medicina Interna,0-14,Masculino,962,500
+821,13/10/2025,Anestesia,25-44,Feminino,571,159
+822,17/07/2025,Anestesia,45-64,Masculino,395,169
+823,16/11/2025,Medicina Interna,15-24,Masculino,46,637
+824,24/09/2025,Oftalmologia,45-64,Masculino,764,801
+825,18/09/2025,Oftalmologia,15-24,Masculino,199,767
+826,16/09/2025,Oftalmologia,0-14,Masculino,507,249
+827,14/11/2025,Medicina Interna,45-64,Feminino,732,229
+828,12/03/2026,Oftalmologia,25-44,Masculino,45,383
+829,23/12/2025,Medicina Interna,0-14,Feminino,810,497
+830,09/05/2025,Oftalmologia,15-24,Masculino,680,460
+831,23/06/2025,Anestesia,65+,Masculino,125,713
+832,20/09/2025,Oftalmologia,15-24,Masculino,723,88
+833,24/07/2025,Medicina Interna,45-64,Feminino,56,500
+834,18/03/2026,Oftalmologia,15-24,Feminino,288,682
+835,08/06/2025,Medicina Interna,0-14,Masculino,418,593
+836,14/06/2025,Medicina Interna,25-44,Feminino,869,653
+837,12/11/2025,Oftalmologia,45-64,Masculino,143,294
+838,22/08/2025,Medicina Interna,25-44,Feminino,934,608
+839,21/08/2025,Oftalmologia,45-64,Masculino,489,652
+840,20/02/2026,Medicina Interna,65+,Feminino,738,776
+841,29/06/2025,Oftalmologia,15-24,Feminino,66,126
+842,11/12/2025,Medicina Interna,0-14,Feminino,641,367
+843,10/10/2025,Medicina Interna,15-24,Feminino,438,159
+844,16/03/2026,Medicina Interna,45-64,Masculino,163,42
+845,07/09/2025,Medicina Interna,25-44,Masculino,340,210
+846,12/01/2026,Medicina Interna,65+,Feminino,888,471
+847,10/05/2025,Medicina Interna,65+,Feminino,468,992
+848,03/02/2026,Oftalmologia,45-64,Masculino,765,257
+849,14/03/2026,Oftalmologia,15-24,Masculino,819,632
+850,13/01/2026,Oftalmologia,65+,Masculino,630,452
+851,01/11/2025,Medicina Interna,65+,Masculino,552,829
+852,02/07/2025,Oftalmologia,25-44,Feminino,1,953
+853,22/11/2025,Oftalmologia,45-64,Feminino,618,693
+854,17/01/2026,Anestesia,65+,Masculino,45,843
+855,20/06/2025,Medicina Interna,45-64,Masculino,647,474
+856,22/10/2025,Anestesia,25-44,Masculino,398,283
+857,06/02/2026,Medicina Interna,25-44,Masculino,159,425
+858,29/07/2025,Medicina Interna,45-64,Masculino,278,989
+859,08/07/2025,Oftalmologia,0-14,Masculino,818,384
+860,08/04/2025,Oftalmologia,0-14,Feminino,881,2
+861,20/05/2025,Oftalmologia,45-64,Feminino,508,733
+862,29/06/2025,Oftalmologia,25-44,Feminino,990,100
+863,19/12/2025,Anestesia,25-44,Feminino,82,907
+864,21/05/2025,Medicina Interna,15-24,Feminino,511,442
+865,10/10/2025,Oftalmologia,45-64,Feminino,242,329
+866,08/10/2025,Anestesia,15-24,Feminino,12,20
+867,10/09/2025,Oftalmologia,0-14,Masculino,547,440
+868,06/10/2025,Medicina Interna,45-64,Masculino,323,121
+869,24/12/2025,Oftalmologia,25-44,Feminino,484,669
+870,15/12/2025,Anestesia,45-64,Feminino,341,290
+871,06/07/2025,Oftalmologia,45-64,Masculino,846,246
+872,15/03/2026,Medicina Interna,65+,Masculino,900,537
+873,21/02/2026,Oftalmologia,65+,Feminino,864,939
+874,05/06/2025,Medicina Interna,15-24,Masculino,766,377
+875,17/05/2025,Medicina Interna,45-64,Masculino,954,213
+876,18/09/2025,Medicina Interna,0-14,Feminino,121,225
+877,18/03/2026,Anestesia,25-44,Masculino,876,852
+878,13/07/2025,Oftalmologia,25-44,Masculino,624,345
+879,25/05/2025,Oftalmologia,45-64,Feminino,281,141
+880,31/07/2025,Oftalmologia,0-14,Feminino,991,439
+881,31/01/2026,Medicina Interna,45-64,Masculino,105,271
+882,08/01/2026,Oftalmologia,45-64,Masculino,288,330
+883,28/01/2026,Oftalmologia,65+,Feminino,498,243
+884,14/11/2025,Medicina Interna,65+,Feminino,146,656
+885,05/02/2026,Anestesia,45-64,Feminino,479,84
+886,21/05/2025,Medicina Interna,45-64,Feminino,54,941
+887,08/12/2025,Medicina Interna,65+,Feminino,243,960
+888,15/05/2025,Oftalmologia,45-64,Feminino,407,513
+889,20/06/2025,Oftalmologia,45-64,Masculino,806,410
+890,11/08/2025,Oftalmologia,65+,Masculino,870,753
+891,26/08/2025,Oftalmologia,45-64,Masculino,803,896
+892,04/09/2025,Oftalmologia,45-64,Masculino,416,475
+893,04/03/2026,Oftalmologia,15-24,Masculino,426,570
+894,08/06/2025,Oftalmologia,25-44,Feminino,343,47
+895,14/06/2025,Medicina Interna,65+,Feminino,665,775
+896,21/07/2025,Medicina Interna,25-44,Feminino,69,898
+897,04/05/2025,Medicina Interna,15-24,Masculino,784,876
+898,16/03/2026,Medicina Interna,45-64,Feminino,368,22
+899,20/09/2025,Anestesia,25-44,Masculino,589,183
+900,26/06/2025,Oftalmologia,45-64,Masculino,542,645
+901,17/11/2025,Medicina Interna,45-64,Feminino,643,44
+902,23/01/2026,Medicina Interna,15-24,Feminino,606,11
+903,18/06/2025,Medicina Interna,45-64,Feminino,7,385
+904,08/09/2025,Oftalmologia,25-44,Feminino,666,841
+905,06/01/2026,Medicina Interna,65+,Masculino,906,631
+906,13/01/2026,Medicina Interna,15-24,Masculino,667,316
+907,11/05/2025,Medicina Interna,65+,Masculino,842,279
+908,06/05/2025,Anestesia,45-64,Masculino,487,460
+909,11/03/2026,Anestesia,45-64,Masculino,636,978
+910,03/09/2025,Medicina Interna,45-64,Feminino,44,221
+911,12/02/2026,Oftalmologia,45-64,Masculino,457,865
+912,02/09/2025,Oftalmologia,15-24,Feminino,128,122
+913,22/06/2025,Medicina Interna,45-64,Feminino,464,112
+914,16/11/2025,Medicina Interna,45-64,Feminino,949,893
+915,20/02/2026,Oftalmologia,25-44,Masculino,271,754
+916,01/07/2025,Oftalmologia,65+,Feminino,875,839
+917,27/06/2025,Oftalmologia,45-64,Feminino,896,287
+918,28/05/2025,Medicina Interna,15-24,Feminino,934,25
+919,08/04/2025,Oftalmologia,25-44,Feminino,236,905
+920,07/02/2026,Oftalmologia,45-64,Feminino,886,581
+921,28/04/2025,Medicina Interna,15-24,Feminino,313,931
+922,11/05/2025,Oftalmologia,45-64,Masculino,846,282
+923,26/02/2026,Oftalmologia,0-14,Feminino,705,673
+924,30/08/2025,Medicina Interna,65+,Masculino,515,391
+925,16/05/2025,Oftalmologia,25-44,Feminino,574,144
+926,07/02/2026,Oftalmologia,45-64,Feminino,964,300
+927,22/09/2025,Oftalmologia,45-64,Feminino,510,455
+928,09/05/2025,Oftalmologia,45-64,Masculino,356,414
+929,03/04/2025,Anestesia,45-64,Feminino,891,627
+930,04/11/2025,Oftalmologia,0-14,Feminino,155,818
+931,13/09/2025,Medicina Interna,65+,Masculino,638,571
+932,18/11/2025,Oftalmologia,0-14,Feminino,803,346
+933,19/12/2025,Medicina Interna,0-14,Masculino,865,941
+934,18/06/2025,Medicina Interna,45-64,Masculino,761,700
+935,24/02/2026,Medicina Interna,45-64,Feminino,317,80
+936,28/06/2025,Medicina Interna,25-44,Feminino,437,928
+937,01/02/2026,Anestesia,0-14,Feminino,901,558
+938,13/06/2025,Medicina Interna,45-64,Feminino,197,41
+939,08/06/2025,Oftalmologia,65+,Feminino,281,877
+940,09/05/2025,Oftalmologia,45-64,Feminino,831,494
+941,03/03/2026,Anestesia,45-64,Masculino,970,288
+942,03/09/2025,Oftalmologia,15-24,Masculino,938,989
+943,08/02/2026,Oftalmologia,25-44,Feminino,874,545
+944,27/05/2025,Anestesia,25-44,Feminino,729,804
+945,08/08/2025,Oftalmologia,25-44,Feminino,572,610
+946,05/08/2025,Anestesia,45-64,Feminino,943,158
+947,13/01/2026,Oftalmologia,65+,Feminino,327,676
+948,06/12/2025,Oftalmologia,65+,Masculino,939,381
+949,06/07/2025,Medicina Interna,15-24,Masculino,441,76
+950,31/05/2025,Oftalmologia,45-64,Feminino,385,588
+951,24/01/2026,Medicina Interna,15-24,Feminino,498,906
+952,20/01/2026,Oftalmologia,45-64,Masculino,586,497
+953,30/10/2025,Medicina Interna,65+,Feminino,841,337
+954,14/12/2025,Anestesia,65+,Masculino,189,989
+955,07/06/2025,Medicina Interna,0-14,Feminino,8,585
+956,12/04/2025,Medicina Interna,25-44,Feminino,489,974
+957,31/08/2025,Oftalmologia,0-14,Feminino,251,182
+958,13/03/2026,Oftalmologia,0-14,Masculino,933,854
+959,07/10/2025,Medicina Interna,45-64,Feminino,441,406
+960,24/10/2025,Oftalmologia,25-44,Feminino,870,890
+961,23/09/2025,Oftalmologia,15-24,Masculino,758,24
+962,22/08/2025,Medicina Interna,0-14,Feminino,427,689
+963,07/10/2025,Oftalmologia,45-64,Feminino,108,145
+964,25/11/2025,Anestesia,45-64,Feminino,543,882
+965,08/03/2026,Oftalmologia,25-44,Masculino,313,698
+966,24/01/2026,Oftalmologia,45-64,Masculino,822,50
+967,08/11/2025,Medicina Interna,45-64,Feminino,469,233
+968,12/02/2026,Anestesia,25-44,Masculino,47,787
+969,28/12/2025,Oftalmologia,25-44,Feminino,66,491
+970,20/09/2025,Medicina Interna,45-64,Feminino,656,256
+971,01/03/2026,Oftalmologia,25-44,Masculino,740,771
+972,09/10/2025,Oftalmologia,25-44,Feminino,798,878
+973,02/03/2026,Oftalmologia,45-64,Masculino,773,877
+974,29/08/2025,Oftalmologia,25-44,Feminino,538,447
+975,02/07/2025,Medicina Interna,45-64,Feminino,887,962
+976,05/05/2025,Anestesia,0-14,Feminino,49,471
+977,25/02/2026,Medicina Interna,45-64,Masculino,637,7
+978,08/01/2026,Medicina Interna,65+,Masculino,642,140
+979,07/11/2025,Anestesia,0-14,Feminino,631,829
+980,29/03/2026,Oftalmologia,65+,Masculino,505,342
+981,13/02/2026,Anestesia,25-44,Masculino,453,59
+982,23/11/2025,Oftalmologia,0-14,Feminino,297,357
+983,07/02/2026,Oftalmologia,45-64,Masculino,35,72
+984,03/07/2025,Anestesia,25-44,Masculino,584,561
+985,26/07/2025,Oftalmologia,45-64,Masculino,944,872
+986,11/12/2025,Oftalmologia,0-14,Feminino,570,223
+987,27/01/2026,Medicina Interna,45-64,Masculino,418,791
+988,28/06/2025,Oftalmologia,15-24,Feminino,592,622
+989,26/02/2026,Oftalmologia,45-64,Feminino,747,63
+990,28/05/2025,Medicina Interna,25-44,Feminino,575,569
+991,16/04/2025,Oftalmologia,45-64,Masculino,558,446
+992,07/07/2025,Oftalmologia,25-44,Feminino,904,0
+993,01/05/2025,Oftalmologia,15-24,Masculino,696,90
+994,28/06/2025,Oftalmologia,65+,Masculino,968,145
+995,08/06/2025,Oftalmologia,65+,Feminino,814,678
+996,21/02/2026,Oftalmologia,0-14,Masculino,547,752
+997,19/03/2026,Anestesia,15-24,Masculino,64,692
+998,06/06/2025,Anestesia,15-24,Masculino,62,235
+999,09/02/2026,Medicina Interna,45-64,Masculino,675,358
+1000,20/10/2025,Oftalmologia,45-64,Masculino,395,78
