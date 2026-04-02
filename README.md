@@ -7,22 +7,24 @@
 <br/>
 
 <!-- BADGES -->
-![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-3.2.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
-![Build](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge)
-![Coverage](https://img.shields.io/badge/coverage-00%25-brightgreen?style=for-the-badge)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange?style=for-the-badge)
+![Build](https://img.shields.io/badge/build-NONE-red?style=for-the-badge)
+![Coverage](https://img.shields.io/badge/coverage-43%25-brightgreen?style=for-the-badge)
+![PRS](https://img.shields.io/badge/PRs-not_acceptable-orange?style=for-the-badge)
 
 <br/>
 
-# 🚀 etl-lar
+# etl-lar
 
 ### *An ETL pipeline aimed at automating and visualization of hospital statistical data, taking as its case study the National Ophthalmology Institute of Angola.*
 
 <br/>
 
+<!-- LINKS 
 [**Live Demo**](https://your-demo-url.com) &nbsp;·&nbsp;
 [**Documentation**](https://your-docs-url.com) &nbsp;·&nbsp;
+-->
 [**Report Bug**](https://github.com/fevunge/etl-lar/issues) &nbsp;·&nbsp;
 [**Request Feature**](https://github.com/fevunge/etl-lar/issues)
 
@@ -51,75 +53,85 @@
 
 ---
 
-## 🧭 Overview
+## Overview
 
-> A clear, 3–5 sentence summary of what this project does, the problem it solves, and who it's built for. Write as if explaining to a senior developer who has never heard of this project.
-
-**Example:**  
-_Project Name_ is a [type of project] that allows [target users] to [core value proposition]. Unlike [existing alternatives], it [key differentiator]. It was built to [motivation or origin story].
+> **ETL-lar** is a comprehensive ETL (Extract, Transform, Load) pipeline designed to automate the processing and visualization of hospital statistical data. The project focuses on the National Ophthalmology Institute of Angola, aiming to streamline data management and provide actionable insights through interactive dashboards. By leveraging modern technologies and best practices in data engineering, ETL-lar enables healthcare professionals to make informed decisions based on accurate and timely data.
 
 ---
 
-#TODO 
- - relationship between tables
- - exam table does not exist, resolve it
- - search about better and complete transform 
- - verify good 
- - do not do it with doctor´skill 
-  - doctor skill must be indepedent 
- - remove description from skills
----
+## Features
 
-## ✨ Features
-- ⚡ **Feature One** — Brief but impactful description of the capability
-- 🔒 **Feature Two** — What it does and why it matters
-- 🌍 **Feature Three** — Highlight any scalability or breadth
-- 🎨 **Feature Four** — UX, design, or DX highlight
-- 📊 **Feature Five** — Data, analytics, or performance-related feature
-- 🔌 **Feature Six** — Integration or extensibility highlight
+- **Data Extraction**: Implement robust data extraction mechanisms to pull data from various sources, including databases, APIs, and flat files.
+- **Data Transformation**: Develop a flexible transformation layer to clean, normalize, and enrich the
+    extracted data, ensuring it is in the correct format for analysis and visualization.
+- **Data Loading**: Set up efficient loading processes to store the transformed data in a centralized data warehouse, optimizing for query performance and scalability.
+- **Visualization**: Create interactive dashboards and reports that allow users to explore the data, identify trends, and derive insights relevant to ophthalmology care and hospital management.
+- **Automation**: Schedule and automate the entire ETL process to ensure that the data is always up-to-date, reducing manual intervention and minimizing errors.
+- **Extract to CSV, XLSX, SQL**: Implement functionality to export the processed data into various formats such as CSV, XLSX, and SQL for further analysis or sharing with stakeholders.
+
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
-| **Frontend** | React 18, TypeScript, Tailwind CSS |
-| **Backend** | Node.js, Express, REST API |
-| **Database** | PostgreSQL, Prisma ORM |
-| **Auth** | JWT, OAuth 2.0 |
-| **DevOps** | Docker, GitHub Actions, Vercel |
-| **Testing** | Jest, Vitest, Cypress |
+| **Dashboard** | Streamlit (version 1.55.0) |
+| **Backend** | Python (3.13.9) |
+| **Post-Processing** | Pandas, NumPy |
+| **Database** | MySQL |
+| **Data Visualization** | Power BI |
+| **DevOps** | Docker, Git |
+
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-Make sure you have the following installed:
+This Python project dependencies:
 
-```bash
-node >= 18.0.0
-npm >= 9.0.0
-docker >= 24.0.0  # optional
-```
+
+- **`pandas`**`>=2.2.0`  
+
+- **`numpy`**`>=1.26.0`  
+
+- **`SQLAlchemy`**`>=2.0.0`  
+
+- **`PyMySQL`**`>=1.1.0`  
+
+- **`openpyxl`**`>=3.1.0`  
+
+- **`python-dotenv`**`>=1.0.0`  
+
+- **`streamlit`**`>=1.34.0`  
+
+- **`altair`**`<5`  
+
 
 ### Installation
 
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/username/project-name.git
-cd project-name
+git clone https://github.com/fevunge/etl-lar.git
+cd etl-lar
 ```
 
 **2. Install dependencies**
 
+If you are using Linux, macOS, WSL or another Unix-like system, is highly recommended to use a **virtual environment** to manage dependencies.  
+
+You can create one using `venv`:
 ```bash
-npm install
-# or
-yarn install
+python -m venv venv
+source venv/bin/activate
+```
+Otherwise, if you are a experienced Windows user, you decide create a **virtual environment** or not.
+
+```bash
+pip install -r requirements.txt
 ```
 
 **3. Set up environment variables**
@@ -128,148 +140,116 @@ yarn install
 cp .env.example .env
 ```
 
-**4. Run database migrations**
+**4. Run database**
 
+ - #### Unix-like systems (use docker):
 ```bash
-npm run db:migrate
-npm run db:seed  # optional: seed with sample data
+  docker compose up -d
 ```
+
+- #### Windows (Options):
+  - Install MySQL/MySQL Workbench and create a database named `etl_lar` on Workbench interface.
+
+  - Use Docker Desktop to download and run MySQL image, then create a database named `etl_lar` on MySQL Workbench interface or using MySQL CLI (**RECOMMENDED**).
+
+  - Use WSL to run the same commands as Unix-like systems.
 
 **5. Start the development server**
 
+ - Command Line Interface:
 ```bash
-npm run dev
+  python src/main.py
 ```
 
-The app will be running at **[http://localhost:3000](http://localhost:3000)**
+- Dashboard Interface:
+```bash
+  python -m streamlit run src/dashboard.py
+```
+By _default_, the dashboard will be available at [`http://localhost:8501`](http://localhost:8501).  
+You can change the port by adding `--server.port <PORT_NUMBER>` to the command above.  
+Or it can change automatically if the default port is already in use.
+
 
 ---
 
 ### Environment Variables
 
-Create a `.env` file in the root directory. See `.env.example` for reference.
+Create a `.env` file in the root directory. See [`.env.example`](./.env.example) for reference.
 
 | Variable | Description | Required |
 |---|---|---|
-| `DATABASE_URL` | PostgreSQL connection string | ✅ |
-| `JWT_SECRET` | Secret key for JWT signing | ✅ |
-| `NEXT_PUBLIC_API_URL` | Base URL for API calls | ✅ |
-| `SMTP_HOST` | Email server host | ⬜ |
-| `STRIPE_SECRET_KEY` | Stripe payment secret | ⬜ |
+| `DB_HOST` | MySQL Database host (e.g `0.0.0.0`) | ✅ |
+| `DB_PORT` | MySQL Database port (e.g `3306`) | ✅ |
+| `DB_USER` | MySQL Database username (e.g `root`) | ✅ |
+| `DB_PASSWORD` | MySQL Database password | ✅ |
+| `DB_NAME` | MySQL Database name (e.g `etl_lar`) | ✅ |
+
+With are you using Docker, this variables are already set in `docker-compose.yml`, you must have the same values in your `.env` file to connect to the database container.
 
 ---
 
-## 📖 Usage
+## Usage
 
-### Basic Example
-
-```typescript
-import { ProjectClient } from 'project-name';
-
-const client = new ProjectClient({
-  apiKey: process.env.API_KEY,
-  region: 'us-east-1',
-});
-
-const result = await client.doSomething({
-  input: 'your-data',
-  options: { verbose: true },
-});
-
-console.log(result);
-```
-
-### Advanced Example
-
-```typescript
-// Advanced use case with error handling
-try {
-  const response = await client.advancedFeature({
-    param1: 'value',
-    param2: 42,
-  });
-
-  if (response.success) {
-    // handle success
-  }
-} catch (error) {
-  console.error('Something went wrong:', error.message);
-}
-```
-
-> 💡 **Tip:** Check the [`/examples`](./examples) directory for more comprehensive usage patterns.
+...  Soon ...
 
 ---
 
 ## 📁 Project Structure
 
 ```
-project-name/
-├── .github/                  # GitHub Actions workflows
-│   └── workflows/
-│       ├── ci.yml
-│       └── deploy.yml
-├── src/
-│   ├── components/           # Reusable UI components
-│   ├── pages/                # Route-level components
-│   ├── hooks/                # Custom React hooks
-│   ├── services/             # API & business logic
-│   ├── utils/                # Helper functions
-│   ├── types/                # TypeScript type definitions
-│   └── styles/               # Global styles
-├── tests/
-│   ├── unit/
-│   ├── integration/
-│   └── e2e/
-├── docs/                     # Extended documentation
+etl-lar
+├── data_raw
+│   ├── cirurgias.csv
+│   ├── consultas.csv
+│   ├── exames_complementares.csv
+│   ├── exames_laboratoriais.csv
+│   ├── farmacia_consumo.csv
+│   ├── internamentos.csv
+│   ├── medicos.csv
+│   ├── pacientes.csv
+│   └── patologias.csv
+├── logs
+│   └── etl.log
+├── src
+│   ├── config.py
+│   ├── dashboard.py
+│   ├── export.py
+│   ├── extract.py
+│   ├── load.py
+│   ├── logs.py
+│   ├── main.py
+│   └── transform.py
 ├── .env.example
-├── docker-compose.yml
-├── package.json
-└── README.md
+├── .gitignore
+├── etlar.cmd
+├── etllar.sh
+├── LICENSE
+├── Makefile
+├── README.md
+├── requirements.txt
+└── SPEC.md
 ```
 
 ---
 
-## 📡 API Reference
+## API Reference
 
-### `GET /api/v1/resource`
+### `extract_data()`
+Extracts data from the source files and returns a dictionary of DataFrames.
+**Returns:**
+- `Dict[str, pd.DataFrame]`: A dictionary where keys are table names and values are the corresponding DataFrames.
 
-Returns a list of resources.
+### `transform_data(data: Dict[str, pd.DataFrame])`
+Transforms the extracted data by performing cleaning, normalization, and enrichment operations.
+**Parameters:**
+- `data (Dict[str, pd.DataFrame])`: A dictionary of DataFrames to be transformed.
+**Returns:**
+- `Dict[str, pd.DataFrame]`: A dictionary of transformed DataFrames.
 
-| Parameter | Type | Description |
-|---|---|---|
-| `page` | `number` | Page number (default: `1`) |
-| `limit` | `number` | Items per page (default: `20`, max: `100`) |
-| `filter` | `string` | Filter by field value |
-
-**Response:**
-
-```json
-{
-  "data": [...],
-  "meta": {
-    "total": 150,
-    "page": 1,
-    "limit": 20
-  }
-}
-```
-
-### `POST /api/v1/resource`
-
-Creates a new resource.
-
-**Body:**
-
-```json
-{
-  "name": "string (required)",
-  "description": "string (optional)",
-  "tags": ["string"]
-}
-```
-
-> 📘 Full API reference available at [`/docs/api.md`](./docs/api.md) or via the interactive [Swagger UI](https://your-api-docs.com).
+### `load_data(data: Dict[str, pd.DataFrame])`
+Loads the transformed data into the MySQL database.
+**Parameters:**
+- `data (Dict[str, pd.DataFrame])`: A dictionary of DataFrames to be loaded into the database.
 
 ---
 
@@ -277,9 +257,8 @@ Creates a new resource.
 
 <div align="center">
 
-| Dashboard | Detail View | Mobile |
-|---|---|---|
-| ![Dashboard](https://placehold.co/380x220/1a1a2e/ffffff?text=Dashboard) | ![Detail](https://placehold.co/380x220/16213e/ffffff?text=Detail+View) | ![Mobile](https://placehold.co/180x320/0f3460/ffffff?text=Mobile) |
+![Screenshot Logs](./assets/image/screen-log.png)
+*ETL process logs*
 
 </div>
 
@@ -287,43 +266,14 @@ Creates a new resource.
 
 ## Roadmap
 
-- [x] Core feature implementation
-- [x] REST API
-- [x] Authentication & authorization
-- [ ] Real-time notifications via WebSockets
-- [ ] Mobile application (React Native)
-- [ ] AI-powered suggestions engine
-- [ ] Multi-tenancy support
-- [ ] Internationalization (i18n)
-
-See [open issues](https://github.com/username/repo/issues) for a full list of proposed features and known bugs.
+... Soon ...
 
 ---
 
 ## Contributing
 
-Contributions are what make the open source community incredible.  
-Any contributions you make are **greatly appreciated**.
-
-1. **Fork** the repository
-2. Create your feature branch: `git checkout -b feat/feature-or-bugfix`
-3. Commit your changes: `git commit -m 'feat: add some amazing feature or fix a bug'`
-4. Push to the branch: `git push origin feat/feature-or-bugfix`
-5. Open a **Pull Request**
-
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) if it exists for more details on our code of conduct, and the process for submitting pull requests.
-
-Please, follow [Conventional Commits](https://www.conventionalcommits.org/):
-
-```
-feat(scope):     New feature
-fix(scope):      Bug fix
-docs(scope):     Documentation update
-style(scope):    Formatting (no logic change)
-refactor(scope): Code refactoring
-test(scope):     Adding tests
-chore(scope):    Maintenance tasks
-```
+### ❌ Contributions are not accepted at this time.   
+Please check back later for updates on how to contribute to this project.
 
 ---
 
@@ -348,17 +298,21 @@ Distributed under the **MIT License**.
 
 ## Acknowledgements
 
-- [Awesome Library](https://github.com/) — Used for X feature
-- [Design Inspiration](https://dribbble.com/) — UI/UX reference
-- [Community Resource](https://stackoverflow.com/) — Problem-solving guidance
-- [Open Source Project](https://github.com/) — Architectural patterns
+- [Power BI](https://powerbi.microsoft.com/) — Data visualization tool
+- [Streamlit](https://streamlit.io/) — Dashboard framework
+- [MySQL](https://www.mysql.com/) — Database management system
+- [Pandas](https://pandas.pydata.org/) — Data manipulation library
+- [NumPy](https://numpy.org/) — Numerical computing library
+- [SQLAlchemy](https://www.sqlalchemy.org/) — SQL toolkit and Object-Relational Mapping (ORM) library
+- [PyMySQL](https://pymysql.readthedocs.io/) — MySQL client library
+- [openpyxl](https://openpyxl.readthedocs.io/) — Excel file handling library
 
 ---
 
 <div align="center">
 
-Made with 🧠 by [fevunge](https://github.com/fevunge)
+Made with 🧠 and ☕ by [fevunge](https://github.com/fevunge)
 
-⭐ **Star this repo** if you found it helpful!
+⭐ **Star this repo** if you found it insightful!
 
 </div>
