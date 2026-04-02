@@ -60,8 +60,17 @@ _Project Name_ is a [type of project] that allows [target users] to [core value 
 
 ---
 
-## ✨ Features
+#TODO 
+ - relationship between tables
+ - exam table does not exist, resolve it
+ - search about better and complete transform 
+ - verify good 
+ - do not do it with doctor´skill 
+  - doctor skill must be indepedent 
+ - remove description from skills
+---
 
+## ✨ Features
 - ⚡ **Feature One** — Brief but impactful description of the capability
 - 🔒 **Feature Two** — What it does and why it matters
 - 🌍 **Feature Three** — Highlight any scalability or breadth
