@@ -4,10 +4,7 @@ from config import DATA_RAW
 import csv
 from pathlib import Path
 
-
-
 def _read_csv_resiliente(path: Path) -> pd.DataFrame:
-    """Lê CSV de forma resiliente, ajustando linhas com colunas inconsistentes."""
     with path.open("r", encoding="utf-8", newline="") as file:
         reader = csv.reader(file, delimiter=",", quotechar='"')
         rows = list(reader)
@@ -30,7 +27,6 @@ def _read_csv_resiliente(path: Path) -> pd.DataFrame:
 
 
 def load_file(file_name):
-    """Carrega arquivo CSV/Excel da área bruta com tratamento de erro."""
     path = DATA_RAW / file_name
     try:
         if not path.exists():
@@ -55,7 +51,6 @@ def load_file(file_name):
 
 
 def extract_all():
-    """Executa a fase de extração para todos os arquivos de entrada."""
     return {
         "paciente": load_file("paciente.csv"),
         "medico": load_file("medico.csv"),
