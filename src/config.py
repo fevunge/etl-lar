@@ -7,7 +7,8 @@ load_dotenv(BASE_DIR / ".env")
 
 DATA_RAW = BASE_DIR / "data_raw"
 OUTPUT_DIR = BASE_DIR / "output"
-LOG_PATH = BASE_DIR / "logs" / "etl.log"
+today = Path.today().strftime("%Y-%m-%d")
+LOG_PATH = BASE_DIR / "logs" / "log_{}.log".format(today)
 
 DB_CONFIG = {
     "host": os.getenv("DB_HOST", "0.0.0.0:4501"),
