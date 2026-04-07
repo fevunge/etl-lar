@@ -1,0 +1,32 @@
+services:
+  database:
+    image: mysql:8.0
+    container_name: etl-lar-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-regina123}
+      MYSQL_DATABASE: ${DB_NAME:-etl-lar-database}
+      MYSQL_USER: ${DB_USER:-etl-lar}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-regina123}
+    ports:
+      - "${DB_PORT:-3306}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./logs:/var/log/mysql
+    networks:
+      - etl-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${DB_PASSWORD:-regina123}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    command: --default-authentication-plugin=caching_sha2_password
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  etl-network:
+    driver: bridge
