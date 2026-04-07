@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from datetime import datetime
 from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -7,7 +8,7 @@ load_dotenv(BASE_DIR / ".env")
 
 DATA_RAW = BASE_DIR / "data_raw"
 OUTPUT_DIR = BASE_DIR / "output"
-today = Path.today().strftime("%Y-%m-%d")
+today = datetime.now().strftime("%Y-%m-%d")
 LOG_PATH = BASE_DIR / "logs" / "log_{}.log".format(today)
 
 DB_CONFIG = {
